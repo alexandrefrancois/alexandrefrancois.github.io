@@ -1,12 +1,10 @@
-## Alexandre R. J. François
-
-### Software Engineer and Researcher
 
 * Hands on leader, problem solver, educator and mentor
 * Expert in the design, analysis and implementation of interactive software systems
 * Expert in audio and video computing, music computing, computer vision, computer graphics 
 
 [LinkedIn profile](https://www.linkedin.com/in/alexandrefrancois/)
+
 [Blog](http://alexandrefrancois.blogspot.com)
 
 #### Published Apps
