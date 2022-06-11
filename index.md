@@ -7,8 +7,26 @@
 * Expert in audio and video computing, music computing, computer vision, computer graphics 
 
 [LinkedIn profile](https://www.linkedin.com/in/alexandrefrancois/)
+[Blog](http://alexandrefrancois.blogspot.com)
 
-### Academic Bio
+#### Published Apps
+
+* [MuSA_RT](https://sites.google.com/site/alexandrerjfrancois/apps/musa_rt) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
+* [Priorities](https://sites.google.com/site/alexandrerjfrancois/apps/priorities): Simply manage lists of prioritized items.
+
+#### Recent Projects
+
+_Coming soon!_
+
+
+### Academia
+
+* [Research](/academia/research)
+* [Publications](/academia/publications)
+* [Presentations](/academia/presentations)
+* [Events](/academia/events)
+
+#### Academic Bio
 
 Alexandre R.J. François' research focuses on the modeling and design of interactive (software) systems, as an enabling step towards the understanding of perception and cognition.  His interdisciplinary [research projects](https://alexandrefrancois.github.io) explore interactions within and across music, vision, visualization and video games. He was a [2007-2008 Fellow](https://www.radcliffe.harvard.edu/people/alexandre-r-j-françois) of the [Radcliffe Institute for Advanced Study](https://www.radcliffe.harvard.edu) at [Harvard University](https://www.harvard.edu), where he co-lead a music research cluster on Analytical Listening Through Interactive Visualization.
 
