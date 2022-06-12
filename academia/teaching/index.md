@@ -1,6 +1,6 @@
 ---
 title: Teaching
-description: [Alexandre R.J. François](/)
+description: Alexandre R.J. François
 ---
 
 ### Courses Created

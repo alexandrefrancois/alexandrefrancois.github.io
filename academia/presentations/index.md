@@ -1,6 +1,6 @@
 ---
 title: Presentations
-description: [Alexandre R.J. François](/)
+description: Alexandre R.J. François
 ---
 
 ### 2010

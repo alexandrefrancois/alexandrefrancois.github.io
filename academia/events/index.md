@@ -1,6 +1,6 @@
 ---
 title: Events
-description: [Alexandre R.J. François](/)
+description: Alexandre R.J. François
 ---
 
 ### Meetings
