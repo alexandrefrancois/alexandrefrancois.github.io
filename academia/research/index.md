@@ -1,3 +1,8 @@
+---
+title: Research
+description: [Alexandre R.J. François](/)
+---
+
 This page lists my past academic research projects. More recent projects are listed [on my Home page](/index.md/#recent-projects)
 
 ## Research Interests

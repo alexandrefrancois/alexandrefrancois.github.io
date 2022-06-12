@@ -1,4 +1,7 @@
-## Publications
+---
+title: Publications
+description: [Alexandre R.J. François](/)
+---
 
 ### Highlights
 
