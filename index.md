@@ -12,8 +12,8 @@ description: Software Engineer and Researcher
 
 #### Published Apps
 
-* [MuSA_RT](https://sites.google.com/site/alexandrerjfrancois/apps/musa_rt) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
-* [Priorities](https://sites.google.com/site/alexandrerjfrancois/apps/priorities): Simply manage lists of prioritized items.
+* [MuSA_RT](/MuSA_RT) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
+* [Priorities](/Priorities): Simply manage lists of prioritized items.
 
 #### Recent Projects
 
