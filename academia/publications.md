@@ -1,6 +1,5 @@
 ---
-title: Publications
-description: Alexandre R.J. François
+title: academic Publications
 ---
 
 ### Highlights
@@ -11,12 +10,14 @@ Alexandre R.J. François, Elaine Chew and Dennis Thurmond, "Performer Centered V
 
 Alexandre R. J. François, "Class-Wide Projects: Fostering Collaboration and Creativity in Computer Science Courses," _Proceedings of ACM Creativity & Cognition 2009_, pp. 369-370, Berkeley, CA, USA, 28 October 2009. [ACM Digital Library](https://dl.acm.org/doi/10.1145/1640233.1640305)
 
-Alexandre R.J. François, "Time and Perception in Music and Computation," in _New Computational Paradigms for Computer Music_, G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
+Alexandre R.J. François, "Time and Perception in Music and Computation," in [_New Computational Paradigms for Computer Music_](https://www.editions-delatour.com/gb/science-of-music/1426-new-computational-paradigms-for-computer-music-9782752100542.html), G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
+[[excerpt](brain-time-music-computing.md)]
 
 
 ### Book chapters
 
-Alexandre R.J. François, "Time and Perception in Music and Computation," in New Computational Paradigms for Computer Music, G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
+Alexandre R.J. François, "Time and Perception in Music and Computation," in [_New Computational Paradigms for Computer Music_](https://www.editions-delatour.com/gb/science-of-music/1426-new-computational-paradigms-for-computer-music-9782752100542.html), G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
+[[excerpt](brain-time-music-computing.md)]
 
 Alexandre R.J. François, "Software Architecture for Computer Vision," in Emerging Topics in Computer Vision, G. Medioni and S.B. Kang Eds., Prentice Hall, 2005, pp. 585-654.
 

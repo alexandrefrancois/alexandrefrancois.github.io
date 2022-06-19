@@ -1,4 +1,16 @@
-theme: jekyll-theme-cayman
+theme: minima
+title: ARJF
 show_downloads: false
 github:
   is_project_page: false
+header_pages:
+- academia/index.md
+author:
+  name: "Alexandre R.J. François"
+  email: "alexandrefrancois@gmail.com"
+minima:
+  social_links:
+    github: alexandrefrancois
+
+    youtube: alexandrefrancois
+    youtube_channel: UCBfyFshSsDdioIFvyO_OJjw

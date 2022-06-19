@@ -5,15 +5,15 @@ description: Alexandre R.J. François
 
 ### Meetings
 
-Prosody and Dialog in Music and Speech, a Radcliffe exploratory seminar, Radcliffe Institute for Advanced Study at Harvard University, Cambridge, MA, USA, 5-6 November 2010. Credits: co-organizer
+Prosody and Dialog in Music and Speech, a Radcliffe exploratory seminar, [Radcliffe Institute for Advanced Study](https://www.radcliffe.harvard.edu) at [Harvard University](https://www.harvard.edu), Cambridge, MA, USA, 5-6 November 2010. Credits: co-organizer [[post](https://mucoaco.blogspot.com/2010/10/110506-prosody-and-dialog-in-language.html)]
 
 Interactions - Humans . Computers . Music, an international symposium organized by the Analytical Listening through Interactive Visualization cluster, Radcliffe Institute for Advanced Study at Harvard University, Cambridge, MA, USA, 25 April 2008. Credits: co-chair
 
 ### Concerts and other live performances
 
-Musical Patois - Reflections of Language in Music, Visions & Voices, USC Arts and Humanities Inititatives, Newman Auditorium, Los Angeles, CA, USA, 21 March 2011. Credits: co-organizer, software design
+Musical Patois - Reflections of Language in Music, Visions & Voices, USC Arts and Humanities Inititatives, Newman Auditorium, Los Angeles, CA, USA, 21 March 2011. Credits: co-organizer, software design [[post](https://mucoaco.blogspot.com/2010/11/0305-preview-of-musical-patois.html)]
 
-Musical Patois - Reflections of Language in Music, MIT Festival of Art, Science + Technology, Little Kresge Auditorium, Cambridge, MA, USA, 5 March 2011. Credits: co-organizer, software design
+Musical Patois - Reflections of Language in Music, MIT Festival of Art, Science + Technology, Little Kresge Auditorium, Cambridge, MA, USA, 5 March 2011. Credits: co-organizer, software design [[post](https://mucoaco.blogspot.com/2011/03/0305-preview-of-musical-patois-live.html)]
 
 Improvisation with Mimi (Multimodal Interaction for Musical Improvisation) by Isaac Schankler, in Vicious Circles and Deadly Elements, a People Inside Electronics concert, Boston Court Performing Arts Center, Pasadena, CA, USA, 5 June 2010. Program credits: Mimi software/conceptual design [mimi preview]
 

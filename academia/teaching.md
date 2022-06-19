@@ -21,58 +21,63 @@ This seminar course covers the state-of-the-art technology for integrated media 
 
 ### Courses taught
 
-#### Fall 2010 (Harvey Mudd College)
+#### Fall 2010 ([Harvey Mudd College](https://www.hmc.edu))
 
-* CS121: Software development
+* [CS121: Software development](https://www.cs.hmc.edu/program/course-descriptions/#cs121)  
+[[website](https://www.cs.hmc.edu/courses/2010/fall/cs121/)]
+[[project](https://www.cs.hmc.edu/courses/2010/fall/cs121/Platitude/)]
 
-#### Spring 2010 (University of Southern California)
+#### Spring 2010 ([University of Southern California](https://www.usc.edu))
 
 * ISE582: Web Technologies for Industrial Engineers
 
-#### Spring 2009 (Tufts University)
+#### Spring 2009 ([Tufts University](https://www.tufts.edu))
 
 * EN47/COMP09: Exploring Computer Science
 * COMP150-CIS: Collaborative Development of Interactive Software Systems
 
-#### Fall 2008 (Tufts University)
+#### Fall 2008 ([Tufts University](https://www.tufts.edu))
 
 * EN47/COMP10: Exploring Computer Science
 * COMP175: Computer Graphics
 
-#### Spring 2007 (University of Southern California)
+#### Spring 2007 ([University of Southern California](https://www.usc.edu))
 
-* CS201G: Principles of Software Development - Games
+* CS201G: Principles of Software Development - Games  
+[[website](http://www-scf.usc.edu/~csci201g/)]
+[[project]](http://www-scf.usc.edu/~csci201g/Sp2007/project.html)
+[[press](https://viterbi.usc.edu/news/news/2007/games-students-play.htm)]
 
-#### Fall 2002 (University of Southern California)
+#### Fall 2002 ([University of Southern California](https://www.usc.edu))
 
 * CS599: Integrated Media Systems
 
 ### Guest lectures
 
 * MIMI: Multimodal Interaction for Musical Improvisation  
-  MUS88: Introduction to Computer Music, W. Alves, Harvey Mudd College, 30 November 2010.
+  MUS88: Introduction to Computer Music, W. Alves, [Harvey Mudd College](https://www.hmc.edu), 30 November 2010.
 * Introduction to Artificial Intelligence  
-  PSY09: Introduction to Brain and Cognitive Science, P. Holcomb, Tufts University, 14 April 2009.
+  PSY09: Introduction to Brain and Cognitive Science, P. Holcomb, [Tufts University](https://www.tufts.edu), 14 April 2009.
 * Introduction to Computer Science and Artificial Neural Networks  
-  PSY09: Introduction to Brain and Cognitive Science, P. Holcomb, Tufts University, 12 February 2009.
+  PSY09: Introduction to Brain and Cognitive Science, P. Holcomb, [Tufts University](https://www.tufts.edu), 12 February 2009.
 * MIMI: Multimodal Interaction for Musical Improvisation (with E. Chew)  
-  CS312: Digital Sound Processing, O. Izmirli, Connecticut College, 29 January 2009.
+  CS312: Digital Sound Processing, O. Izmirli, [Connecticut College](https://www.conncoll.edu), 29 January 2009.
 * Programming for Artists ... Programming by Artists  
-  VM464: Programming Digital Media, D.Goodwin, Emerson College, 18 March 2008.
+  VM464: Programming Digital Media, D.Goodwin, [Emerson College](https://emerson.edu), 18 March 2008.
 * Visualization for Factor Oracle-Based Improvisation  
-  CS575c: Topics in Engineering Approaches to Music Cognition - Human-Centered Computing in Generating Music, E. Chew, USC, 26 April 2007.
+  CS575c: Topics in Engineering Approaches to Music Cognition - Human-Centered Computing in Generating Music, E. Chew, [USC](https://www.usc.edu), 26 April 2007.
 * Interaction and Computation  
-  CS597: Graduate Seminar in Computer Science Research, S. You, USC, 11 September 2006.
+  CS597: Graduate Seminar in Computer Science Research, S. You, [USC](https://www.usc.edu), 11 September 2006.
 * Parallel Asynchronous Processing  
-  CS201: Principles of Software Development, D. Wilczynski, USC, 6 April 2005.
+  CS201: Principles of Software Development, D. Wilczynski, [USC](https://www.usc.edu), 6 April 2005.
 * Software Architecture for Immersipresence  
-  CS597: Graduate Seminar in Computer Science Research, L. Itti, USC, 7 March 2005. [website]
+  [CS597: Graduate Seminar in Computer Science Research](http://ilab.usc.edu/classes/2005cs597s/), L. Itti, [USC](https://www.usc.edu), 7 March 2005.
 * MuSA.RT and SAI: Data Stream Processing for Music and More  
-  ISE599: Engineering Approaches to Music Perception and Cognition, E. Chew, USC, February 2004. [website] [slides]
+  [ISE599: Engineering Approaches to Music Perception and Cognition](http://www-classes.usc.edu/engr/ise/599muscog/), E. Chew, [USC](https://www.usc.edu), February 2004. [[slides](http://www-classes.usc.edu/engr/ise/599muscog/2004/presentations/7.0-francois.pdf)]
 * Software Architecture for Computer Vision  
-  CS574: Computer Vision, R. Nevatia, USC, October 2003.
+  CS574: Computer Vision, R. Nevatia, [USC](https://www.usc.edu), October 2003.
 * Data Stream Processing for Music and More  
-  ISE599: Engineering Approaches to Music Perception and Cognition, E. Chew, USC, 29 January 2003. [website]
+  [ISE599: Engineering Approaches to Music Perception and Cognition](http://www-classes.usc.edu/engr/ise/599muscog/), E. Chew, [USC](https://www.usc.edu), 29 January 2003.
 * Video Analysis and Systems Integration  
-  ECE268: Internet Computing and Web Technologies, E. Chang, UCSB, October 2002.
+  ECE268: Internet Computing and Web Technologies, [E. Chang](http://infolab.stanford.edu/~echang/), [UCSB](https://www.ucsb.edu), October 2002.
   

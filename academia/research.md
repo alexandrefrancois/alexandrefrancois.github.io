@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Academic Research
 description: Alexandre R.J. François
 ---
 
