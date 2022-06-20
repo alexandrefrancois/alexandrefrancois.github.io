@@ -23,7 +23,7 @@ Funding: IMSC (NSF-ERC)
 
 #### MFSM
 
-MFSM (Modular Flow scheduling Middleware) is an architectural middleware implementing the core elements of the SAI style. [mfsm.sourceforge.net]
+MFSM (Modular Flow scheduling Middleware) is an architectural middleware implementing the core elements of the SAI style. [[mfsm.sourceforge.net](http://mfsm.sourceforge.net)]
 
 Publications: ETCV.
 
@@ -31,7 +31,7 @@ Funding: IMSC (NSF-ERC)
 
 #### VisualSAI
 
-VisualSAI is a graphical environment for visually creating and analysing component-based architectural designs in the SAI style. [visualsai.sourceforge.net]
+VisualSAI is a graphical environment for visually creating and analysing component-based architectural designs in the SAI style. [[visualsai.sourceforge.net](http://visualsai.sourceforge.net)]
 
 Publications: IMSC-05-003.
 
@@ -41,7 +41,7 @@ Funding: IMSC (NSF-ERC)
 
 #### MIMI: Multi-modal Interaction for Musical Improvisation (with Elaine Chew and Dennis Thurmond)
 
-MIMI is a multi-modal interactive musical improvisation system that explores the potential and powerful impact of visual feedback in performer-machine interaction.
+MIMI is a multi-modal interactive musical improvisation system that explores the potential and powerful impact of visual feedback in performer-machine interaction. [[website](http://mimi-improv.blogspot.com)]
 
 Publications: IJART 2013, CIE 2011, IMIDA 2010, TPMC, NIME 2007, CS-07-889.
 

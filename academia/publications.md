@@ -14,38 +14,54 @@ Alexandre R.J. François, "Time and Perception in Music and Computation," in [_N
 [[excerpt](brain-time-music-computing.md)]
 
 
-### Book chapters
+## Book chapters
 
+<p id="TPMC"></p>
 Alexandre R.J. François, "Time and Perception in Music and Computation," in [_New Computational Paradigms for Computer Music_](https://www.editions-delatour.com/gb/science-of-music/1426-new-computational-paradigms-for-computer-music-9782752100542.html), G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
 [[excerpt](brain-time-music-computing.md)]
 
+<p id="SACV"></p>
 Alexandre R.J. François, "Software Architecture for Computer Vision," in Emerging Topics in Computer Vision, G. Medioni and S.B. Kang Eds., Prentice Hall, 2005, pp. 585-654.
 
-### Refereed book chapters
+## Refereed book chapters
 
-Elaine Chew and Alexandre R. J. François, "Visible Humour - Seeing P.D.Q. Bach's Musical Humour Devices in The Short Tempered Clavier on the Spiral Array Space," in T. Noll, T. Klouche (eds.), Mathematics and Computation in Music - First International Conference, MCM 2007, Berlin, Germany, May 18-20, 2007. Springer: Berlin, Heidelberg, Communications in Computer and Information Science (CCIS) Volume 37, 2009.
+<p id="MCM2007"></p>
+Elaine Chew and Alexandre R. J. François, "Visible Humour - Seeing P.D.Q. Bach's Musical Humour Devices in The Short Tempered Clavier on the Spiral Array Space," in T. Noll, T. Klouche (eds.), _Mathematics and Computation in Music - First International Conference, MCM 2007_, Berlin, Germany, May 18-20, 2007. Springer: Berlin, Heidelberg, Communications in Computer and Information Science (CCIS) Volume 37, 2009.
 
-Alexandre R.J. François and Gérard G. Medioni, "Generic Shape Learning and Recognition," in J. Ponce, A Zisserman and M. Hebert (eds.), Proceedings of the International Workshop on Object Representations in Computer Vision, Cambridge, England, UK, April 1996. Springer Verlag, 1996, pp.287-320. [ACM Digital Library]
+<p id="GSLR"></p>
+Alexandre R.J. François and Gérard G. Medioni, "Generic Shape Learning and Recognition," in J. Ponce, A Zisserman and M. Hebert (eds.), _Proceedings of the International Workshop on Object Representations in Computer Vision_, Cambridge, England, UK, April 1996. Springer Verlag, 1996, pp.287-320. [[ACM Digital Library](https://dl.acm.org/doi/10.5555/645306.648659)]
 
-### Refereed journal articles
+## Refereed journal articles
 
-Alexandre R.J. François, Isaac Schankler and Elaine Chew, “Mimi4x: An Interactive Audio-visual Installation for High-level Structural Improvisation,” International Journal of Arts and Technology, vol. 6, no. 2, 2013.
+<p id="IJAT2013"></p>
+Alexandre R.J. François, Isaac Schankler and Elaine Chew, “Mimi4x: An Interactive Audio-visual Installation for High-level Structural Improvisation,” [_International Journal of Arts and Technology_](https://www.inderscience.com/jhome.php?jcode=ijart), vol. 6, no. 2, 2013.
 
-Alexandre R.J. François, Elaine Chew and Dennis Thurmond, "Performer Centered Visual Feedback for Human-Machine Improvisation," ACM Computers in Entertainment, vol. 9, no. 3, November 2011, 13 pages. [ACM Digital Library]
+<p id="CIE2011"></p>
+Alexandre R.J. François, Elaine Chew and Dennis Thurmond, "Performer Centered Visual Feedback for Human-Machine Improvisation," [_ACM Computers in Entertainment_](https://dl.acm.org/magazine/cie), vol. 9, no. 3, November 2011, 13 pages. [[ACM Digital Library](https://dl.acm.org/doi/10.1145/2027456.2027459)]
 
-Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," The Computer Journal (2011), vol. 54, no. 7, pp. 1188-1204. doi: 10.1093/comjnl/bxq081. First published online November 10, 2010.
+<p id="CJ2010"></p>
+Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
 
-Gérard G. Medioni, Alexandre R.J. François, Matheen Siddiqui, Kwangsu Kim and Hosub Yoon, "Robust Real-Time Vision for a Personal Service Robot," Computer Vision and Image Understanding, special issue on Human-Computer Interaction, vol. 108, no. 1-2, October-November 2007, pp. 196-203. doi: 10.1016/j.cviu.2006.10.015
+<p id="CVIU2006"></p>
+Gérard G. Medioni, Alexandre R.J. François, Matheen Siddiqui, Kwangsu Kim and Hosub Yoon, "Robust Real-Time Vision for a Personal Service Robot," [_Computer Vision and Image Understanding_](https://www.journals.elsevier.com/computer-vision-and-image-understanding), special issue on Human-Computer Interaction, vol. 108, no. 1-2, October-November 2007, pp. 196-203. doi: [10.1016/j.cviu.2006.10.015](https://www.sciencedirect.com/science/article/abs/pii/S1077314206002323)
 
-Elaine Chew and Alexandre R. J. François, "Interactive multi-scale visualizations of tonal evolution in MuSA.RT Opus 2," ACM Computers in Entertainment Special Issue on Music Visualization, vol. 3, no. 4, October-December 2005, 16 pages. [ACM Digital Library]
+<p id="CIE2005"></p>
+Elaine Chew and Alexandre R. J. François, "Interactive multi-scale visualizations of tonal evolution in MuSA.RT Opus 2," [_ACM Computers in Entertainment_](https://dl.acm.org/magazine/cie) Special Issue on Music Visualization, vol. 3, no. 4, October-December 2005, 16 pages. [[ACM Digital Library](https://dl.acm.org/doi/10.1145/1095534.1095545)]
 
-Alexandre R.J. François, Ram Nevatia, Jerry Hobbs and Robert C. Bolles, "VERL: An Ontology Framework for Representing and Annotating Video Events," IEEE Multimedia, vol. 12, no.4, October-December 2005, pp. 76-86. [IEEE Digital Library] [IEEE Xplore] [ACM Digital Library]
+<p id="MM2005"></p>
+Alexandre R.J. François, Ram Nevatia, Jerry Hobbs and Robert C. Bolles, "VERL: An Ontology Framework for Representing and Annotating Video Events," [_IEEE Multimedia_](https://www.computer.org/csdl/magazine/mu), vol. 12, no.4, October-December 2005, pp. 76-86.
+doi: [10.1109/MMUL.2005.87](https://dl.acm.org/doi/10.1109/MMUL.2005.87)
+[[IEEE Digital Library](https://www.computer.org/csdl/magazine/mu/2005/04/u4076/13rRUxAASPt)]
+[[IEEE Xplore](https://ieeexplore.ieee.org/document/1524892)]
+[[ACM Digital Library](https://dl.acm.org/doi/10.1109/MMUL.2005.87)]
 
-Alexandre R.J. François, Gérard G. Medioni and Roman Waupotitsch, "Mirror Symmetry => 2-View Stereo Geometry," Image and Vision Computing, vol. 21, no. 2, February 2003, pp. 137-143.
+<p id="IVC2003"></p>
+Alexandre R.J. François, Gérard G. Medioni and Roman Waupotitsch, "Mirror Symmetry => 2-View Stereo Geometry," [_Image and Vision Computing_](https://www.sciencedirect.com/journal/image-and-vision-computing), vol. 21, no. 2, February 2003, pp. 137-143. [[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S026288560200149X)]
 
-Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extraction From a Single Image," Image and Vision Computing, vol. 19, no. 6, April 2001, pp. 317-328.
+<p id="IVC2001"></p>
+Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extraction From a Single Image," [_Image and Vision Computing_](https://www.sciencedirect.com/journal/image-and-vision-computing), vol. 19, no. 6, April 2001, pp. 317-328. [[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0262885600000810)]
 
-### Refereed conference proceedings
+## Refereed conference proceedings
 
 Isaac Schankler, Alexandre R. J. François and Elaine Chew, "Preparing for the Unpredictable: Identifying Successful Performance Strategies in Human-Machine Improvisation,” Proceedings of the International Symposium on Performance Science, Toronto, Canada, 24-27 August 2011.
 
@@ -99,13 +115,17 @@ Alexandre R.J. François and Gérard G. Medioni, "Generic Shape Learning and Rec
 
 ### Invited conference papers
 
+<p id="URAI2006"></p>
 Kwangsu Kim, Matheen Siddiqui, Alexandre R. J. François, Gérard G. Medioni and Young-Jo Cho, "Robust Real-Time Vision Modules for a Personal Service Robot," Proceedings of the of the 3rd International Conference on Ubiquitous Robots and Ambient Intelligence, Seoul, Korea, October 2006.
 
+<p id="NASM2004"></p>
 Elaine Chew, Alexander A. Sawchuk, Roger Zimmermann, the Tosheff Piano Duo (Vely Stoyanova and Ilia Tosheff), Chris Kyriakakis, Christos Papadopoulos, Alexandre R. J. François and Anja Volk, "Distributed Immersive Performance," Proceedings of the of the 2004 Annual National Association of the Schools of Music (NASM) Meeting, San Diego, CA, November 2004.
 
+<p id="ICCIE2003"></p>
 Elaine Chew and Alexandre R.J. François, "Real-Time Music Information Processing," Proceedings of the International Conference on Computers and Industrial Engineering, San Francisco, CA, February 2003.
 
-Gérard G. Medioni and Alexandre R.J. François, "3-D Structures for Generic Object Recognition," Proceedings of the IAPR International Conference on Pattern Recognition, vol. 1, pp. 30-37, Barcelona, Spain, September 2000. [ACM Digital Library]
+<p id="ICPR2000"></p>
+Gérard G. Medioni and Alexandre R.J. François, "3-D Structures for Generic Object Recognition," Proceedings of the IAPR International Conference on Pattern Recognition, vol. 1, pp. 30-37, Barcelona, Spain, September 2000. [[ACM Digital Library](https://dl.acm.org/doi/10.5555/876866.877329)]
 
 ### Dissertations, theses and reports
 
@@ -125,7 +145,7 @@ Alexandre R.J. François, Software Architecture for Immersipresence, IMSC Techni
 
 Alexandre R.J. François, Software Architecture for Computer Vision: Beyond Pipes and Filters, IRIS Technical Report IRIS-03-420, University of Southern California, Los Angeles, July 2003.
 
-Alexandre R.J. François, Semantic, Interactive Manipulation of Visual Data, Ph.D. dissertation / IRIS Technical Report IRIS-01-409, University of Southern California, Los Angeles, December 2000. [ACM Digital Library]
+Alexandre R.J. François, Semantic, Interactive Manipulation of Visual Data, Ph.D. dissertation / IRIS Technical Report IRIS-01-409, University of Southern California, Los Angeles, December 2000. [[ACM Digital Library](https://dl.acm.org/doi/book/10.5555/935634)]
 
 Alexandre R.J. François, Hierarchical Indexing for Generic Shape Recognition, D.E.A. (M.S.) thesis, Université Paris IX-Dauphine, September 1994.
 

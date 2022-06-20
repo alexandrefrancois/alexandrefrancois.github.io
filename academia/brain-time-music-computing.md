@@ -14,7 +14,7 @@ A reﬂexion on the nature of the phenomena involved points towards the ability 
 
 ## Middle World
 
-[Richard Dawkins](http://richarddawkins.net/) remarks that brains have evolved to help animals survive within the orders of magnitude of size and speed at which their bodies operate. He calls Middle World (MW) this relatively narrow range of phenomena directly and intuitively accessible to perceptual and cognitive processes [[6](#ref-6)]. Dawkins invokes the human brain’s evolutionary entanglement with MW to explain humans' difficulty in grasping, and coping with, the physical realities of the universe outside of its familiar conﬁnes, from the sub-atomic scales of quantum physics to the universe-size scales of relativity.  But the fundamental properties of MW can also help characterize the nature of the tasks at which brains came to excel, in particular the fundamentally dynamic nature of these tasks.
+Richard Dawkins remarks that brains have evolved to help animals survive within the orders of magnitude of size and speed at which their bodies operate. He calls Middle World (MW) this relatively narrow range of phenomena directly and intuitively accessible to perceptual and cognitive processes [[6](#ref-6)]. Dawkins invokes the human brain’s evolutionary entanglement with MW to explain humans' difficulty in grasping, and coping with, the physical realities of the universe outside of its familiar conﬁnes, from the sub-atomic scales of quantum physics to the universe-size scales of relativity.  But the fundamental properties of MW can also help characterize the nature of the tasks at which brains came to excel, in particular the fundamentally dynamic nature of these tasks.
 
 Everything in MW is subject to what the human brain perceives and understands as time, “the continuum of experience in which events pass from the future through the present to the past” ([Wordnet](http://wordnet.princeton.edu/)). MW time (MWT) cannot be altered in any way: in particular, its ﬂow cannot be slowed, stopped or reversed. The implications are deep. First, nothing in MW can ever happen again, every and any experience is that of an ever changing environment, by an ever changing observer. Exact reproduction of an experience, such as a musical performance, is a practical impossibility both for the performer and for the listener. Second, mathematical abstractions, such as randomness, synchrony, or inﬁnity, do not exist in MW (David Cope discusses randomness in [[5](#ref-5)]). Mathematics deﬁne an idealized world of spatio-temporal invariants, which in some respects models aspects of MW, and aspects of the universe outside of MW that are difficult for MW-evolved brains to grasp.
 
@@ -76,40 +76,42 @@ Arrangements of language primitives consistently associated with speciﬁc funct
 
 ## References
 
-[<a id="ref-1">1</a>] Jeanne Bamberger. Evolving meanings: Revisiting Luria and Vygotsky. In G. O. Mazur, editor, _Thirty Year Commemoration to the Life of A. R. Luria_. Semenenko Foundation, New York, 2008.
-
-[<a id="ref-2">2</a>] I. Biederman and E. A. Vessel. Perceptual pleasure and the brain. _American Scientist_, 94:249–255, 2006.
-
-[<a id="ref-3">3</a>] Stuart K. Card, George G. Robertson, and Jock D. Mackinlay. The information visualizer, an information workspace. In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)_, pages 181–186, 1991.
-
-[<a id="ref-4">4</a>] E. Chew, A.A. Sawchuk, R. Zimmermann, V. Stoyanova, I. Tosheff, C. Kyriakakis, C. Papadopoulos, A.R.J. Francois, and A. Volk. Distributed Immersive Performance. In _Proceedings of the 2004 Annual NASM Meeting_, San Diego, CA, USA, November 2004.
-
-[<a id="ref-5">5</a>] David Cope. _Computer Models of Musical Creativity_. MIT Press, 2005.<br />
-
-[<a id="ref-6">6</a>] Richard Dawkins. _The God Delusion_. Houghton Mifflin Harcourt, 2006.  See also Dawkins' [TED](http://www.ted.com/) Talk: [Why the Universe Seems So Strange](https://www.ted.com/talks/richard_dawkins_why_the_universe_seems_so_strange).
-
-[<a id="ref-7">7</a>] Paul Fraisse. Perception and estimation of time. _Annual Review of Psychology_, 35:1–36, 1984.
-
-[<a id="ref-8">8</a>] Alexandre R.J. François and Elaine Chew. An architectural framework for interactive music systems. In _Proceedings of the International Conference on New Interfaces for Musical Expression_, Paris, France, June 2006.
-
-[<a id="ref-9">9</a>] Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
-
-[<a id="ref-10">10</a>] William Gooddy. _Time and the Nervous System_. Praeger Pub, 1988.
-
-[<a id="ref-11">11</a>] Jeff Hawkins and Sandra Blakeslee. _On Intelligence_. Times Books, 2004.
-
-[<a id="ref-12">12</a>] Henkjan Honing. Issues in the representation of time and structure in music. _Contemporary Music Review_, 9:221–239, 1993.
-
-[<a id="ref-13">13</a>] David Huron. _Sweet Anticipation: Music and the Psychology of Expectation_. MIT Press, 2006.
-
-[<a id="ref-14">14</a>] Robert B. Miller. Response time in man-computer conversational transactions. In _Proceedings of the AFIPS Fall Joint Computer Conference_, volume 33, pages 267–277, 1968.
-
-[<a id="ref-15">15</a>] Allen Newell._Uniﬁed Theories of Cognition_. Harvard University Press, 1990.
-
-[<a id="ref-16">16</a>] John R. Pierce. The nature of musical sound. In Diana Deutsch, editor, _The Psychology of Music, Second Edition (Cognition and Perception)_, pages 1–24. Academic Press, 1998.
-
-[<a id="ref-17">17</a>] Miller S. Puckette. A divide between ‘compositional’ and ‘performative’ aspects of Pd. In _Proceedings of the First International Pd Convention_, Graz, Austria, 2004.
-
-[<a id="ref-18">18</a>] R. A. Rasch. Synchronization in performed ensemble music. _Acustica_, 43:121–131, 1979.
-
-[<a id="ref-19">19</a>] Ken Richardson. _A Mind for Structure: Exploring the Roots of Intelligent Systems_. Brown Walker Press, 2006.
+<p id="ref-1">
+[1] Jeanne Bamberger. Evolving meanings: Revisiting Luria and Vygotsky. In G. O. Mazur, editor, _Thirty Year Commemoration to the Life of A. R. Luria_. Semenenko Foundation, New York, 2008.
+</p><p id="ref-2">
+[2] I. Biederman and E. A. Vessel. Perceptual pleasure and the brain. _American Scientist_, 94:249–255, 2006.
+</p><p id="ref-3">
+[3] Stuart K. Card, George G. Robertson, and Jock D. Mackinlay. The information visualizer, an information workspace. In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)_, pages 181–186, 1991.
+</p><p id="ref-4">
+[4] E. Chew, A.A. Sawchuk, R. Zimmermann, V. Stoyanova, I. Tosheff, C. Kyriakakis, C. Papadopoulos, A.R.J. Francois, and A. Volk. Distributed Immersive Performance. In _Proceedings of the 2004 Annual NASM Meeting_, San Diego, CA, USA, November 2004.
+</p><p id="ref-5">
+[5] David Cope. _Computer Models of Musical Creativity_. MIT Press, 2005.<br />
+</p><p id="ref-6">
+[6] Richard Dawkins. _The God Delusion_. Houghton Mifflin Harcourt, 2006.  See also Dawkins' [TED](http://www.ted.com/) Talk: [Why the Universe Seems So Strange](https://www.ted.com/talks/richard_dawkins_why_the_universe_seems_so_strange).
+</p><p id="ref-7">
+[7] Paul Fraisse. Perception and estimation of time. _Annual Review of Psychology_, 35:1–36, 1984.
+</p><p id="ref-8">
+[8] Alexandre R.J. François and Elaine Chew. An architectural framework for interactive music systems. In _Proceedings of the International Conference on New Interfaces for Musical Expression_, Paris, France, June 2006.
+</p><p id="ref-9">
+[9] Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
+</p><p id="ref-10">
+[10] William Gooddy. _Time and the Nervous System_. Praeger Pub, 1988.
+</p><p id="ref-11">
+[11] Jeff Hawkins and Sandra Blakeslee. _On Intelligence_. Times Books, 2004.
+</p><p id="ref-12">
+[12] Henkjan Honing. Issues in the representation of time and structure in music. _Contemporary Music Review_, 9:221–239, 1993.
+</p><p id="ref-13">
+[13] David Huron. _Sweet Anticipation: Music and the Psychology of Expectation_. MIT Press, 2006.
+</p><p id="ref-14">
+[14] Robert B. Miller. Response time in man-computer conversational transactions. In _Proceedings of the AFIPS Fall Joint Computer Conference_, volume 33, pages 267–277, 1968.
+</p><p id="ref-15">
+[15] Allen Newell._Uniﬁed Theories of Cognition_. Harvard University Press, 1990.
+</p><p id="ref-16">
+[16] John R. Pierce. The nature of musical sound. In Diana Deutsch, editor, _The Psychology of Music, Second Edition (Cognition and Perception)_, pages 1–24. Academic Press, 1998.
+</p><p id="ref-17">
+[17] Miller S. Puckette. A divide between ‘compositional’ and ‘performative’ aspects of Pd. In _Proceedings of the First International Pd Convention_, Graz, Austria, 2004.
+</p><p id="ref-18">
+[18] R. A. Rasch. Synchronization in performed ensemble music. _Acustica_, 43:121–131, 1979.
+</p><p id="ref-18">
+[19] Ken Richardson. _A Mind for Structure: Exploring the Roots of Intelligent Systems_. Brown Walker Press, 2006.
+</p>
