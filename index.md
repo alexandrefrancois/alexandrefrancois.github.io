@@ -21,4 +21,8 @@ description: Software Engineer and Researcher
 * [MuSA_RT](/MuSA_RT) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
 * [Priorities](/Priorities): Simply manage lists of prioritized items.
 
+### Archives
+
+* My old [blog](http://alexandrefrancois.blogspot.com)
+* My old [site](https://sites.google.com/site/alexandrerjfrancois)
 
