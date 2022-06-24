@@ -5,11 +5,16 @@ description: Software Engineer and Researcher
 ---
 
 * Hands on leader, problem solver, educator and mentor
-* Expert in the design, analysis and implementation of interactive software systems
-* Expert in audio and video computing, music computing, computer vision, computer graphics 
+* Interests: design, analysis and implementation of interactive software systems
+* Skills: audio and video computing, music computing, computer vision, computer graphics 
 
 [LinkedIn profile](https://www.linkedin.com/in/alexandrefrancois/)  
-[Academic archive](academia)
+[Academia](academia) ||
+[research](/academia/research)
+| [publications](/academia/publications)
+| [presentations](/academia/presentations)
+| [events](/academia/events)
+| [teaching](/academia/teaching)
 
 ## Published Apps
 

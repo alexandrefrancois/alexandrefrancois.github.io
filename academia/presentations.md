@@ -7,7 +7,7 @@ description: Alexandre R.J. François
 
 Alexandre R. J. François, "Multimodal Interaction for Musical Improvisation: From algorithms to Interactive Systems," Computer Science Colloquium Series, Harvey Mudd College, Claremont, CA, USA, 18 November 2010. [[announcement](https://www.cs.hmc.edu/events/2010/11/colloquium)]
 
-Alexandre R. J. François, "Designing and Implementing Dynamic Models of Cognitive Processes," Seminar Series, Redwood Center for Theoretical Neuroscience, Berkeley, CA, USA, 20 October 2010.
+Alexandre R. J. François, "Designing and Implementing Dynamic Models of Cognitive Processes," Seminar Series, [Redwood Center for Theoretical Neuroscience](https://redwood.berkeley.edu), Berkeley, CA, USA, 20 October 2010.
 
 Alexandre R. J. François, Isaac Schankler and Elaine Chew, "Mimi4x: An Interactive Audio-visual Installation for High-level Structural Improvisation," Workshop on Interactive Multimedia Installations and Digital Art, International Conference on Multimedia & Expo, Singapore, 23 July 2010. [[workshop website](http://webia.lip6.fr/~codognet/IMIDA)]
 
