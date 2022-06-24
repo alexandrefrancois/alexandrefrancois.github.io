@@ -77,41 +77,41 @@ Arrangements of language primitives consistently associated with speciﬁc funct
 ## References
 
 <p id="ref-1">
-[1] Jeanne Bamberger. Evolving meanings: Revisiting Luria and Vygotsky. In G. O. Mazur, editor, _Thirty Year Commemoration to the Life of A. R. Luria_. Semenenko Foundation, New York, 2008.
+[1] Jeanne Bamberger. Evolving meanings: Revisiting Luria and Vygotsky. In G. O. Mazur, editor, <i>Thirty Year Commemoration to the Life of A. R. Luria</i>. Semenenko Foundation, New York, 2008.
 </p><p id="ref-2">
-[2] I. Biederman and E. A. Vessel. Perceptual pleasure and the brain. _American Scientist_, 94:249–255, 2006.
+[2] I. Biederman and E. A. Vessel. Perceptual pleasure and the brain. <i>American Scientist</i>, 94:249–255, 2006.
 </p><p id="ref-3">
-[3] Stuart K. Card, George G. Robertson, and Jock D. Mackinlay. The information visualizer, an information workspace. In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)_, pages 181–186, 1991.
+[3] Stuart K. Card, George G. Robertson, and Jock D. Mackinlay. The information visualizer, an information workspace. In <i>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)</i>, pages 181–186, 1991.
 </p><p id="ref-4">
-[4] E. Chew, A.A. Sawchuk, R. Zimmermann, V. Stoyanova, I. Tosheff, C. Kyriakakis, C. Papadopoulos, A.R.J. Francois, and A. Volk. Distributed Immersive Performance. In _Proceedings of the 2004 Annual NASM Meeting_, San Diego, CA, USA, November 2004.
+[4] E. Chew, A.A. Sawchuk, R. Zimmermann, V. Stoyanova, I. Tosheff, C. Kyriakakis, C. Papadopoulos, A.R.J. Francois, and A. Volk. Distributed Immersive Performance. In <i>Proceedings of the 2004 Annual NASM Meeting</i>, San Diego, CA, USA, November 2004.
 </p><p id="ref-5">
-[5] David Cope. _Computer Models of Musical Creativity_. MIT Press, 2005.<br />
+[5] David Cope. <i>Computer Models of Musical Creativity</i>. MIT Press, 2005.<br />
 </p><p id="ref-6">
-[6] Richard Dawkins. _The God Delusion_. Houghton Mifflin Harcourt, 2006.  See also Dawkins' [TED](http://www.ted.com/) Talk: [Why the Universe Seems So Strange](https://www.ted.com/talks/richard_dawkins_why_the_universe_seems_so_strange).
+[6] Richard Dawkins. <i>The God Delusion</i>. Houghton Mifflin Harcourt, 2006.  See also Dawkins' <a href="http://www.ted.com/">TED</a> Talk: <a href="https://www.ted.com/talks/richard_dawkins_why_the_universe_seems_so_strange">Why the Universe Seems So Strange</a>.
 </p><p id="ref-7">
-[7] Paul Fraisse. Perception and estimation of time. _Annual Review of Psychology_, 35:1–36, 1984.
+[7] Paul Fraisse. Perception and estimation of time. <i>Annual Review of Psychology</i>, 35:1–36, 1984.
 </p><p id="ref-8">
-[8] Alexandre R.J. François and Elaine Chew. An architectural framework for interactive music systems. In _Proceedings of the International Conference on New Interfaces for Musical Expression_, Paris, France, June 2006.
+[8] Alexandre R.J. François and Elaine Chew. An architectural framework for interactive music systems. In <i>Proceedings of the International Conference on New Interfaces for Musical Expression</i>, Paris, France, June 2006.
 </p><p id="ref-9">
-[9] Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
+[9] Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," <a href="https://academic.oup.com/comjnl"><i>The Computer Journal</i> (2011), vol. 54, no. 7, pp. 1188-1204. doi: <a href="https://doi.org/10.1093/comjnl/bxq081">10.1093/comjnl/bxq081</a>. First published online November 10, 2010.
 </p><p id="ref-10">
-[10] William Gooddy. _Time and the Nervous System_. Praeger Pub, 1988.
+[10] William Gooddy. <i>Time and the Nervous System</i>. Praeger Pub, 1988.
 </p><p id="ref-11">
-[11] Jeff Hawkins and Sandra Blakeslee. _On Intelligence_. Times Books, 2004.
+[11] Jeff Hawkins and Sandra Blakeslee. <i>On Intelligence</i>. Times Books, 2004.
 </p><p id="ref-12">
-[12] Henkjan Honing. Issues in the representation of time and structure in music. _Contemporary Music Review_, 9:221–239, 1993.
+[12] Henkjan Honing. Issues in the representation of time and structure in music. <i>Contemporary Music Review</i>, 9:221–239, 1993.
 </p><p id="ref-13">
-[13] David Huron. _Sweet Anticipation: Music and the Psychology of Expectation_. MIT Press, 2006.
+[13] David Huron. <i>Sweet Anticipation: Music and the Psychology of Expectation</i>. MIT Press, 2006.
 </p><p id="ref-14">
-[14] Robert B. Miller. Response time in man-computer conversational transactions. In _Proceedings of the AFIPS Fall Joint Computer Conference_, volume 33, pages 267–277, 1968.
+[14] Robert B. Miller. Response time in man-computer conversational transactions. In <i>Proceedings of the AFIPS Fall Joint Computer Conference</i>, volume 33, pages 267–277, 1968.
 </p><p id="ref-15">
-[15] Allen Newell._Uniﬁed Theories of Cognition_. Harvard University Press, 1990.
+[15] Allen Newell. <i>Uniﬁed Theories of Cognition</i>. Harvard University Press, 1990.
 </p><p id="ref-16">
-[16] John R. Pierce. The nature of musical sound. In Diana Deutsch, editor, _The Psychology of Music, Second Edition (Cognition and Perception)_, pages 1–24. Academic Press, 1998.
+[16] John R. Pierce. The nature of musical sound. In Diana Deutsch, editor, <i>The Psychology of Music, Second Edition (Cognition and Perception)</i>, pages 1–24. Academic Press, 1998.
 </p><p id="ref-17">
-[17] Miller S. Puckette. A divide between ‘compositional’ and ‘performative’ aspects of Pd. In _Proceedings of the First International Pd Convention_, Graz, Austria, 2004.
+[17] Miller S. Puckette. A divide between ‘compositional’ and ‘performative’ aspects of Pd. In <i>Proceedings of the First International Pd Convention</i>, Graz, Austria, 2004.
 </p><p id="ref-18">
-[18] R. A. Rasch. Synchronization in performed ensemble music. _Acustica_, 43:121–131, 1979.
+[18] R. A. Rasch. Synchronization in performed ensemble music. <i>Acustica</i>, 43:121–131, 1979.
 </p><p id="ref-18">
-[19] Ken Richardson. _A Mind for Structure: Exploring the Roots of Intelligent Systems_. Brown Walker Press, 2006.
+[19] Ken Richardson. <i>A Mind for Structure: Exploring the Roots of Intelligent Systems</i>. Brown Walker Press, 2006.
 </p>
