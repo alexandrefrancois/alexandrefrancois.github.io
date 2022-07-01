@@ -1,5 +1,5 @@
 ---
-title: academic Publications
+title: Academic Publications
 ---
 
 ### Highlights
