@@ -21,6 +21,10 @@ description: Software Engineer and Researcher
 * [MuSA_RT](/MuSA_RT) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
 * [Priorities](/Priorities): Simply manage lists of prioritized items.
 
+### Week-end Projects
+
+* [WheelControl](https://github.com/alexandrefrancois/WheelControl): A SwiftUI wheel control with multiple speeds.
+
 ### Archives
 
 * My old [blog](http://alexandrefrancois.blogspot.com)
