@@ -15,7 +15,7 @@ Minimalistic design:
 * any item can hold a prioritized list of items
 * quickly search and manage items: add existing item or create new one with a tap
 
-Read about the app's updated design in [this blog post]({% post_url 2020-08-09-Priorities-App %}) and about the original app's design in [this blog post]({% post_url 2021-01-07-Priorities-App-2.0 %}).
+Read about the app's updated design in [this blog post]({% post_url 2021-01-07-Priorities-App-2.0 %}) and about the original app's design in [this blog post]({% post_url 2020-08-09-Priorities-App %}).
 
 ### Privacy policy
 

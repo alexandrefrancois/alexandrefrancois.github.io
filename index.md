@@ -8,7 +8,7 @@ description: Software Engineer and Researcher
 * Interests: design, analysis and implementation of interactive software systems
 * Skills: audio and video computing, music computing, computer vision, computer graphics 
 
-[LinkedIn profile](https://www.linkedin.com/in/alexandrefrancois/)  
+[LinkedIn](https://www.linkedin.com/in/alexandrefrancois/) || [YouTube](https://www.youtube.com/user/alexandrefrancois)  
 [Academia](academia) ||
 [research](/academia/research)
 | [publications](/academia/publications)

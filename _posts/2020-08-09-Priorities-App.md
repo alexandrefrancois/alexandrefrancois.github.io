@@ -9,9 +9,9 @@ categories: apps design
 
 <div class="separator" style="clear: both; text-align: center;">
 
-<a href="https://1.bp.blogspot.com/-tyi2ReGsOhQ/XWgyEkUJfFI/AAAAAAAACHI/uEBfG2-aLOkK39fQuDsFoGgaeftjn7-HgCLcBGAs/s1600/Priorities.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;">
+<a href="/Priorities/assets/images/priorities-logo.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;">
 
-<img border="0" data-original-height="360" data-original-width="360" height="200" src="https://1.bp.blogspot.com/-tyi2ReGsOhQ/XWgyEkUJfFI/AAAAAAAACHI/uEBfG2-aLOkK39fQuDsFoGgaeftjn7-HgCLcBGAs/s200/Priorities.png" width="200" />
+<img border="0" data-original-height="360" data-original-width="360" height="200" src="/Priorities/assets/images/priorities-logo.png" width="200" />
 
 </a>
 
@@ -31,29 +31,25 @@ Until now I have been using Apple's Reminders app but I cannot automatically pri
 
 The app defines items characterized by a name (string) and optional details (other string), and a priority level. There are 4 priority levels: low, medium, high and critical. The prioritized list only shows items that are at priority critical, high and medium, sorted by decreasing level of priority (and alphabetically by name in each priority level). For my shopping I think of medium as "get some if on sale," high as "we're running out soon," and critical as "we needed some yesterday."
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-7QN32EoujwE/XWa3R-1qfRI/AAAAAAAACGg/FGV7OGVIVIgjewZ3So0Zs5Qy6pX5pLr4gCLcBGAs/s1600/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.13.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="https://1.bp.blogspot.com/-7QN32EoujwE/XWa3R-1qfRI/AAAAAAAACGg/FGV7OGVIVIgjewZ3So0Zs5Qy6pX5pLr4gCLcBGAs/s320/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.13.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Prioritized list</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/Priorities/assets/images/priorities1-prioritized-list.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="/Priorities/assets/images/priorities1-prioritized-list.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Prioritized list</td></tr></tbody></table>
 
 ### Lower Priority
 
 When shopping, I look at the prioritized list. When I get an item on the list, I swipe left to lower its priority back to low (which removes it from the list).
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-zvP_frwmfmY/XWa3q11DFYI/AAAAAAAACGs/opU4Bz245nYWcxK9Tl-76H2I1DFSvseEACLcBGAs/s1600/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.50.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="https://1.bp.blogspot.com/-zvP_frwmfmY/XWa3q11DFYI/AAAAAAAACGs/opU4Bz245nYWcxK9Tl-76H2I1DFSvseEACLcBGAs/s320/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.50.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Change priority with a swipe</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/Priorities/assets/images/priorities1-change-priority.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="/Priorities/assets/images/priorities1-change-priority.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Change priority with a swipe</td></tr></tbody></table>
 
 ### Search and Create Items
 
 When I need more of something, I search the list of existing items (pull down to reveal the Search bar and tap in it). I can see the list of all items sorted alphabetically.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-cIZNhpeAJG0/XWa3rHn8h7I/AAAAAAAACGw/i7H0jZj4opsUOIBP6uoYK5z_LNh2dAWiwCLcBGAs/s1600/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.59.png" style="margin-left: auto; margin-right: auto;">
-
-
-<img border="0" data-original-height="1600" data-original-width="900" height="320" src="https://1.bp.blogspot.com/-cIZNhpeAJG0/XWa3rHn8h7I/AAAAAAAACGw/i7H0jZj4opsUOIBP6uoYK5z_LNh2dAWiwCLcBGAs/s320/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.38.59.png" width="180" />
-
-
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/Priorities/assets/images/priorities1-search.png" style="margin-left: auto; margin-right: auto;">
+<img border="0" data-original-height="1600" data-original-width="900" height="320" src="/Priorities/assets/images/priorities1-search.png" width="180" />
 </a></td></tr><tr><td class="tr-caption" style="text-align: center;">Search existing items or browse alphabetically</td></tr></tbody></table>
 
 If I type something in the search, the list gets restricted to items whose name contains the search string. I am also presented with a "create item" button that uses the search string as the initial name for the new item. If the item I am looking for already exists, I can simply swipe right and select a higher priority level for the item. I can also adjust the priority by tapping on the item and changing the priority in the item view.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-kc9-ueDqCyg/XWa3qwgP19I/AAAAAAAACGo/QNNJ1GbTJHAbfL_rgWWlk7i3JNd5DsxGwCLcBGAs/s1600/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.39.04.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="https://1.bp.blogspot.com/-kc9-ueDqCyg/XWa3qwgP19I/AAAAAAAACGo/QNNJ1GbTJHAbfL_rgWWlk7i3JNd5DsxGwCLcBGAs/s320/Simulator%2BScreen%2BShot%2B-%2BiPhone%2B8%2BPlus%2B-%2B2019-08-28%2Bat%2B17.39.04.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Create or edit an item</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/Priorities/assets/images/priorities1-create-edit.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="900" height="320" src="/Priorities/assets/images/priorities1-create-edit.png" width="180" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Create or edit an item</td></tr></tbody></table>
 
 If I tap the button to create a new item, I get to the item view where I can edit the name, details and set the item's priority. The item view also offers the option to delete the item entirely but that would be a rare occurrence for me since I don't want to have to create it again next time I need it.
 
