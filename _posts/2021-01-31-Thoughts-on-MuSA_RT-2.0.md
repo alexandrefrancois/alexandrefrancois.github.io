@@ -4,7 +4,7 @@ title: Thoughts on MuSA_RT 2.0
 date: 2021-01-31 22:06:16 UTC
 updated: 2021-01-31 22:06:16 UTC
 comments: false
-categories: mathematics music software visualization
+categories: music mathematics visualization software
 ---
 
 <a href="/MuSA_RT/assets/images/square.png" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="800" data-original-width="800" height="320" src="/MuSA_RT/assets/images/square.png" />

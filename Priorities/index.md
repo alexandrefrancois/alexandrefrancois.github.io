@@ -5,7 +5,7 @@ description: by Alexandre R.J. François
 
 <img src="assets/images/priorities.png" alt="Priorities screenshot" width="200"/>
 
-[<img alt="Download on the App Store" width="200" src="../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />](https://apps.apple.com/us/app/priorities-sorted/id1469567351)
+[<img alt="Download on the App Store" width="200" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />](https://apps.apple.com/us/app/priorities-sorted/id1469567351)
 
 ## Simply manage lists of prioritized items.
 

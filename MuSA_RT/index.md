@@ -5,7 +5,7 @@ description: by Alexandre R.J. François
 
 <img src="assets/images/square.png" alt="MuSA_RT menu" width="200"/>
 
-[<img alt="Download on the App Store" width="200" src="../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />](https://apps.apple.com/app/musa-rt/id506866959)
+[<img alt="Download on the App Store" width="200" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />](https://apps.apple.com/app/musa-rt/id506866959)
 
 MuSA_RT animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.  
 MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wikipedia.org/wiki/Elaine_Chew)'s [Spiral Array model of tonality](https://en.wikipedia.org/wiki/Spiral_array_model), which also provides the 3D geometry for the visualization space.
