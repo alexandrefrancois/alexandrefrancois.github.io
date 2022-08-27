@@ -41,7 +41,7 @@ The app also introduces a new [Wheel Control](https://github.com/alexandrefranco
 
 ### Live
 
-Live audio processing tools, use the microphone as input.
+Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. Go to the **Settings** screen to display available audio sources and select the one to use.
 
 #### Resonator / C++
 
