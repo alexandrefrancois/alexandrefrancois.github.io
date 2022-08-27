@@ -2,7 +2,7 @@
 layout: post
 title: Digital Resonator
 date: 2022-08-08 20:22:08 UTC
-updated: 2022-08-08 20:22:08 UTC
+updated: 2022-08-27 20:22:08 UTC
 comments: false
 categories: music physics oscillators
 ---
@@ -29,27 +29,27 @@ The digital resonator has a _persistent state_ consisting of current amplitude a
 
 <tr><td style="text-align: center;">
 
-<a href="/assets/images/oscillators-resonance-silence.gif" style="margin-left: auto; margin-right: auto;">
-<img border="0" data-original-height="512" data-original-width="288" height="320" src="/assets/images/oscillators-resonance-silence.gif" width="180" />
+<a href="/Oscillators/assets/images/oscillators-resonance-silence.gif" style="margin-left: auto; margin-right: auto;">
+<img border="0" data-original-height="512" data-original-width="288" height="320" src="/Oscillators/assets/images/oscillators-resonance-silence.gif" width="180" />
 </a></td></tr>
 
 <tr><td class="tr-caption" style="text-align: center;">The resonator's amplitudes (at all phases) increase when the generator produces a sinusoidal signal at the resonator's resonant frequency. The amplitude is maximal at the corresponding phase. All amplitudes decay to 0 over time when the generator produces silence.</td></tr>
 </tbody></table>
 
-When the input signal has a frequency that is *near* (but not quite equal to) the resonator's frequency, the resonator's amplitudes do increase, relativaly less than when the signal's frequency is spot on, and the maximal amplitude phase position is constantly shifting at a rate that is proportional to the difference in wavelength between the signal's frequency and the resonant frequency. Computing the actual signal frequency from this shift is relatively straightforward.
+When the input signal has a frequency that is *near* (but not quite equal to) the resonator's frequency, the resonator's amplitudes do increase, less than when the signal's frequency is spot on, and the maximal amplitude phase position is constantly shifting at a rate that is proportional to the difference in wavelength between the signal's frequency and the resonant frequency. Computing the actual signal frequency from this shift is relatively straightforward.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 
 <tr><td style="text-align: center;">
 
-<a href="/assets/images/oscillators-near-resonance.gif" style="margin-left: auto; margin-right: auto;">
-<img border="0" data-original-height="512" data-original-width="288" height="320" src="/assets/images/oscillators-near-resonance.gif" width="180" />
+<a href="/Oscillators/assets/images/oscillators-near-resonance.gif" style="margin-left: auto; margin-right: auto;">
+<img border="0" data-original-height="512" data-original-width="288" height="320" src="/Oscillators/assets/images/oscillators-near-resonance.gif" width="180" />
 </a></td></tr>
 
 <tr><td class="tr-caption" style="text-align: center;">Near resonant frequency estimation and Doppler velocity computation.</td></tr>
 </tbody></table>
 
-Furthermore, if the signal source (emitting a fixed frequency) and the "observer" (microphone feeding the resonator) are moving with respect to each other, the frequency observed by the resonator shifts according to the Doppler effect. A relatively simple computation gives the relative velocity from the frequency shift.
+Furthermore, if the signal source (emitting a fixed frequency) and the "observer" (microphone feeding the resonator) are moving with respect to each other, the frequency observed by the resonator shifts according to the Doppler effect. A simple computation gives the relative velocity from the frequency shift.
 
 But all this is worth a real world demonstration, so here is a short video...
 

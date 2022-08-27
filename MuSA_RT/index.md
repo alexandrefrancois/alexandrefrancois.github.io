@@ -3,17 +3,25 @@ title: MuSA_RT
 description: by Alexandre R.J. François
 ---
 
-<img src="assets/images/square.png" alt="MuSA_RT menu" width="200"/>
 
-[<img alt="Download on the App Store" width="200" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />](https://apps.apple.com/app/musa-rt/id506866959)
+<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
 
+<img src="assets/images/square.png" alt="MuSA_RT" width="160" style="margin-bottom: 10px;"/>
+
+<a href="https://apps.apple.com/app/musa-rt/id506866959" style="margin-left: auto; margin-right: auto;">
+<img border="0" width="160" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+</a>
+
+</td>
+<td>
 MuSA_RT animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.  
-MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wikipedia.org/wiki/Elaine_Chew)'s [Spiral Array model of tonality](https://en.wikipedia.org/wiki/Spiral_array_model), which also provides the 3D geometry for the visualization space.
-MuSA_RT interprets the audio signal received from a microphone to determine pitch names, maintain short term and longterm tonal context trackers, each a Center of Effect (CE), and compute the closest triads (3-note chords) and keys as the music unfolds in performance.  
-MuSA_RT presents a graphical representations of these tonal entities in context, smoothly rotating the virtual camera to provide an unobstructed view of the current information.  
-MuSA_RT also offers an experimental Augmented Reality mode when supported.
+</td></tr></table>
 
-<div style="text-align: center;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
+MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wikipedia.org/wiki/Elaine_Chew)'s [Spiral Array model of tonality](https://en.wikipedia.org/wiki/Spiral_array_model), which also provides the 3D geometry for the visualization space.
+The app analyzes the audio signal received from a microphone to determine pitch names, maintain short term and longterm tonal context trackers, each a Center of Effect (CE), and compute the closest triads (3-note chords) and keys as the music unfolds in performance.  
+The 3D view presents a graphical representations of these tonal entities in context, smoothly rotating the virtual camera to provide an unobstructed view of the current information. These graphics can also be visualized in an experimental Augmented Reality on compatible devices.
+
+<div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
 ## User Guide
 
