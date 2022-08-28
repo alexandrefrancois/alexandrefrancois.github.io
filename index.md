@@ -8,7 +8,7 @@ description: Software Engineer and Researcher
 * Interests: design, analysis and implementation of interactive software systems
 * Skills: audio and video computing, music computing, computer vision, computer graphics 
 
-[LinkedIn](https://www.linkedin.com/in/alexandrefrancois/) || [YouTube](https://www.youtube.com/user/alexandrefrancois)  
+[LinkedIn](https://www.linkedin.com/in/alexandrefrancois/) || [GitHub](https://github.com/alexandrefrancois) || [YouTube](https://www.youtube.com/user/alexandrefrancois)  
 [Academia](academia) ||
 [research](/academia/research)
 | [publications](/academia/publications)
@@ -18,10 +18,11 @@ description: Software Engineer and Researcher
 
 ## Published Apps
 
-* [MuSA_RT](/MuSA_RT) animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
+* [Oscillators](/Oscillators): Experiment with digital resonators.
+* [MuSA_RT](/MuSA_RT): Experience a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
 * [Priorities](/Priorities): Simply manage lists of prioritized items.
 
-### Week-end Projects
+### Open Source Projects
 
 * [WheelControl](https://github.com/alexandrefrancois/WheelControl): A SwiftUI wheel control with multiple speeds.
 
