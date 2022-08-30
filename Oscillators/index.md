@@ -21,7 +21,7 @@ For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonat
 
 ## Demonstrations
 
-<div style="text-align: left;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iQCPDJ8L_ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcB_ABiKC_djwV2PXnSCWkvXOXt8PRMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
