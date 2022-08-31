@@ -17,7 +17,7 @@ This app particularly encourages live experimentation with microphone input.
 </td></tr></table>
 
 **By design, the oscillators in this app can only be tuned to frequencies that correspond to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).**
-For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonator) can be tuned exactly at 441Hz. However, if the requested frequency is for example 440Hz, the oscillator will be tuned to the closest frequency meeting the requirements, in this case 440Hz.
+For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonator) can be tuned exactly at 441Hz. However, if the requested frequency is for example 440Hz, the oscillator will be tuned to the closest frequency meeting the requirements, in this case 441Hz.
 
 ## Demonstrations
 
@@ -37,7 +37,7 @@ For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonat
 
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
-The app also introduces a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds.
+The app also introduces a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
 ### Live
 
@@ -47,11 +47,11 @@ Live audio processing tools, use the microphone as input. This requires running 
 
 Feed the audio from the microphone to a resonator. Visualize the resulting amplitude at all phases, estimate the observed frequency, calculate corresponding Doppler velocity.
 
-The same tool is offered with both the Swift (manually managed memory with unsafe pointers) and C++ implementations, suitable for perfoemance comparison purposes.
+The same tool is offered with both the Swift (manually managed memory with unsafe pointers) and C++ implementations, suitable for performance comparison purposes.
 
 <img src="assets/images/resonator-full-scaling.png" alt="Resonator tool" width="300"/>
 
-**Target Frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds).
+**Target Frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Resonant frequency**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
@@ -65,7 +65,7 @@ The same tool is offered with both the Swift (manually managed memory with unsaf
 - Amplitude: the maximum amplitude value across the phases (taken as the amplitude of resonant oscillations for the resonator)
 - Count: the number of phases computed (also the number of samples in the resonator's period)
 
-**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds).
+**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Performance measurements**: some computation time measurements for performance comparison purposes.
 - Processing time per sample (in ns): the average time taken to process one audio sample
@@ -84,24 +84,24 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 <img src="assets/images/generator-resonator-full.png" alt="Resonator tool" width="300"/>
 
-**Generator frequency**: the *desired* generator frequency, adjust with the wheel control (drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds).
+**Generator frequency**: the *desired* generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Actual**: the *actual* generator frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
 **Generator waveform**: tap on the gear icon to show/hide the waveform graph and selection buttons: Square, Triangle, Saw, Sine or Silence.
 
-**Resonator frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds).
+**Resonator frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Gauge display**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
 **Phases**: a plot of the amplitudes at each phase.
 
-**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, tap on the wheel to cycle through the gears/speeds).
+**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 
 ## Privacy Policy
 
-Fun with Oscillator does not collect or share your personal information. In particular, any audio captured from the microphone is only processed in real time for visualization purposes. The app does not record or transmit any of it.
+Fun with Oscillator does not collect or share your personal information. In particular, any audio captured from the microphone is only processed in real-time for visualization purposes. The app does not record or transmit any of it.
 
 ## Credits
 
