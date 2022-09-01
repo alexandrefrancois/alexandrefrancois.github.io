@@ -24,6 +24,7 @@ description: Software Engineer and Researcher
 
 ### Open Source Projects
 
+* [Oscillators](https://github.com/alexandrefrancois/Oscillators): Digital oscillator models for signal synthesis and analysis, suitable for real-time audio processing.
 * [WheelControl](https://github.com/alexandrefrancois/WheelControl): A SwiftUI wheel control with multiple speeds.
 
 ### Archives
