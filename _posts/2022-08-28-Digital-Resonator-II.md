@@ -19,7 +19,7 @@ Human perception is fundamentally dynamic: it's about change over time. A quanti
 
 A _periodic signal_ repeats the sequence of values exactly after a fixed length of time, known as the _period_. The _frequency_ (in Hz) is the inverse of the period duration (in s), i.e. the number of times the period is repeated per seconds. A periodic signal is entirely specified by one period, as the values repeat indefinitely. 
 
-Examples of periodic signals include sine, square, triangle and saw waves, and there are many apps and online sites that offer tools to generate sound from such simple periodic signals (tones), see for example [Michael Gieson](https://www.gieson.com/)' [ToneGen](https://www.gieson.com/Library/projects/utilities/tonegen/). Explore the richness of digital synthesis in electronic music at [Music Makers Machines](https://artsandculture.google.com/project/music-makers-and-machines) (but please come back here I'm not done - even better, save it for later).
+Examples of periodic signals include sine, square, triangle and saw waves, and there are many apps and online sites that offer tools to generate sound from such simple periodic signals (tones), see for example [Michael Gieson](https://www.gieson.com/)'s [ToneGen](https://www.gieson.com/Library/projects/utilities/tonegen/). Explore the richness of digital synthesis in electronic music at [Music Makers Machines](https://artsandculture.google.com/project/music-makers-and-machines) (but please come back here I'm not done - even better, save it for later).
 
 A few hundred years ago, long before electronic digital computers, [Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier) posited that any periodic signal can be expressed as an infinite sum of sines and cosines (_Fourier expansion_), a powerful concept that underlies [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_analysis), and relates to how humans perceive sound. Discrete versions of the associated mathematical tools, suitable for efficient implementation on early digital computers, reinforced the success of these techniques (for example the ubiquitous Fast Fourier Transform or FFT) and their wide adoption in a variety of fields. The FTT takes a portion of signal (values over time) and computes the values for each frequency band in the appropriate discrete truncated Fourier expansion (the frequency range is limited by the duration of the signal portion).
 
@@ -63,13 +63,13 @@ The instantaneous contribution of each input sample value to the amplitude is pr
 
 Note that this is where traditions would suggest essentially taking the signal offline and maybe doing a convolution with the waveform as the kernel (or just do an FFT and be done with it!), but I would rather recognize and accept that we don't know the future and we cannot always afford to wait for it to become the past, and thus favor a more dynamic approach.
 
-In order to account for phase offset, the above calculation is performed for various phases, and the resonator's amplitude is set to the maximum value across all phases. The phase offset resolution is also conveniently the sample duration so the resonator model adds to the oscillator model an array of same length as the resonator's period, where each position stores the amplitude amplitude value for the corresponding phase offset.
+In order to account for phase offset, the above calculation is performed for various phases, and the resonator's amplitude is set to the maximum value across all phases. The phase offset resolution is also conveniently the sample duration so the resonator model adds to the oscillator model an array of same length as the resonator's period, where each position stores the amplitude value for the corresponding phase offset.
 
 The floating-point calculations to carry for each input sample can be performed in parallel for each phase, so perfectly suited to leverage GPU acceleration. The complexity is linear in the number of phases, i.e. the number of samples in one period, which for low frequencies in the audible spectrum typically reaches a few thousands.
 
 This means a reasonable implementation on modern hardware should easily handle the computations per sample for any frequency. For real-time audio processing, these computations must typically be carried several tens of thousands of times per second. So while the computations themselves should be cheap, the setup overhead (for example copying data to/from GPU memory where required) could become a limiting factor, especially when running a number of resonators in the context of a music analysis app.
 
-I implemented several versions of this model, all leveraging the Accelerate framework: the first proof of concept uses Swift arrays, a much more efficient version in Swift uses "unsafe pointers", and I also made a C++ version, wrapped in Objective-C++ to bridge with Swift. The Swift arrays overhead proved prohibitively significant, so the app features the Swift "unsafe arrays" and the C++ implementations, in the exact same setting, so that the computation times can be directly compared. The C++ implementation seems to consistently outperform the Swift implementation - but this should of course be explored and confirmed in a more thoroughly and and systematically.
+I implemented several versions of this model, all leveraging the Accelerate framework: the first proof of concept uses Swift arrays, a much more efficient version in Swift uses "unsafe pointers", and I also made a C++ version, wrapped in Objective-C++ to bridge with Swift. The Swift arrays overhead proved prohibitively significant, so the app features the Swift "unsafe arrays" and the C++ implementations, in the exact same setting, so that the computation times can be directly compared. The C++ implementation seems to consistently outperform the Swift implementation - but this should of course be explored and confirmed more thoroughly and systematically.
 
 <table align="left" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: left;"><tbody>
 <tr><td>Frequency</td><td>Samples / period</td><td>ns / sample</td></tr>
@@ -82,8 +82,9 @@ I implemented several versions of this model, all leveraging the Accelerate fram
 
 ### Demonstrations
 
-Check out the Oscillators playlist on my YouTube channel for fun expriments with the Oscillators app.
+Check out the Oscillators playlist on my YouTube channel for fun experiments with the Oscillators app.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcB_ABiKC_djwV2PXnSCWkvXOXt8PRMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
 Then go explore [Music Makers Machines](https://artsandculture.google.com/project/music-makers-and-machines) :-)
