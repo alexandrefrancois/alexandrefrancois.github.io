@@ -27,31 +27,94 @@ For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonat
 
 ## User Guide
 
+Version 2 - Resonator Banks: spectrogram, frequency analysis, dynamics analysis.
+
 <img src="assets/images/menu.png" alt="Oscillators menu" width="300"/>
 
 ### Quick Start
 
 1. Start the app and allow access to the microphone when prompted (needed for live sound processing)
-2. Tap on "Resonator" or "Resonator C++" to navigate to a live input resonator screen.
+2. Tap on "Spectrogram" or "Frequency Analysis" to navigate to a live input screen.
 3. Play some music (or sing?) and see what happens.
 
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
-The app also introduces a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
+The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
 ### Live
 
-Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. Go to the **Settings** screen to display available audio sources and select the one to use.
+Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select the one to use. 
 
-#### Resonator / C++
+#### Spectrogram
 
-Feed the audio from the microphone to a resonator. Visualize the resulting amplitude at all phases, estimate the observed frequency, calculate corresponding Doppler velocity.
+The spectrogram plots the amplitude levels of the resonators in a resonator bank over time. The resonators in the bank are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency (Gradient Frequency bank).
 
-The same tool is offered with both the Swift (manually managed memory with unsafe pointers) and C++ implementations, suitable for performance comparison purposes.
+<img src="assets/images/spectrogram.png" alt="Spectrogram" width="300"/>
+
+In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Amplitude levels are color mapped, low to high, from green through yellow to red.
+
+**Frequency label**: spectrogram frequency value and closest note names at the level indicated by the line.
+Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
+
+**Max amplitude value**: controls the value range mapped to the color range for plotting.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonators. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+
+#### Frequency Analysis
+
+For frequency analysis, the resonators in the bank are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency (Gradient Frequency bank).
+
+<img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="300"/>
+
+The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing frequency from left to right on the horizontal axis.
+
+- Peak: the current maximum amplitude value across the resonators in the bank.
+- Count: the number of resonators in the bank.
+
+**Max value**: controls the value range for amplitude plotting.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Frequency index**: graph frequency value and closest note names at the index.
+Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
+
+**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonators. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+
+#### Dynamics Analysis
+
+For dynamics analysis, all resonators in the bank are tuned to the same frequency, and each resonator has a different time constant, set as a function of the frequency. The time constant regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonator.
+
+<img src="assets/images/dynamics-analysis.png" alt="Dynamics analysis" width="300"/>
+
+The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing time constant value from left to right on the horizontal axis.
+
+**Target frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Resonant frequency**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
+
+**Peak**: the current maximum amplitude value across the resonators in the bank.
+
+**Count**: the number of resonators in the bank.
+
+**Max value**: controls the value range for amplitude plotting.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Time constants**: Time constant range covered by the bank and optional list of individual time constants for each resonator.
+
+
+#### Resonator
+
+The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude for all phases, an estimate of the observed frequency, and the corresponding Doppler velocity (assuming a source that emits a signal at the resonator's resonant frequency).
 
 <img src="assets/images/resonator-full-scaling.png" alt="Resonator tool" width="300"/>
 
-**Target Frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+**Target frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Resonant frequency**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
@@ -67,9 +130,6 @@ The same tool is offered with both the Swift (manually managed memory with unsaf
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Performance measurements**: some computation time measurements for performance comparison purposes.
-- Processing time per sample (in ns): the average time taken to process one audio sample
-- Max samples per second: the inverse of the processing time per sample expressed in seconds, an extrapolation that gives an idea of what can be achieved in real time (if the sampling rate is 44.1kHz, the machine must be able to process at least 44,100 samples per second, and that does not take into account any utilization of the result in an app)
 
 
 ### Simulations
@@ -82,7 +142,7 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 **Simulation controls**: a capsule pinned at the bottom of the screen contains the current timestamp (in s), a play/pause toggle and a step button which advances the simulation by one sample duration.
 
-<img src="assets/images/generator-resonator-full.png" alt="Resonator tool" width="300"/>
+<img src="assets/images/generator-resonator-full.png" alt="Generator to resonator tool" width="300"/>
 
 **Generator frequency**: the *desired* generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -97,6 +157,27 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 **Phases**: a plot of the amplitudes at each phase.
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+
+### Setting Screens
+
+The live tools feature dedicated Setting sheets, accessed via the gear icon in the top right of the screen.
+
+<img src="assets/images/resonator-settings.png" alt="Resonator settings" width="300"/>
+<img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
+
+**Implementation selection**: resonators and resonator banks come in Swift and C++ implementations, for direct performance comparison.
+
+**Update heuristic**: The resonator banks offer three update functions:
+- Sequential: calls the update function for each resonator sequentially
+- Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
+- Gradient Frequency heuristic: groups update calls from both ends of the bank, which should work well for Gradient Frequency banks as this should results in tasks of similar complexity (in a Gradient Frequency bank, the resonators are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency)
+
+**Performance measurements**:
+- Processing time per sample (in ns): the average time taken to process one audio sample
+- Max samples per second: the inverse of the processing time per sample expressed in seconds, an extrapolation that gives an idea of what can be achieved in real time (if the sampling rate is 44.1kHz, the machine must be able to process at least 44,100 samples per second, and that does not take into account any utilization of the result in an app)
+
+**Input device**: Select the audio device to use for live input.
 
 
 ## Privacy Policy
