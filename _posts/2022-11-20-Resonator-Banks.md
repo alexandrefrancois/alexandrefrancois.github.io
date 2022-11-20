@@ -22,9 +22,7 @@ The package offers a resonator bank where all the resonators are modeled in sing
 For independent resonators, audio samples must be processed sequentially and in order, but updates can be applied concurrently across resonators. Therefore, an array of individual resonators (which leverage the Accelerate framework) seems to offer the best opportunity to leverage concurrency and therefore afford better scalability. The package features Swift and C++ implementations, for direct performance comparison. Furthermore, resonator banks offer three update functions:
 - Sequential: calls the update function for each resonator sequentially
 - Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
-- Gradient Frequency heuristic: 
-
-groups update calls from both ends of the bank, which should work well for Gradient Frequency banks as this should results in tasks of similar complexity (in a Gradient Frequency bank, the resonators are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency)
+- Gradient Frequency heuristic: groups update calls from both ends of the bank, which should work well for Gradient Frequency banks as this should results in tasks of similar complexity (in a Gradient Frequency bank, the resonators are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency, and the amount of computation required per update is higher for lower frequencies)
 
 Proper evaluation of these would require more thorough and systematic study across various architectures, for which I don't have time or resources at the moment. By default the Oscillators app uses the C++ implementation and the Concurrent update function (if the device supports more than 2 concurrent threads). The implementation and update function can be changed on the Settings Screens - see [User Guide](/Oscillators/#setting-screens).
 
