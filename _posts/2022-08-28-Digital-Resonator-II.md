@@ -7,7 +7,7 @@ comments: false
 categories: music physics oscillators
 ---
 
-I's been a productive week off! I published the first version of the [Oscillators app](/Oscillators/), [available for download](https://apps.apple.com/us/app/oscillators/id1641353759) on the Apple App Store, and I released a first version of the code for my resonator implementation (and more) as a [Swift package](https://github.com/alexandrefrancois/Oscillators).
+It's been a productive week off! I published the first version of the [Oscillators app](/Oscillators/), [available for download](https://apps.apple.com/us/app/oscillators/id1641353759) on the Apple App Store, and I released a first version of the code for my resonator implementation (and more) as a [Swift package](https://github.com/alexandrefrancois/Oscillators).
 
 I outlined the main ideas underlying my digital resonator model in my last post: [Digital Resonator](/music/physics/oscillators/2022/08/08/Digital-Resonator.html). In this post I give a few more geeky details.
 
