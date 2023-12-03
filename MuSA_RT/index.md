@@ -23,7 +23,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 <div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
-## User Guide
+## User Guide (v. 2.1.x)
 
 <img src="assets/images/menu.png" alt="MuSA_RT menu" width="200"/>
 
@@ -53,8 +53,6 @@ The **movement** time constant determines how fast the rotation occurs (the high
 
 Select **dark/light/auto** background mode.
 
-<img src="assets/images/settings-visuals.png" alt="MuSA_RT visual settings" width="300"/>
-
 ### Settings: Spiral Array
 
 Adjust the parameters of the tonal analysis model.
@@ -65,17 +63,9 @@ Adjust the parameters of the tonal analysis model.
 
 For example, to make active triad tracking more responsive, decrease the time constant value for Triad CE Adapt.
 
-<img src="assets/images/settings-spiral-array.png" alt="MuSA_RT Spiral Array settings" width="300"/>
-
 ### Settings: Audio Input
 
 Select audio input device, visualize input levels for pitch classes.
-
-**Filtering** prevents 2 adjacent classes from being active.
-
-**Normalization** and **scaling** here are only applied to this visualization, does not affect processing. When normalization is not selected, a slider allows to adjust the scaling applied to the activation values.
-
-<img src="assets/images/settings-audio-input.png" alt="MuSA_RT audio input settings" width="300"/>
 
 ## Privacy Policy
 
@@ -83,7 +73,7 @@ The MuSA_RT app does not collect or share your personal information.
 
 ## Credits
 
-MuSA_RT 2.0 Copyright 2021 Alexandre R. J. François.
+MuSA_RT 2.1.0 Copyright 2023 Alexandre R. J. François.
  
 MuSA_RT 1.0 was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
 
