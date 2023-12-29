@@ -23,7 +23,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 <div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
-## User Guide (v. 2.1.x)
+## User Guide (v. 2.2.0)
 
 <img src="assets/images/menu.png" alt="MuSA_RT menu" width="200"/>
 
@@ -63,9 +63,23 @@ Adjust the parameters of the tonal analysis model.
 
 For example, to make active triad tracking more responsive, decrease the time constant value for Triad CE Adapt.
 
-### Settings: Audio Input
+### Settings: Input
+
+<img src="assets/images/inputFFT.png" alt="Spiral Array model of tonality" width="200"/>
+<img src="assets/images/inputMIDI.png" alt="Spiral Array model of tonality" width="200"/>
+
+Select FFT (audio) or MIDI input, visualize activation levels for pitch classes
+
+#### FFT
 
 Select audio input device, visualize input levels for pitch classes.
+
+#### MIDI
+
+View connected MIDI devices, connect to a Bluetooth device.
+
+For input activation modeling, choose whether to use sustain pedal signal, and whether to apply activation decay.
+The time constant determines how fast the activation decays (the higher the time constant, the slower the decay).
 
 ## Privacy Policy
 
@@ -73,7 +87,7 @@ The MuSA_RT app does not collect or share your personal information.
 
 ## Credits
 
-MuSA_RT 2.1.0 Copyright 2023 Alexandre R. J. François.
+MuSA_RT 2.2.0 Copyright 2023 Alexandre R. J. François.
  
 MuSA_RT 1.0 was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
 
@@ -81,4 +95,4 @@ Watch [Elaine Chew talk about using mathematical and software tools to analyze m
 
 ### Audio input
 
-MuSA_RT 2.0 gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio input and low level processing (FFT).
+MuSA_RT 2.0 gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio and MIDI input and for low level audio processing (FFT).
