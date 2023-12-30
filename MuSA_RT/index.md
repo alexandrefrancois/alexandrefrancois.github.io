@@ -33,7 +33,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 To try out the Augmented Reality mode, tap on "AR" (available only if the device supports AR).
 
-Note: MuSA_RT requires a microphone or some audio input device in order to function.
+Note: MuSA_RT requires a microphone or some audio input device in order to function in Audio mode, or a MIDI input device to function in MIDI mode. MuSA_RT does not generate sound.
 
 ### Visualization: Spiral Array
 
@@ -65,20 +65,26 @@ For example, to make active triad tracking more responsive, decrease the time co
 
 ### Settings: Input
 
-<img src="assets/images/inputFFT.png" alt="Spiral Array model of tonality" width="200"/>
-<img src="assets/images/inputMIDI.png" alt="Spiral Array model of tonality" width="200"/>
+<img src="assets/images/inputFFT.png" alt="FFT (audio) input" width="200"/>
+<img src="assets/images/inputMIDI.png" alt="MIDI input" width="200"/>
 
-Select FFT (audio) or MIDI input, visualize activation levels for pitch classes
+Select and configure **FFT** (audio) or **MIDI** input, visualize activation levels for pitch classes
 
 #### FFT
 
-Select audio input device, visualize input levels for pitch classes.
+Select an audio input device from the dropdown list.
 
 #### MIDI
 
-View connected MIDI devices, connect to a Bluetooth device.
+View connected MIDI devices. To connect to a Bluetooth MIDI device, tap the antenna button. Set the Bluetooth device in pairing mode. When the device appears in the list, tap Connect.
 
-For input activation modeling, choose whether to use sustain pedal signal, and whether to apply activation decay.
+<img src="assets/images/inputMIDI-bluetooth-scan.png" alt="Tap the antenna button to initiate Bluetooth scan" width="100"/>
+<img src="assets/images/MIDI-bluetooth-scanning.png" alt="Searching for Bluetooth LE devices" width="100"/>
+<img src="assets/images/MIDI-bluetooth-not-connected.png" alt="Device not connected" width="100"/>
+<img src="assets/images/MIDI-bluetooth-connected.png" alt="Device connected" width="100"/>
+<img src="assets/images/inputMIDI-connected.png" alt="Bluetooth MIDI input" width="100"/>
+
+For input activation modeling, choose whether to use sustain pedal signal, and whether to apply an activation decay.
 The time constant determines how fast the activation decays (the higher the time constant, the slower the decay).
 
 ## Privacy Policy
