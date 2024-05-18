@@ -53,7 +53,7 @@ The spectrogram plots the amplitude levels of the resonators in a resonator bank
 
 In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Amplitude levels are color mapped, low to high, from green through yellow to red.
 
-**Frequency label**: spectrogram frequency value and closest note names at the level indicated by the line.
+**Frequency label**: spectrogram frequency value at the level indicated by the line.
 Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
@@ -78,7 +78,7 @@ The amplitude graph plots the current amplitude of each resonator in the bank. T
 **Max value**: controls the value range for amplitude plotting.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Frequency index**: graph frequency value and closest note names at the index.
+**Frequency index**: graph frequency value at the index.
 Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
