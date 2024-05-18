@@ -27,7 +27,7 @@ For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonat
 
 ## User Guide
 
-Version 2 - Resonator Banks: spectrogram, frequency analysis, dynamics analysis.
+Version 2.1 - Resonator Banks: spectrogram, frequency analysis, dynamics analysis.
 
 <img src="assets/images/menu.png" alt="Oscillators menu" width="300"/>
 
@@ -112,21 +112,17 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude for all phases, an estimate of the observed frequency, and the corresponding Doppler velocity (assuming a source that emits a signal at the resonator's resonant frequency).
 
-<img src="assets/images/resonator-full-scaling.png" alt="Resonator tool" width="300"/>
+<img src="assets/images/resonator.png" alt="Resonator tool" width="300"/>
 
 **Target frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Resonant frequency**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
+**Resonant frequency**: the *actual* resonant frequency of the oscillator, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
 **Tracked frequency**: an estimate of the frequency present in the input signal that causes the resonance; most meaningful in the case of a single frequency signal.
 
 **Doppler velocity**: the Doppler velocity estimated from the difference between the resonant frequency and the observed frequency. A negative value means the observer and source are getting closer.
 
-**Phases graph**: a plot of the amplitude of oscillations at each phase.
-
-- Tap on the gear icon to reveal/hide the scaling control (adjust the maximum amplitude value for display with the wheel)
-- Amplitude: the maximum amplitude value across the phases (taken as the amplitude of resonant oscillations for the resonator)
-- Count: the number of phases computed (also the number of samples in the resonator's period)
+**Phase**: the estimated phase difference between the input signal and the resonator.
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -142,7 +138,7 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 **Simulation controls**: a capsule pinned at the bottom of the screen contains the current timestamp (in s), a play/pause toggle and a step button which advances the simulation by one sample duration.
 
-<img src="assets/images/generator-resonator-full.png" alt="Generator to resonator tool" width="300"/>
+<img src="assets/images/generator-resonator.png" alt="Generator to resonator tool" width="300"/>
 
 **Generator frequency**: the *desired* generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -154,7 +150,7 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 **Gauge display**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
 
-**Phases**: a plot of the amplitudes at each phase.
+**Phase**: the estimated phase difference between the input signal and the resonator. This quantity is constant if the generated signal's frequency is equal to the resonator's resonant frequency. If the frequency of the generated signal is close to that of the resonance frequency of the oscillator, the rate of change in the estimated phase difference can be used to compute the exact frequency of the generated signal. 
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -171,7 +167,6 @@ The live tools feature dedicated Setting sheets, accessed via the gear icon in t
 **Update heuristic**: The resonator banks offer three update functions:
 - Sequential: calls the update function for each resonator sequentially
 - Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
-- Gradient Frequency heuristic: groups update calls from both ends of the bank, which should work well for Gradient Frequency banks as this should results in tasks of similar complexity (in a Gradient Frequency bank, the resonators are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency)
 
 **Performance measurements**:
 - Processing time per sample (in ns): the average time taken to process one audio sample
@@ -186,7 +181,7 @@ Fun with Oscillator does not collect or share your personal information. In part
 
 ## Credits
 
-Oscillators Copyright 2022 Alexandre R. J. François.
+Oscillators Copyright 2022-2024 Alexandre R. J. François.
  
 - Oscillators gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio input.
 - Oscillators uses [Wheel Control](https://github.com/alexandrefrancois/WheelControl) to afford better precision than the standard slider when adjusting a value within a range.
