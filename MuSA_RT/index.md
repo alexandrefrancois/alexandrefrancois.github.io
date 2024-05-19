@@ -23,7 +23,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 <div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
-## User Guide (v. 2.2.0)
+## User Guide (v. 3.0.0)
 
 <img src="assets/images/menu.png" alt="MuSA_RT menu" width="200"/>
 
@@ -93,12 +93,12 @@ The MuSA_RT app does not collect or share your personal information.
 
 ## Credits
 
-MuSA_RT 2.2.0 Copyright 2023 Alexandre R. J. François.
+MuSA_RT Copyright 2012-2024 Alexandre R. J. François.
  
-MuSA_RT 1.0 was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
+MuSA_RT 1.0, released in 2012, was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
 
 Watch [Elaine Chew talk about using mathematical and software tools to analyze music](https://www.youtube.com/watch?v=4GPwVNPuKuA).
 
 ### Audio input
 
-MuSA_RT 2.0 gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio and MIDI input and for low level audio processing (FFT).
+MuSA_RT gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio and MIDI input and for low level audio processing (FFT).
