@@ -23,7 +23,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 <div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
-## User Guide (v. 2.2.0)
+## User Guide (v. 3.0.0)
 
 <img src="assets/images/menu.png" alt="MuSA_RT menu" width="200"/>
 
@@ -45,11 +45,20 @@ Pitch, triads and keys correspond to locations in the 3D space contained inside 
 
 ### Settings: Visuals
 
+#### Pitch / Triad / Key
 Select and configure the objects presented in the 3D visualization: pitches, triads, key and associated Center of Effects (CEs).
 
-**Enable/disable auto-rotate**: when enabled, the model smoothly rotates so that the camera faces the active triad (if any)
+#### Orientation
 
-The **movement** time constant determines how fast the rotation occurs (the higher the time constant, the slower the motion)
+**Face labels inward**: when enabled, the pitch labels face towards the axis of the spirals and if **orient** is on, the spiral array rotates to show the active triad on the far side (from the viewpoint adopted in the 3D view), like in the original MuSA_RT. If this switch is off, the labels face outward and the active triad would be displayed in front, a setting more suitable for the AR scenario.
+
+**Orient**: when enabled, the model smoothly rotates so that the currently active triad (if any) faces the "front" of the array in AR (corresponds to the user's viewpoint in 3D mode)
+
+***Adjust heigt***: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
+
+The **movement** time constant determines how fast the motion occurs (the higher the time constant, the slower the motion)
+
+#### Background
 
 Select **dark/light/auto** background mode.
 
@@ -93,12 +102,12 @@ The MuSA_RT app does not collect or share your personal information.
 
 ## Credits
 
-MuSA_RT 2.2.0 Copyright 2023 Alexandre R. J. François.
+MuSA_RT Copyright 2012-2024 Alexandre R. J. François.
  
-MuSA_RT 1.0 was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
+MuSA_RT 1.0, released in 2012, was originally commissioned by Elaine Chew's [MuCoaCo Lab](http://mucoaco.blogspot.com) as part of the [Music on the Spiral Array . Real Time](http://musa-rt.blogspot.com) (MuSA.RT) project, and as companion software to her Springer ORMS Series book [Mathematical and Computational Modeling of Tonality: Theory and Applications (2014)](https://link.springer.com/book/10.1007/978-1-4614-9475-1).
 
 Watch [Elaine Chew talk about using mathematical and software tools to analyze music](https://www.youtube.com/watch?v=4GPwVNPuKuA).
 
 ### Audio input
 
-MuSA_RT 2.0 gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio and MIDI input and for low level audio processing (FFT).
+MuSA_RT gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio and MIDI input and for low level audio processing (FFT).
