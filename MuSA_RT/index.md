@@ -23,7 +23,7 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 <div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
 
-## User Guide (v. 3.0.0)
+## User Guide (v. 3.0)
 
 <img src="assets/images/menu.png" alt="MuSA_RT menu" width="200"/>
 
@@ -54,7 +54,7 @@ Select and configure the objects presented in the 3D visualization: pitches, tri
 
 **Orient**: when enabled, the model smoothly rotates so that the currently active triad (if any) faces the "front" of the array in AR (corresponds to the user's viewpoint in 3D mode)
 
-***Adjust heigt***: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
+**Adjust heigt**: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
 
 The **movement** time constant determines how fast the motion occurs (the higher the time constant, the slower the motion)
 
