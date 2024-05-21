@@ -45,11 +45,20 @@ Pitch, triads and keys correspond to locations in the 3D space contained inside 
 
 ### Settings: Visuals
 
+#### Pitch / Triad / Key
 Select and configure the objects presented in the 3D visualization: pitches, triads, key and associated Center of Effects (CEs).
 
-**Enable/disable auto-rotate**: when enabled, the model smoothly rotates so that the camera faces the active triad (if any)
+#### Orientation
 
-The **movement** time constant determines how fast the rotation occurs (the higher the time constant, the slower the motion)
+**Face labels inward**: when enabled, the pitch labels face towards the axis of the spirals and if **orient** is on, the spiral array rotates to show the active triad on the far side (from the viewpoint adopted in the 3D view), like in the original MuSA_RT. If this switch is off, the labels face outward and the active triad would be displayed in front, a setting more suitable for the AR scenario.
+
+**Orient**: when enabled, the model smoothly rotates so that the currently active triad (if any) faces the "front" of the array in AR (corresponds to the user's viewpoint in 3D mode)
+
+***Adjust heigt***: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
+
+The **movement** time constant determines how fast the motion occurs (the higher the time constant, the slower the motion)
+
+#### Background
 
 Select **dark/light/auto** background mode.
 
