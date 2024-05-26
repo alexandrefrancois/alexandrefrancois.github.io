@@ -21,7 +21,9 @@ MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wik
 The app analyzes the audio signal received from a microphone to determine pitch names, maintain short term and longterm tonal context trackers, each a Center of Effect (CE), and compute the closest triads (3-note chords) and keys as the music unfolds in performance.  
 The 3D view presents a graphical representations of these tonal entities in context, smoothly rotating the virtual camera to provide an unobstructed view of the current information. These graphics can also be visualized in an experimental Augmented Reality on compatible devices.
 
-<div style="text-align: left;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hZ2kJdeRo_Q" width="560"></iframe></div>
+<div style="text-align: left;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I3Ytz6oTPgs?si=nand1MMXGpkJZnsb" title="MuSA_RT video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## User Guide (v. 3.0)
 
@@ -54,7 +56,7 @@ Select and configure the objects presented in the 3D visualization: pitches, tri
 
 **Orient**: when enabled, the model smoothly rotates so that the currently active triad (if any) faces the "front" of the array in AR (corresponds to the user's viewpoint in 3D mode)
 
-**Adjust heigt**: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
+**Adjust height**: when enabled, the Spiral Array smoothly moves vertically so the active triad remains centered at a reference height, and remains vertically centered in the 3D view.
 
 The **movement** time constant determines how fast the motion occurs (the higher the time constant, the slower the motion)
 
