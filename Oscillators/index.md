@@ -7,17 +7,14 @@ description: by Alexandre R.J. François
 <img src="assets/images/oscillators.png" alt="Oscillators" width="160"/>
 
 <a href="https://apps.apple.com/us/app/oscillators/id1641353759" style="margin-left: auto; margin-right: auto;">
-<img border="0" width="200" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+<img border="0" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
 </a>
 
 </td>
 <td>
-Oscillators offers educational tools for experimenting with digital resonators.
+Oscillators offers educational tools for experimenting with digital resonators, especially in the context of audio analysis.
 This app particularly encourages live experimentation with microphone input.
 </td></tr></table>
-
-**By design, the oscillators in this app can only be tuned to frequencies that correspond to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).**
-For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonator) can be tuned exactly at 441Hz. However, if the requested frequency is for example 440Hz, the oscillator will be tuned to the closest frequency meeting the requirements, in this case 441Hz.
 
 ## Demonstrations
 
@@ -27,27 +24,35 @@ For example, for a sampling rate of 44.1kHz, an oscillator (generator or resonat
 
 ## User Guide
 
-Version 2.1 - Resonator Banks: spectrogram, frequency analysis, dynamics analysis.
+Version 3.0
 
-<img src="assets/images/menu.png" alt="Oscillators menu" width="300"/>
+<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
+<img src="assets/images/menu.png" alt="Oscillators menu" width="512"/>
+
+</td>
+<td>
 
 ### Quick Start
 
 1. Start the app and allow access to the microphone when prompted (needed for live sound processing)
-2. Tap on "Spectrogram" or "Frequency Analysis" to navigate to a live input screen.
+2. Tap on "Spectrogram" or "Frequency analysis" to navigate to a live input screen.
 3. Play some music (or sing?) and see what happens.
 
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
+This app demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package: efficient implementations of sinusoidal resonators tuned at arbitrary frequencies, and banks of such resonators, with vectorized SIMD accelerated implementation.
+
 The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
+
+</td></tr></table>
 
 ### Live
 
-Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select the one to use. 
+Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select which one to use. 
 
 #### Spectrogram
 
-The spectrogram plots the amplitude levels of the resonators in a resonator bank over time. The resonators in the bank are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency (Gradient Frequency bank).
+The spectrogram plots the amplitude levels of the resonators in a resonator bank over time. The resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
 
 <img src="assets/images/spectrogram.png" alt="Spectrogram" width="300"/>
 
@@ -66,7 +71,7 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 #### Frequency Analysis
 
-For frequency analysis, the resonators in the bank are tuned to natural frequencies based on human auditory perception and organized from lowest to highest frequency (Gradient Frequency bank).
+For frequency analysis, the resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
 
 <img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="300"/>
 
@@ -94,9 +99,7 @@ For dynamics analysis, all resonators in the bank are tuned to the same frequenc
 
 The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing time constant value from left to right on the horizontal axis.
 
-**Target frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
-**Resonant frequency**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
+**Resonant frequency**: the resonant frequency of the resonators.
 
 **Peak**: the current maximum amplitude value across the resonators in the bank.
 
@@ -110,19 +113,17 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 #### Resonator
 
-The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude for all phases, an estimate of the observed frequency, and the corresponding Doppler velocity (assuming a source that emits a signal at the resonator's resonant frequency).
+The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude, the phase between the resonator sinusoid and the input's signal when resonnance occurs, an estimate of the observed frequency from the observed phase drift, and the Doppler velocity correspopnding to the difference between resonant and tracked frequencies, assuming a source that emits a signal at the resonator's resonant frequency.
 
 <img src="assets/images/resonator.png" alt="Resonator tool" width="300"/>
 
-**Target frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
-**Resonant frequency**: the *actual* resonant frequency of the oscillator, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
+**Resonant frequency**: the resonant frequency of the resonator.
 
 **Tracked frequency**: an estimate of the frequency present in the input signal that causes the resonance; most meaningful in the case of a single frequency signal.
 
 **Doppler velocity**: the Doppler velocity estimated from the difference between the resonant frequency and the observed frequency. A negative value means the observer and source are getting closer.
 
-**Phase**: the estimated phase difference between the input signal and the resonator.
+**Phase**: the estimated phase difference between the input signal and the resonator's sinusoid.
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -140,17 +141,15 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 <img src="assets/images/generator-resonator.png" alt="Generator to resonator tool" width="300"/>
 
-**Generator frequency**: the *desired* generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+**Generator frequency**: the generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds). The generator produces a sinusoidal signal.
 
-**Actual**: the *actual* generator frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
+**Resonator frequency**: the resonant frequency of the resonator, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Generator waveform**: tap on the gear icon to show/hide the waveform graph and selection buttons: Square, Triangle, Saw, Sine or Silence.
+**Tracked frequency**: an estimate of the frequency of the sinusoid signal produced by the generator.
 
-**Resonator frequency**: the *desired* resonant frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+**Doppler velocity**: the Doppler velocity estimated from the difference between the resonant frequency and the observed frequency. A negative value means the observer and source are getting closer.
 
-**Gauge display**: the *actual* resonant frequency, i.e. the closest frequency that corresponds to a period length that is a multiple of the sample duration (dictated by the sampling rate of the signal).
-
-**Phase**: the estimated phase difference between the input signal and the resonator. This quantity is constant if the generated signal's frequency is equal to the resonator's resonant frequency. If the frequency of the generated signal is close to that of the resonance frequency of the oscillator, the rate of change in the estimated phase difference can be used to compute the exact frequency of the generated signal. 
+**Phase**: the estimated phase difference between the input signal and the resonator's sinusoid. This quantity is constant if the generated signal's frequency is equal to the resonator's resonant frequency. If the frequency of the generated signal is close to that of the resonance frequency of the resonator, the rate of change in the estimated phase difference can be used to compute the exact frequency of the generated signal ("tracked frequency"). 
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
@@ -159,14 +158,21 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 The live tools feature dedicated Setting sheets, accessed via the gear icon in the top right of the screen.
 
+Resonator settings:
+
 <img src="assets/images/resonator-settings.png" alt="Resonator settings" width="300"/>
+
+Resonator bank settings:
+
 <img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
 
 **Implementation selection**: resonators and resonator banks come in Swift and C++ implementations, for direct performance comparison.
 
-**Update heuristic**: The resonator banks offer three update functions:
+**Update model**: The resonator banks offer two update models (for the non-vectorized implementation):
 - Sequential: calls the update function for each resonator sequentially
 - Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
+
+The vectorized implementation performs updates in parallel, levaraging the SIMD architecture where available. 
 
 **Performance measurements**:
 - Processing time per sample (in ns): the average time taken to process one audio sample
@@ -182,6 +188,7 @@ Fun with Oscillator does not collect or share your personal information. In part
 ## Credits
 
 Oscillators Copyright 2022-2024 Alexandre R. J. François.
- 
+
+- Oscillators demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package.
 - Oscillators gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio input.
 - Oscillators uses [Wheel Control](https://github.com/alexandrefrancois/WheelControl) to afford better precision than the standard slider when adjusting a value within a range.
