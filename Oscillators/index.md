@@ -26,12 +26,6 @@ This app particularly encourages live experimentation with microphone input.
 
 Version 3.0
 
-<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
-<img src="assets/images/menu.png" alt="Oscillators menu" width="512"/>
-
-</td>
-<td>
-
 ### Quick Start
 
 1. Start the app and allow access to the microphone when prompted (needed for live sound processing)
@@ -44,8 +38,6 @@ This app demonstrates the most significant features of the open source [Oscillat
 
 The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
-</td></tr></table>
-
 ### Live
 
 Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select which one to use. 
@@ -54,7 +46,7 @@ Live audio processing tools, use the microphone as input. This requires running 
 
 The spectrogram plots the amplitude levels of the resonators in a resonator bank over time. The resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
 
-<img src="assets/images/spectrogram.png" alt="Spectrogram" width="300"/>
+<img src="assets/images/spectrogram.png" alt="Spectrogram" width="512"/>
 
 In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Amplitude levels are color mapped, low to high, from green through yellow to red.
 
@@ -73,7 +65,7 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 For frequency analysis, the resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
 
-<img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="300"/>
+<img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="512"/>
 
 The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing frequency from left to right on the horizontal axis.
 
@@ -95,7 +87,7 @@ Move line with the wheel control (drag the wheel to adjust the value, double-tap
 
 For dynamics analysis, all resonators in the bank are tuned to the same frequency, and each resonator has a different time constant, set as a function of the frequency. The time constant regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonator.
 
-<img src="assets/images/dynamics-analysis.png" alt="Dynamics analysis" width="300"/>
+<img src="assets/images/dynamics-analysis.png" alt="Dynamics analysis" width="512"/>
 
 The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing time constant value from left to right on the horizontal axis.
 
