@@ -86,7 +86,7 @@ The time constant determines how fast the activation decays (the larger the time
 
 #### Remote
 
-Connect to a [MuSA_RT streaming server](#streaming) to render the results of the analysis performed remotely. Server and receiving devices must be connected to the same local WiFi network.
+Connect to a [MuSA_RT streaming server](#streaming) to render the results of the analysis performed remotely. Server and receiving devices must be connected to the same local network.
 
 [<img src="assets/images/input-remote-not-connected.png" alt="Remote input: scan QR code" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-not-connected.png)
 [<img src="assets/images/input-remote-connected.png" alt="Remote input: connected" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-connected.png)
@@ -132,7 +132,7 @@ For example, to make active triad tracking more responsive, decrease the time co
 ### Streaming
 
 Stream local analysis results to connected MuSA_RT instances in remote input mode.
-Server and clients must be connected to the same local WiFi network.
+Server and clients must be connected to the same local network.
 
 [<img src="assets/images/streaming-not-started.png" alt="Streaming: start server" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-not-started.png)
 [<img src="assets/images/streaming-started.png" alt="Streaming" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-started.png)
