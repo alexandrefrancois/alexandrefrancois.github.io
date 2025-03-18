@@ -63,7 +63,8 @@ Move line with the wheel control (drag the wheel to adjust the value, double-tap
 
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
 
-**Hop length**: controls the time interval between vertical slices of the spectrogram. The lower the value, the higher the time resolution of the spectrogram display.
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Max value**: controls the maximum power value for dB conversion.
@@ -153,7 +154,8 @@ The right part shows the current temporal slice of the spectrogram reorganized i
 
 <img src="assets/images/chromagram.png" alt="Chromagram" width="512"/>
 
-**Hop length**: controls the time interval between vertical slices of the spectrogram. The lower the value, the higher the time resolution of the chromagram display.
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Max value**: controls the maximum power value for dB conversion.
@@ -183,7 +185,8 @@ The plot shows coefficients 1-21, from bottom on the vertical axis, as a functio
 
 <img src="assets/images/mfccs.png" alt="MFCCs" width="512"/>
 
-**Hop length**: controls the time interval between vertical slices of the spectrogram. The lower the value, the higher the time resolution of the MFCC display.
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Normalize powers**: Apply adaptive total power normalization to power values.
@@ -203,7 +206,7 @@ Resonator bank settings:
 
 <img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
 
-**Frame size**: The frame size(number of samples) for audio input processing. This also sets the minimum hop length for spectrogram-based features.
+**Frame size**: The frame size (number of samples) for audio input processing. This also sets the minimum and possible values of hop length for spectrogram-based features.
 
 **Implementation selection**: resonators and resonator banks come in Swift and C++ implementations, for direct performance comparison.
 
