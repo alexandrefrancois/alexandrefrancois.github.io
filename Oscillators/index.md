@@ -4,15 +4,16 @@ description: by Alexandre R.J. François
 ---
 
 <table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
-<img src="assets/images/oscillators.png" alt="Oscillators" width="160"/>
+<img src="assets/images/oscillators.png" alt="Oscillators" width="320"/>
 
 <a href="https://apps.apple.com/us/app/oscillators/id1641353759" style="margin-left: auto; margin-right: auto;">
-<img border="0" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+<img border="0" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="320" />
 </a>
 
 </td>
 <td>
 Oscillators offers educational tools for experimenting with digital resonators, especially in the context of audio analysis.
+In particular, it demonstrates the use of the <a href="../Resonate">Resonate</a> algorithm for efficient, high temporal resolution spectral analysis of audio signal.
 This app particularly encourages live experimentation with microphone input.
 </td></tr></table>
 
@@ -24,7 +25,7 @@ This app particularly encourages live experimentation with microphone input.
 
 ## User Guide
 
-Version 3.0
+Version 4.0
 
 ### Quick Start
 
@@ -35,6 +36,7 @@ Version 3.0
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
 This app demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package: efficient implementations of sinusoidal resonators tuned at arbitrary frequencies, and banks of such resonators, with vectorized SIMD accelerated implementation.
+Such banks implement the _Resonate_ algorithm for efficient, high temporal resolution spectral analysis of audio signal, as illustrated in the Spectrogram, Chrhomagram and MFCCs tools.
 
 The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
@@ -44,26 +46,44 @@ Live audio processing tools, use the microphone as input. This requires running 
 
 #### Spectrogram
 
-The spectrogram plots the amplitude levels of the resonators in a resonator bank over time. The resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
+The spectrogram plots the power (squared amplitude) levels of the resonators in a resonator bank over time.
+Resonators are independently tuned according to the selected frequency scale, and the time constants are set with the heuristic $$\alpha_f = 1-e^{-\Delta t\frac{f}{log(1+f)} }$$.
 
-<img src="assets/images/spectrogram.png" alt="Spectrogram" width="512"/>
+<img src="assets/images/spectrogram_resonate.png" alt="Spectrogram" width="512"/>
 
-In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Amplitude levels are color mapped, low to high, from green through yellow to red.
+In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Power levels are color mapped (logarithmic scale) to assign brighter colors to higher power.
 
 **Frequency label**: spectrogram frequency value at the level indicated by the line.
 Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
+**Frequency scale**:  The resonators in the bank are tuned to the selected frequency scale. In the current version, frequency numbers and range are preset.
+- Linear:
+- Logarithmic (default): 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave.
+- Mel: 127 frequency bins from 23.75 to 8000Hz.
+
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
 
-**Max amplitude value**: controls the value range mapped to the color range for plotting.
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonators. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+**Max value**: controls the maximum power value for dB conversion.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Spectrogram dB cutoff**: controls the dB value value below which values are mapped to the lowest bin in the color map.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+
+**Normalize powers**: Apply adaptive total power normalization to power values.
+
+**Equalize powers**: Apply equalization from bank frequency responses to power values.
+
+**Non-maxima suppression**: Apply non maxima suppression filter to power values (applies to each resonator and its immediate neighbors).
 
 
 #### Frequency Analysis
 
-For frequency analysis, the resonators in the bank are tuned to natural frequencies in the human auditory perception range and organized from lowest to highest frequency (Gradient Frequency bank).
+For frequency analysis, the resonators in the bank are tuned to a log frequency scale (100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave), organized from lowest to highest frequency.
 
 <img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="512"/>
 
@@ -79,28 +99,6 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
-
-**Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonators. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
-
-#### Dynamics Analysis
-
-For dynamics analysis, all resonators in the bank are tuned to the same frequency, and each resonator has a different time constant, set as a function of the frequency. The time constant regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonators. The shorter the time constant the more reactive the resonator.
-
-<img src="assets/images/dynamics-analysis.png" alt="Dynamics analysis" width="512"/>
-
-The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing time constant value from left to right on the horizontal axis.
-
-**Resonant frequency**: the resonant frequency of the resonators.
-
-**Peak**: the current maximum amplitude value across the resonators in the bank.
-
-**Count**: the number of resonators in the bank.
-
-**Max value**: controls the value range for amplitude plotting.
-Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
-**Time constants**: Time constant range covered by the bank and optional list of individual time constants for each resonator.
 
 
 #### Resonator
@@ -146,6 +144,56 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 
+### Audio Features
+
+#### Chromagram
+
+Chroma are important audio features in many Music Information Retrieval systems, for such tasks as audio and score alignment, and artist identification. Other real-time uses of chroma information include analysis visualization systems, and performance systems that require tonal context estimation.
+The chromagram is computed from the log frequency spectrogram by summing up power contributions in each time slice across the spectrum into 12 semi-tome bins, in effect dropping octave information to capture tonality. 
+The right part shows the current temporal slice of the spectrogram reorganized into pitch classes on the vertical axis, from C (bottom) to to E (top), with octaves on the horizontal axis (increasing left to right). The left part is the chromagram, with same pitch classes on the vertical axis and time on the horizontal axis.
+
+<img src="assets/images/chromagram.png" alt="Chromagram" width="512"/>
+
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Max value**: controls the maximum power value for dB conversion.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Spectrogram dB cutoff**: controls the dB value value below which values are mapped to the lowest bin in the color map.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Time constant**: controls the time constant for chroma smoothing, to capture tonal context. The default is no smoothing.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+
+**Normalize powers**: Apply adaptive total power normalization to power values.
+
+**Equalize powers**: Apply equalization from bank frequency responses to power values.
+
+**Normalize chroma**: Divide chroma values by the maximum in each time slice. When on, chroma values are color mapped linearly. When off, chroma values are converted to dB (log scale as for the spectrograms).
+
+**Non-maxima suppression**: Apply non maxima suppression filter to power values (applies to each resonator and its immediate neighbors).
+
+
+#### MFCCs
+
+MFCCs are audio signal features that have been successfully used in speech recognition and speaker identification. In music, they characterize timbre, and have been used in Music Information Retrieval tasks such as genre classification and similarity estimation. They are also used in some real-time improvisation systems.
+MFCCs are the amplitudes of the spectrum of the mel frequency spectrogram of the audio signal, obtained by applying a Direct Cosine Transform to each time slice of the log power mel-frequency spectrogram.
+The plot shows coefficients 1-21, from bottom on the vertical axis, as a function of time (horizontal axis). MFCC values are mapped to a dB color scale, from darker blue for negative values, through white for 0, and to darker red for positive values.
+
+<img src="assets/images/mfccs.png" alt="MFCCs" width="512"/>
+
+**Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
+The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Normalize powers**: Apply adaptive total power normalization to power values.
+
+**Equalize powers**: Apply equalization from bank frequency responses to power values.
+
+
 ### Setting Screens
 
 The live tools feature dedicated Setting sheets, accessed via the gear icon in the top right of the screen.
@@ -158,13 +206,15 @@ Resonator bank settings:
 
 <img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
 
+**Frame size**: The frame size (number of samples) for audio input processing. This also sets the minimum and possible values of hop length for spectrogram-based features.
+
 **Implementation selection**: resonators and resonator banks come in Swift and C++ implementations, for direct performance comparison.
 
 **Update model**: The resonator banks offer two update models (for the non-vectorized implementation):
 - Sequential: calls the update function for each resonator sequentially
 - Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
 
-The vectorized implementation performs updates in parallel, levaraging the SIMD architecture where available. 
+The vectorized implementations perform updates in parallel, levaraging the SIMD architecture where available. 
 
 **Performance measurements**:
 - Processing time per sample (in ns): the average time taken to process one audio sample
@@ -179,7 +229,7 @@ Fun with Oscillator does not collect or share your personal information. In part
 
 ## Credits
 
-Oscillators Copyright 2022-2024 Alexandre R. J. François.
+Oscillators Copyright 2022-2025 Alexandre R. J. François.
 
 - Oscillators demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package.
 - Oscillators gratefully uses [AudioKit v5](https://github.com/AudioKit/AudioKit) for audio input.
