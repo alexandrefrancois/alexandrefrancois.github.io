@@ -21,7 +21,7 @@ A compact, iterative formulation of the model affords computing an update at eac
 Each resonator, characterized by its resonant frequency $$f = \frac{\omega}{2\pi}$$, is described by a complex number $$R$$ whose amplitude captures the contribution of the input signal component around frequency $$f$$.
 The formulas below capture the recursive update for $$R$$ by way of a phasor $$P$$, applied for each sample $$x$$ of a real-valued input signal $$x(t) \in [-1,1]$$, regularly sampled at sampling rate $$sr$$. $$\Delta t=1/sr$$ is the sample duration, and $$\alpha \in [0,1]$$ is a constant parameter that dictates how much each new measurement affects the accumulated value.
  
-\[ P \leftarrow P e^{-i \omega \Delta t} \]
+$$P \leftarrow P e^{-i \omega \Delta t}$$
 
 $$R \leftarrow (1-\alpha) R + \alpha x P$$
 
