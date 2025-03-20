@@ -44,12 +44,12 @@ A Resonate oscillator bank with adequately tuned resonators computes an arbitrar
 
 <p>
     <img src="assets/images/log-spectrograms.png" alt="Log-frequency scale spectrograms"/>
-    <em>Log-frequency power spectrograms of [Librosa](https://librosa.org)'s vibeace music example, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 512 samples, 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave).</em>
+    <em>Log-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s vibeace music example, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 512 samples, 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave).</em>
 </p>
 
 <p>
     <img src="assets/images/mel-spectrograms.png" alt="Mel-frequency scale spectrograms"/>
-    <em>Mel-frequency power spectrograms of Librosa's Libri3 speech sample, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 32 samples, 128 frequency bins from 0 to 8000Hz).</em>
+    <em>Mel-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s Libri3 speech sample, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 32 samples, 128 frequency bins from 0 to 8000Hz).</em>
 </p>
 
 
