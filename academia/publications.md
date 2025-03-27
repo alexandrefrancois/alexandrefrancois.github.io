@@ -4,6 +4,11 @@ title: Academic Publications
 
 ### Highlights
 
+Alexandre R.J. François,
+"Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
+to appear in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+Boston, MA, USA, 8-14 June 2025.
+
 Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
 
 Alexandre R.J. François, Elaine Chew and Dennis Thurmond, "Performer Centered Visual Feedback for Human-Machine Improvisation," [_ACM Computers in Entertainment_](https://dl.acm.org/magazine/cie), vol. 9, no. 3, November 2011, 13 pages. [ACM Digital Library](https://dl.acm.org/doi/10.1145/2027456.2027459)
@@ -74,6 +79,13 @@ Alexandre R.J. François, Gérard G. Medioni and Roman Waupotitsch, "Mirror Symm
 Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extraction From a Single Image," [_Image and Vision Computing_](https://www.sciencedirect.com/journal/image-and-vision-computing), vol. 19, no. 6, April 2001, pp. 317-328. [[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0262885600000810)]
 
 ## Refereed conference proceedings
+
+<p id="ICMC2025"></p>
+
+Alexandre R.J. François,
+"Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
+to appear in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+Boston, MA, USA, 8-14 June 2025.
 
 <p id="ISPS2011"></p>
 
