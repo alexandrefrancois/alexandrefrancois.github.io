@@ -16,6 +16,14 @@ description: Software Engineer and Researcher
 | [events](/academia/events)
 | [teaching](/academia/teaching)
 
+
+## Introducing [Resonate](/Resonate)
+
+I will be presenting my paper "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
+at the 50th Anniversary of the International Computer Music Conference 2025 in Boston, MA, USA this June.
+
+In the meantime, check out the [Resonate Youtube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) and the [Oscillators app](https://alexandrefrancois.org/Oscillators/), which demonstrates real-time spectrograms and derived audio features.
+
 ## Published Apps
 
 - [Oscillators](/Oscillators): Experiment with digital resonators.
@@ -25,6 +33,7 @@ description: Software Engineer and Researcher
 ### Open Source Projects
 
 - [Oscillators](https://github.com/alexandrefrancois/Oscillators): Digital oscillator models for signal synthesis and analysis, suitable for real-time audio processing.
+- [noFFT](https://github.com/alexandrefrancois/noFFT): A reference implementation of the Resonate algorithm in C++ for Python.
 - [WheelControl](https://github.com/alexandrefrancois/WheelControl): A SwiftUI wheel control with multiple speeds.
 
 ### Archives

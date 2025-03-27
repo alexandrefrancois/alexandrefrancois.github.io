@@ -53,6 +53,13 @@ A Resonate oscillator bank with adequately tuned resonators computes an arbitrar
 </p>
 
 
+## Publications
+
+Alexandre R.J. François,
+"Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
+to appear in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+Boston, MA, USA, 8-14 June 2025.
+
 ## Resources
 
 - The open source python module [noFFT](https://github.com/alexandrefrancois/noFFT) provides python and C++ implementations of Resonate functions and Jupyter notebooks illustrating their use in offline settings.
