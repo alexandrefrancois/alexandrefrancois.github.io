@@ -29,6 +29,7 @@ In the meantime, check out the [Resonate Youtube playlist](https://www.youtube.c
 - [Oscillators](/Oscillators): Experiment with digital resonators.
 - [MuSA_RT](/MuSA_RT): Experience a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
 - [Priorities](/Priorities): Simply manage lists of prioritized items.
+- [Purr](/Purr): Soothe Your Screen Time. Mindful vibes. cat included.
 
 ### Open Source Projects
 
