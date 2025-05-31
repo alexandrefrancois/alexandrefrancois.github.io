@@ -17,9 +17,12 @@ Purr is a calming, minimalist experience designed to help you disconnect from ov
 Whether you’re trying to fall asleep or take a digital detox, Purr offers a soft, sensory-driven transition away from the chaos of typical phone use.
 </td></tr></table>
 
-<div style="text-align: left;">
-<iframe width="560" height="315" src="https://youtube.com/embed/3bGdv0_gu7M" title="Purr video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<center>
+<video width="220" height="480" poster="assets/images/happy_cat.jpeg" controls>
+<source src="assets/videos/purr-video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</center>
 
 &nbsp;
 

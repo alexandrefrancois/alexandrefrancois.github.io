@@ -19,6 +19,13 @@ The app is built on a few key principles: fade away visual stimulation, soften s
 
 When Purr opens, you’re greeted by a playful yet calm minimalistically drawn cat. It’s a brief and gentle visual anchor—just enough to establish comfort and familiarity without hijacking your attention. Stroke the screen, the serinely content cat starts purring, and the app begins to disappear.
 
+<center>
+<video width="220" height="480" poster="/Purr/assets/images/happy_cat.jpeg" controls>
+<source src="/Purr/assets/videos/purr-video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</center>
+
 ### From Screen to Stillness
 
 Repeatedly stroking the screen with your finger triggers a purring response, not just through sound, but primarily through subtle, rhythmic haptic feedback. The screen slowly fades to black during this interaction, reducing visual stimulation to zero. This is not a fade-to-black as an afterthought: it is the destination.
