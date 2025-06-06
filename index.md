@@ -30,6 +30,7 @@ In the meantime, check out the [Resonate Youtube playlist](https://www.youtube.c
 - [MuSA_RT](/MuSA_RT): Experience a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.
 - [Priorities](/Priorities): Simply manage lists of prioritized items.
 - [Purr](/Purr): Soothe Your Screen Time. Mindful vibes. Cat included.
+- [BreathWheel](/BreathWheel): Breathe. You're in control.
 
 ### Open Source Projects
 
