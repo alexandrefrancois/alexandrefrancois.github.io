@@ -20,7 +20,7 @@ description: Software Engineer and Researcher
 ## Introducing [Resonate](/Resonate)
 
 I will be presenting my paper "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
-at the 50th Anniversary of the International Computer Music Conference 2025 in Boston, MA, USA this June.
+at the [50th Anniversary of the International Computer Music Conference 2025](https://icmc2025.sites.northeastern.edu), June 8-14 in Boston, MA, USA.
 
 In the meantime, check out the [Resonate Youtube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) and the [Oscillators app](https://alexandrefrancois.org/Oscillators/), which demonstrates real-time spectrograms and derived audio features.
 
