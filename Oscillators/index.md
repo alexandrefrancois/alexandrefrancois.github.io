@@ -25,7 +25,7 @@ This app particularly encourages live experimentation with microphone input.
 
 ## User Guide
 
-Version 4.0
+Version 4.1
 
 ### Quick Start
 
@@ -73,12 +73,11 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 **Spectrogram dB cutoff**: controls the dB value value below which values are mapped to the lowest bin in the color map.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
+**Normalize powers**: Apply adaptive total (sum) or maximum (max) power normalization to power values.
 
-**Normalize powers**: Apply adaptive total power normalization to power values.
+**Decorrelate resonators**: Apply decorrelation weights from bank frequency responses to power values (includes equalization).
 
-**Equalize powers**: Apply equalization from bank frequency responses to power values.
-
-**Non-maxima suppression**: Apply non maxima suppression filter to power values (applies to each resonator and its immediate neighbors).
+**Equalize powers**: Apply equalization from bank frequency responses to power values (only if decorrelation is not active).
 
 
 #### Frequency Analysis
@@ -167,15 +166,13 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 **Time constant**: controls the time constant for chroma smoothing, to capture tonal context. The default is no smoothing.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-
-**Normalize powers**: Apply adaptive total power normalization to power values.
-
-**Equalize powers**: Apply equalization from bank frequency responses to power values.
+**Normalize powers**: Apply adaptive total (sum) or maximum (max) power normalization to power values.
 
 **Normalize chroma**: Divide chroma values by the maximum in each time slice. When on, chroma values are color mapped linearly. When off, chroma values are converted to dB (log scale as for the spectrograms).
 
-**Non-maxima suppression**: Apply non maxima suppression filter to power values (applies to each resonator and its immediate neighbors).
+**Decorrelate resonators**: Apply decorrelation weights from bank frequency responses to power values (includes equalization).
 
+**Equalize powers**: Apply equalization from bank frequency responses to power values (only if decorrelation is not active).
 
 #### MFCCs
 
@@ -189,9 +186,11 @@ The plot shows coefficients 1-21, from bottom on the vertical axis, as a functio
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Normalize powers**: Apply adaptive total power normalization to power values.
+**Normalize powers**: Apply adaptive total (sum) or maximum (max) power normalization to power values.
 
-**Equalize powers**: Apply equalization from bank frequency responses to power values.
+**Decorrelate resonators**: Apply decorrelation weights from bank frequency responses to power values (includes equalization).
+
+**Equalize powers**: Apply equalization from bank frequency responses to power values (only if decorrelation is not active).
 
 
 ### Setting Screens
