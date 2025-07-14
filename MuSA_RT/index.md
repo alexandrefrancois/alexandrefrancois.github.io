@@ -26,7 +26,11 @@ The 3D view presents a graphical representations of these tonal entities in cont
 
 &nbsp;
 
-## User Guide (v. 3.1)
+## User Guide
+
+Version 3.1
+
+### Quick Start
 
 <img src="assets/images/hero.png" alt="MuSA_RT 3D" width="560"/>
 
