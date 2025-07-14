@@ -17,12 +17,22 @@ description: Software Engineer and Researcher
 | [teaching](/academia/teaching)
 
 
-## Introducing [Resonate](/Resonate)
+## Latest News 
 
-I will be presenting my paper "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
-at the [50th Anniversary of the International Computer Music Conference 2025](https://icmc2025.sites.northeastern.edu), June 8-14 in Boston, MA, USA.
+"[Resonate: Efficient Low Latency Spectral Analysis of Audio Signals](/assets/publications/FrancoisARJ-ICMC2025.pdf)" won the **Best Paper Award**
+at the [50th Anniversary of the International Computer Music Conference 2025](https://icmc2025.sites.northeastern.edu), which took place June 8-14 in Boston, MA, USA.
+Details and links on the [Resonate project page](/Resonate).
 
-In the meantime, check out the [Resonate Youtube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) and the [Oscillators app](https://alexandrefrancois.org/Oscillators/), which demonstrates real-time spectrograms and derived audio features.
+<p>
+    The <a href="https://resonate.myspreadshop.co.uk">Resonate Store</a> is live!
+    <br>
+    <a href="https://resonate.myspreadshop.co.uk/resonate+white-A683760483659f379830d06b4?productType=949&sellable=bNrqpn03vETB4vVEnzqg-949-32&appearance=2&size=29">
+    <img src="/assets/images/resonate-mug.jpg" alt="Resonate logo mug" width=200/></a>
+
+    <a href="https://resonate.myspreadshop.co.uk/pump+up+the+jam-A686f7c98cf30093926266f8d?productType=635&sellable=40ZAbraYkbH0ljxw7x7v-635-7&appearance=2">
+    <img src="/assets/images/spectrogram-tshirt.jpg" alt="Resonate spectrogram t-shirt" width=200/></a>
+</p>
+
 
 ## Published Apps
 

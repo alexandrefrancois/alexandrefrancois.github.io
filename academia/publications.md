@@ -4,10 +4,11 @@ title: Academic Publications
 
 ### Highlights
 
-Alexandre R.J. François,
+**Best Paper Award** | Alexandre R.J. François,
 "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
-to appear in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
-Boston, MA, USA, 8-14 June 2025.
+in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+pp. 251-258, Boston, MA, USA, 8-14 June 2025.
+[[pdf](/assets/publications/FrancoisARJ-ICMC2025.pdf)]
 
 Alexandre R.J. François, "An Architectural Framework for the Design, Analysis and Implementation of Interactive Systems," [_The Computer Journal_](https://academic.oup.com/comjnl) (2011), vol. 54, no. 7, pp. 1188-1204. doi: [10.1093/comjnl/bxq081](https://doi.org/10.1093/comjnl/bxq081). First published online November 10, 2010.
 
@@ -82,10 +83,11 @@ Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extracti
 
 <p id="ICMC2025"></p>
 
-Alexandre R.J. François,
+**Best Paper Award** | Alexandre R.J. François,
 "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
-to appear in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
-Boston, MA, USA, 8-14 June 2025.
+in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+pp.251-258, Boston, MA, USA, 8-14 June 2025.
+[[pdf](/assets/publications/FrancoisARJ-ICMC2025.pdf)]
 
 <p id="ISPS2011"></p>
 
