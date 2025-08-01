@@ -57,9 +57,20 @@ A Resonate oscillator bank with adequately tuned resonators computes an arbitrar
 
 **Best Paper Award** | Alexandre R.J. François,
 "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
-in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
+in Proceedings of the [50th Anniversary of the International Computer Music Conference 2025](https://icmc2025.sites.northeastern.edu),
 pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 [[pdf](/assets/publications/FrancoisARJ-ICMC2025.pdf)]
+
+### Upcoming
+
+Alexandre R.J. François, "Real-time low latency audio features with Resonate" (Late-Breaking Demo Paper),
+[First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/events-calendar/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/),
+London, Sept. 8-10, 2025.
+
+Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
+[Audio Developer Conference](https://audio.dev/conference/),
+Bristol, November 10-12.
+
 
 ## Resources
 
