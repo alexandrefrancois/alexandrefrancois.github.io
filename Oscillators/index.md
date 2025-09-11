@@ -36,13 +36,13 @@ Version 4.1
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
 This app demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package: efficient implementations of sinusoidal resonators tuned at arbitrary frequencies, and banks of such resonators, with vectorized SIMD accelerated implementation.
-Such banks implement the _Resonate_ algorithm for efficient, high temporal resolution spectral analysis of audio signal, as illustrated in the Spectrogram, Chrhomagram and MFCCs tools.
+Such banks implement the [_Resonate_](/Resonate) algorithm for efficient, high temporal resolution spectral analysis of audio signal, as illustrated in the Spectrogram, Chromagram and MFCCs tools.
 
-The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphore: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
+The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphor: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
 ### Live
 
-Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select which one to use. 
+Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select which one to use.
 
 #### Spectrogram
 
@@ -56,7 +56,8 @@ In the plot, frequencies are represented on the vertical axis, lowest frequency 
 **Frequency label**: spectrogram frequency value at the level indicated by the line.
 Move line with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Frequency scale**:  The resonators in the bank are tuned to the selected frequency scale. In the current version, frequency numbers and range are preset.
+**Frequency scale**: The resonators in the bank are tuned to the selected frequency scale. In the current version, frequency numbers and range are preset.
+
 - Linear:
 - Logarithmic (default): 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave.
 - Mel: 127 frequency bins from 23.75 to 8000Hz.
@@ -70,7 +71,7 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 **Max value**: controls the maximum power value for dB conversion.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Spectrogram dB cutoff**: controls the dB value value below which values are mapped to the lowest bin in the color map.
+**Spectrogram dB cutoff**: controls the dB value below which values are mapped to the lowest bin in the color map.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Normalize powers**: Apply adaptive total (sum) or maximum (max) power normalization to power values.
@@ -78,7 +79,6 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 **Decorrelate resonators**: Apply decorrelation weights from bank frequency responses to power values (includes equalization).
 
 **Equalize powers**: Apply equalization from bank frequency responses to power values (only if decorrelation is not active).
-
 
 #### Frequency Analysis
 
@@ -99,10 +99,9 @@ Move line with the wheel control (drag the wheel to adjust the value, double-tap
 
 **Frequencies**: Frequency range covered by the bank and optional list of individual frequency tuning for each resonator.
 
-
 #### Resonator
 
-The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude, the phase between the resonator sinusoid and the input's signal when resonnance occurs, an estimate of the observed frequency from the observed phase drift, and the Doppler velocity correspopnding to the difference between resonant and tracked frequencies, assuming a source that emits a signal at the resonator's resonant frequency.
+The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude, the phase between the resonator's sine wave and the input signal when resonance occurs, an estimate of the observed frequency from the observed phase drift, and the Doppler velocity corresponding to the difference between resonant and tracked frequencies, assuming a source that emits a signal at the resonator's resonant frequency.
 
 <img src="assets/images/resonator.png" alt="Resonator tool" width="300"/>
 
@@ -112,11 +111,9 @@ The audio signal from the microphone is fed to a resonator. This tool offers a v
 
 **Doppler velocity**: the Doppler velocity estimated from the difference between the resonant frequency and the observed frequency. A negative value means the observer and source are getting closer.
 
-**Phase**: the estimated phase difference between the input signal and the resonator's sinusoid.
+**Phase**: the estimated phase difference between the input signal and the resonator's sine wave.
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
-
 
 ### Simulations
 
@@ -134,22 +131,21 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 **Resonator frequency**: the resonant frequency of the resonator, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Tracked frequency**: an estimate of the frequency of the sinusoid signal produced by the generator.
+**Tracked frequency**: an estimate of the frequency of the sine wave signal produced by the generator.
 
 **Doppler velocity**: the Doppler velocity estimated from the difference between the resonant frequency and the observed frequency. A negative value means the observer and source are getting closer.
 
-**Phase**: the estimated phase difference between the input signal and the resonator's sinusoid. This quantity is constant if the generated signal's frequency is equal to the resonator's resonant frequency. If the frequency of the generated signal is close to that of the resonance frequency of the resonator, the rate of change in the estimated phase difference can be used to compute the exact frequency of the generated signal ("tracked frequency"). 
+**Phase**: the estimated phase difference between the input signal and the resonator's sine wave. This quantity is constant if the generated signal's frequency is equal to the resonator's resonant frequency. If the frequency of the generated signal is close to that of the resonance frequency of the resonator, the rate of change in the estimated phase difference can be used to compute the exact frequency of the generated signal ("tracked frequency").
 
 **Time constant**: the parameter that regulates the dynamics of the low-pass filter through which individual contributions from each audio sample are accumulated over time in the resonator. The shorter the time constant the more reactive the resonator. Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
-
 
 ### Audio Features
 
 #### Chromagram
 
 Chroma are important audio features in many Music Information Retrieval systems, for such tasks as audio and score alignment, and artist identification. Other real-time uses of chroma information include analysis visualization systems, and performance systems that require tonal context estimation.
-The chromagram is computed from the log frequency spectrogram by summing up power contributions in each time slice across the spectrum into 12 semi-tome bins, in effect dropping octave information to capture tonality. 
-The right part shows the current temporal slice of the spectrogram reorganized into pitch classes on the vertical axis, from C (bottom) to to E (top), with octaves on the horizontal axis (increasing left to right). The left part is the chromagram, with same pitch classes on the vertical axis and time on the horizontal axis.
+The chromagram is computed from the log frequency spectrogram by summing up power contributions in each time slice across the spectrum into 12 semi-tome bins, in effect dropping octave information to capture tonality.
+The right part shows the current temporal slice of the spectrogram reorganized into pitch classes on the vertical axis, from C (bottom) to E (top), with octaves on the horizontal axis (increasing left to right). The left part is the chromagram, with same pitch classes on the vertical axis and time on the horizontal axis.
 
 <img src="assets/images/chromagram.png" alt="Chromagram" width="512"/>
 
@@ -160,7 +156,7 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 **Max value**: controls the maximum power value for dB conversion.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Spectrogram dB cutoff**: controls the dB value value below which values are mapped to the lowest bin in the color map.
+**Spectrogram dB cutoff**: controls the dB value below which values are mapped to the lowest bin in the color map.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Time constant**: controls the time constant for chroma smoothing, to capture tonal context. The default is no smoothing.
@@ -192,7 +188,6 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 **Equalize powers**: Apply equalization from bank frequency responses to power values (only if decorrelation is not active).
 
-
 ### Setting Screens
 
 The live tools feature dedicated Setting sheets, accessed via the gear icon in the top right of the screen.
@@ -210,17 +205,18 @@ Resonator bank settings:
 **Implementation selection**: resonators and resonator banks come in Swift and C++ implementations, for direct performance comparison.
 
 **Update model**: The resonator banks offer two update models (for the non-vectorized implementation):
+
 - Sequential: calls the update function for each resonator sequentially
 - Concurrent: calls update for each resonator concurrently, with update calls grouped in a fixed number of concurrent tasks
 
-The vectorized implementations perform updates in parallel, levaraging the SIMD architecture where available. 
+The vectorized implementations perform updates in parallel, leveraging the SIMD architecture where available.
 
 **Performance measurements**:
+
 - Processing time per sample (in ns): the average time taken to process one audio sample
 - Max samples per second: the inverse of the processing time per sample expressed in seconds, an extrapolation that gives an idea of what can be achieved in real time (if the sampling rate is 44.1kHz, the machine must be able to process at least 44,100 samples per second, and that does not take into account any utilization of the result in an app)
 
 **Input device**: Select the audio device to use for live input.
-
 
 ## Privacy Policy
 
