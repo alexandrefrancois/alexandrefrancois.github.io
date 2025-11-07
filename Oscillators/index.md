@@ -25,7 +25,7 @@ This app particularly encourages live experimentation with microphone input.
 
 ## User Guide
 
-Version 4.1
+Version 4.2
 
 ### Quick Start
 
@@ -68,13 +68,19 @@ Move line with the wheel control (drag the wheel to adjust the value, double-tap
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Max value**: controls the maximum power value for dB conversion.
+**Rendering**: Decibels or log compression scale.
+
+**Max value** (dB rendering only): controls the maximum power value for dB conversion.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Spectrogram dB cutoff**: controls the dB value below which values are mapped to the lowest bin in the color map.
+**Spectrogram dB cutoff** (dB rendering only): controls the dB value below which values are mapped to the lowest bin in the color map.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
+
+**Compression factor** (log compression rendering only): parameter for log compression rendering.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Normalize powers**: Apply adaptive total (sum) or maximum (max) power normalization to power values.
+Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Decorrelate resonators**: Apply decorrelation weights from bank frequency responses to power values (includes equalization).
 
@@ -145,7 +151,7 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 Chroma are important audio features in many Music Information Retrieval systems, for such tasks as audio and score alignment, and artist identification. Other real-time uses of chroma information include analysis visualization systems, and performance systems that require tonal context estimation.
 The chromagram is computed from the log frequency spectrogram by summing up power contributions in each time slice across the spectrum into 12 semi-tome bins, in effect dropping octave information to capture tonality.
-The right part shows the current temporal slice of the spectrogram reorganized into pitch classes on the vertical axis, from C (bottom) to E (top), with octaves on the horizontal axis (increasing left to right). The left part is the chromagram, with same pitch classes on the vertical axis and time on the horizontal axis.
+The right part (stack) shows the current temporal slice of the spectrogram reorganized into pitch classes on the vertical axis, from C (bottom) to E (top), with octaves on the horizontal axis (increasing left to right). The left part is the chromagram, with same pitch classes on the vertical axis and time on the horizontal axis. Both are rendered with log compression.
 
 <img src="assets/images/chromagram.png" alt="Chromagram" width="512"/>
 
@@ -153,10 +159,10 @@ The right part shows the current temporal slice of the spectrogram reorganized i
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Max value**: controls the maximum power value for dB conversion.
+**Compression factor (chroma)**: parameter for log compression rendering of chroma.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
-**Spectrogram dB cutoff**: controls the dB value below which values are mapped to the lowest bin in the color map.
+**Compression factor (stack)**: parameter for log compression rendering of stack.
 Adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds).
 
 **Time constant**: controls the time constant for chroma smoothing, to capture tonal context. The default is no smoothing.
@@ -174,7 +180,7 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 
 MFCCs are audio signal features that have been successfully used in speech recognition and speaker identification. In music, they characterize timbre, and have been used in Music Information Retrieval tasks such as genre classification and similarity estimation. They are also used in some real-time improvisation systems.
 MFCCs are the amplitudes of the spectrum of the mel frequency spectrogram of the audio signal, obtained by applying a Direct Cosine Transform to each time slice of the log power mel-frequency spectrogram.
-The plot shows coefficients 1-21, from bottom on the vertical axis, as a function of time (horizontal axis). MFCC values are mapped to a dB color scale, from darker blue for negative values, through white for 0, and to darker red for positive values.
+The plot shows coefficients 0-21, from bottom on the vertical axis, as a function of time (horizontal axis). MFCC values are mapped to a dB color scale, from darker blue for negative values, through white for 0, and to darker red for positive values.
 
 <img src="assets/images/mfccs.png" alt="MFCCs" width="512"/>
 
@@ -217,6 +223,8 @@ The vectorized implementations perform updates in parallel, leveraging the SIMD 
 - Max samples per second: the inverse of the processing time per sample expressed in seconds, an extrapolation that gives an idea of what can be achieved in real time (if the sampling rate is 44.1kHz, the machine must be able to process at least 44,100 samples per second, and that does not take into account any utilization of the result in an app)
 
 **Input device**: Select the audio device to use for live input.
+
+**Sample rate**: The input (and processing) sample rate (defaults depends on platform, cannot be changed for now).
 
 ## Privacy Policy
 
