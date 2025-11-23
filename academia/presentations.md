@@ -3,6 +3,10 @@ title: Presentations
 description: Alexandre R.J. François
 ---
 
+### 2025
+
+Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms," [Audio Developer Conference (ADC25)](https://audio.dev/conference/), Bristol, November 10-12. [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)]
+
 ### 2010
 
 Alexandre R. J. François, "Multimodal Interaction for Musical Improvisation: From algorithms to Interactive Systems," Computer Science Colloquium Series, Harvey Mudd College, Claremont, CA, USA, 18 November 2010. [[announcement](https://www.cs.hmc.edu/events/2010/11/colloquium)]
