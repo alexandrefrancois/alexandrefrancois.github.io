@@ -59,7 +59,7 @@ pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 [[pdf](/assets/publications/FrancoisARJ-ICMC2025.pdf)]
 
 Alexandre R.J. François, "Real-time low latency audio features with Resonate" (Late-Breaking Demo Paper),
-[First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/events-calendar/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/),
+[First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/event-extra/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/),
 London, Sept. 8-10, 2025.
 [[pdf](https://drive.google.com/file/d/1qTtUrwRJytMeSnqb56ETZqIj2erSgWTO/view)]
 
