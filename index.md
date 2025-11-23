@@ -31,7 +31,7 @@ at the [50th Anniversary of the International Computer Music Conference 2025](ht
 
 I gave a late breaking demonstration of Resonate-based real-time, low latency audio features computation at the [First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/events-calendar/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/), London, Sept. 8-10, 2025.
 
-I will give a talk titled "Real-time, low latency and high temporal resolution spectrograms" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference](https://audio.dev/conference/), Bristol, November 10-12.
+I gave a talk titled "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference (ADC25)](https://audio.dev/conference/), Bristol, November 10-12.
 
 <p>
     The <a href="https://resonate.myspreadshop.co.uk">Resonate Store</a> is live!

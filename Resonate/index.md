@@ -63,11 +63,9 @@ Alexandre R.J. François, "Real-time low latency audio features with Resonate" (
 London, Sept. 8-10, 2025.
 [[pdf](https://drive.google.com/file/d/1qTtUrwRJytMeSnqb56ETZqIj2erSgWTO/view)]
 
-### Upcoming
-
 Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
-[Audio Developer Conference](https://audio.dev/conference/),
-Bristol, November 10-12.
+[Audio Developer Conference (ADC25)](https://audio.dev/conference/),
+Bristol, November 10-12. [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)]
 
 ## Resources
 
