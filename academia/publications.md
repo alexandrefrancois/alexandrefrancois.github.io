@@ -4,6 +4,10 @@ title: Academic Publications
 
 ### Highlights
 
+Alexandre R.J. François,
+"Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters,"
+to appear in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
+
 **Best Paper Award** | Alexandre R.J. François,
 "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
 in Proceedings of the 50th Anniversary of the International Computer Music Conference 2025,
@@ -18,7 +22,6 @@ Alexandre R. J. François, "Class-Wide Projects: Fostering Collaboration and Cre
 
 Alexandre R.J. François, "Time and Perception in Music and Computation," in [_New Computational Paradigms for Computer Music_](https://www.editions-delatour.com/gb/science-of-music/1426-new-computational-paradigms-for-computer-music-9782752100542.html), G. Assayag and A. Gerzso Eds., Editions Delatour France / IRCAM, 2009, pp. 125-146.
 [[excerpt](brain-time-music-computing.md)]
-
 
 ## Book chapters
 
@@ -80,6 +83,12 @@ Alexandre R.J. François, Gérard G. Medioni and Roman Waupotitsch, "Mirror Symm
 Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extraction From a Single Image," [_Image and Vision Computing_](https://www.sciencedirect.com/journal/image-and-vision-computing), vol. 19, no. 6, April 2001, pp. 317-328. [[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0262885600000810)]
 
 ## Refereed conference proceedings
+
+<p id="ICMC2026"></p>
+
+Alexandre R.J. François,
+"Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters,"
+to appear in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
 
 <p id="ICMC2025"></p>
 

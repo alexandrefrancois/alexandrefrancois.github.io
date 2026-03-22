@@ -7,9 +7,9 @@ This page lists my academic research projects.
 
 ## Research Interests
 
-* Software architecture for interactive systems
-* Dynamic models of perceptual and cognitive processes
-* Design and creativity
+- Software architecture for interactive systems
+- Dynamic models of perceptual and cognitive processes
+- Design and creativity
 
 ### Software architecture
 
@@ -45,6 +45,14 @@ Publications: [IMSC-05-003](/academia/publications#IMSC-05-003).
 Funding: IMSC (NSF-ERC)
 
 ### Music computing
+
+#### Resonate: Real-Time, Low-Latency, High Temporal and Frequency Resolution Audio Spectral Analysis
+
+<a href="/Resonate">Resonate</a> is a low latency, low memory footprint, and low computational cost algorithm to evaluate perceptually relevant spectral information from audio (and other) signals.
+
+Publications:
+[ICMC 2026](/academia/publications#ICMC2026),
+[ICMC 2025](/academia/publications#ICMC2026).
 
 #### MIMI: Multi-modal Interaction for Musical Improvisation (with Elaine Chew and Dennis Thurmond)
 
