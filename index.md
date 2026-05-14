@@ -26,7 +26,7 @@ description: Software Engineer and Researcher
 
 </td></tr></table>
 
-I will present my paper "Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters" at the [2026 International Computer Music Conference](https://icmc2026.ligeti-zentrum.de) (ICMC) in May! This is building on the work that received the [Best Paper Award at last year's ICMC](/assets/publications/FrancoisARJ-ICMC2025.pdf), where I introduced the Resonate model. [Watch a first demo video on YouTube!](https://www.youtube.com/watch?v=bnvK5Nll4Sg)
+I presented my paper "Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters" at the [2026 International Computer Music Conference](https://icmc2026.ligeti-zentrum.de) (ICMC) on May 14 2026. This is building on the work that received the [Best Paper Award at last year's ICMC](/assets/publications/FrancoisARJ-ICMC2025.pdf), where I introduced the Resonate model. [Watch a demo video on YouTube!](https://www.youtube.com/watch?v=bnvK5Nll4Sg)
 
 I gave a talk titled "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference (ADC25)](https://audio.dev/conference/), Bristol, November 10-12. [Watch on YouTube!](https://youtu.be/QbNPA5QJ6OU)
 
