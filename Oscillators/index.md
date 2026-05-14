@@ -36,11 +36,11 @@ Version 5.0
 The app offers a number of tools, some use live microphone input, some are offline experiments. Each tool is described below.
 
 This app demonstrates the most significant features of the open source [Oscillators](https://github.com/alexandrefrancois/Oscillators) Swift package: efficient implementations of sinusoidal resonators tuned at arbitrary frequencies, tracking resonators, and banks of such resonators, with vectorized SIMD accelerated implementation.
-Such banks implement the [_Resonate_](/Resonate) algorithm for efficient, high temporal and frequency resolution spectral analysis of audio signal, as illustrated in the Tracking Spectrogram, Spectrogram, Tracking Chromagram, Chromagram and MFCCs tools.
+Such banks implement the [_Resonate_](/Resonate) algorithm for efficient, high temporal and frequency resolution spectral analysis of audio signal, as illustrated in the [Tracking Spectrogram](#tracking-spectrogram), [Spectrogram](#spectrogram), [Tracking Chromagram](#chromagrams), [Chromagram](#chromagrams) and [MFCCs](#mfccs) tools.
 
 The app makes use of a new [Wheel Control](https://github.com/alexandrefrancois/WheelControl) for setting floating point values within a range. This control is designed to afford finer precision than the traditional slider bar by utilizing a "wheel with gears" metaphor: drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds.
 
-Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding settings sheet, which lists available audio input devices and allows to select which one to use.
+Live audio processing tools, use the microphone as input. This requires running on a device that has at least one microphone / audio input. On any live screen, tap on the gear icon in the top right to open the corresponding [settings screen](#settings-screens), which lists available audio input devices and allows selecting which one to use.
 
 **Frequency Tracking**
 | [Tracking Spectrogram](#tracking-spectrogram)
@@ -238,11 +238,11 @@ The right part (stack) shows the current temporal slice of the spectrogram reorg
 
 Chromagram:
 
-<img src="assets/images/chromagram.png" alt="Chromagram" width="512"/>
+<img src="assets/images/chromagram.png" alt="Chromagram" width="640"/>
 
 Tracking chromagram:
 
-<img src="assets/images/tracking-chromagram.png" alt="Tracking Chromagram" width="512"/>
+<img src="assets/images/tracking-chromagram.png" alt="Tracking Chromagram" width="640"/>
 
 **Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
@@ -271,7 +271,7 @@ MFCCs are audio signal features that have been successfully used in speech recog
 MFCCs are the amplitudes of the spectrum of the mel frequency spectrogram of the audio signal, obtained by applying a Direct Cosine Transform to each time slice of the log power mel-frequency spectrogram.
 The plot shows coefficients 0-21, from bottom on the vertical axis, as a function of time (horizontal axis). MFCC values are mapped to a dB color scale, from darker blue for negative values, through white for 0, and to darker red for positive values.
 
-<img src="assets/images/mfccs.png" alt="MFCCs" width="512"/>
+<img src="assets/images/mfccs.png" alt="MFCCs" width="640"/>
 
 **Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
