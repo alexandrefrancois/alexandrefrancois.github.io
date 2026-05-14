@@ -47,8 +47,8 @@ In an offline processing context, the cumulative computational cost for a given 
 The original model presented in <a href="#icmc25">(François, 2025)</a> keeps the resonant frequency of the resonators fixed, as is the case with the Fast Fourier Transform (FFT).
 However, there is no such restriction on Resonate resonators.
 
-In the frequency tracking model presented in <a href="#icmc26">(François, 2026)</a>, the resonant frequency a resonator is allowed to change over time:
-in the absence of significant information (i.e. below a set magnitude threshold for $R_k(t)$), the resonant frequency remains constant, equal to the resonator's natural resonant frequency.
+In the frequency tracking model presented in <a href="#icmc26">(François, 2026)</a>, the resonant frequency of a resonator is allowed to change over time:
+in the absence of significant information (i.e. below a set magnitude threshold for $$R_k(t)$$), the resonant frequency remains constant, equal to the resonator's natural resonant frequency.
 In the presence of significant response, however, the resonant frequency tracks the estimated instantaneous frequency.
 
 At each time step, the phase difference $$\Delta \phi_k(t)$$ between the previous and current value of $$\tilde{R}_k(t)$$ provides an estimate of the phase's time derivative, to compute the corresponding instantaneous frequency.
@@ -57,7 +57,7 @@ $$f_k(t) = f_k(t-\Delta t) + \frac {\Delta \phi_k(t)}{2\pi \Delta T}$$
 
 Using the property that the phase of a complex number multiplied by the conjugate of another complex number is the phase difference between the two numbers yields a formula for $$\Delta \phi_k(t)$$ that requires only one principal value argument computation.
 
-$$D_k(t) = \tilde{R}\_k(t) \overline{\tilde{R}\_k}(t-\Delta t)$$
+$$D_k(t) = \tilde{R}_k(t) \overline{\tilde{R}_k}(t-\Delta t)$$
 
 $$\Delta \phi_k(t) = Arg(D_k(t))\label{eq:delta_phi}$$
 
@@ -126,7 +126,7 @@ A sampling rate equal to the input's sampling rate keeps the timing/speed, a gre
 
 $$P_k^{-1}(t) = P_k^{-1}(t-\Delta t_s) e^{i \omega_k(t) fs \Delta t_s}$$
 
-$$S_k(t) = \tilde{R}\_k(t) P_k^{-1}(t)$$
+$$S_k(t) = \tilde{R}_k(t) P_k^{-1}(t)$$
 
 Summing up the $$S_k(t)$$ over the resonators which are actually tracking and whose natural frequency is closest to the tracked frequency, and taking only the real part yields an audio signal $$s(t)$$ which captures salient features of the input signal.
 
