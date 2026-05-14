@@ -9,7 +9,7 @@ description: Software Engineer and Researcher
 - Skills: audio and video computing, music computing, computer vision, computer graphics
 
 [LinkedIn](https://www.linkedin.com/in/alexandrefrancois/) || [GitHub](https://github.com/alexandrefrancois) || [YouTube](https://www.youtube.com/user/alexandrefrancois)  
-[Academia](academia) ||
+[academia](academia) ||
 [research](/academia/research)
 | [publications](/academia/publications)
 | [presentations](/academia/presentations)
