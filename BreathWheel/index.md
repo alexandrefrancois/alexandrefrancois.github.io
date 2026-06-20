@@ -1,6 +1,7 @@
 ---
 title: BreathWheel
 description: by Alexandre R.J. François
+hide_title: true
 ---
 
 <section class="media-block media-block--plain">

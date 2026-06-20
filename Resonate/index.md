@@ -1,6 +1,7 @@
 ---
 title: Resonate
 description: by Alexandre R.J. François
+hide_title: true
 ---
 
 <div class="resonate-page" markdown="1">
@@ -10,6 +11,7 @@ description: by Alexandre R.J. François
     <img src="assets/images/resonate.png" alt="Resonate" width="240" />
   </div>
   <div>
+    <p class="media-block__title">Resonate</p>
     <p class="media-block__text">A low latency, low memory footprint, and low computational cost algorithm to evaluate perceptually relevant spectral information from audio (and other) signals.</p>
   </div>
 </section>
