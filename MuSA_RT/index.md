@@ -23,7 +23,7 @@ description: by Alexandre R.J. François
   <div>
     <p class="media-block__title">Tonal analysis in real time.</p>
     <ul class="feature-list">
-      <li>Applies music analysis algorithms rooted in Elaine Chew's Spiral Array model of tonality.</li>
+      <li>Applies music analysis algorithms rooted in <a href="https://en.wikipedia.org/wiki/Elaine_Chew">Elaine Chew</a>'s <a href="https://en.wikipedia.org/wiki/Spiral_array_model">Spiral Array model of tonality</a>.</li>
       <li>Analyzes microphone input to estimate pitch names, tonal context, triads, and keys as music unfolds.</li>
       <li>Animates tonal entities in a 3D visualization space with smooth camera movement.</li>
       <li>Includes an experimental Augmented Reality mode on compatible devices.</li>
