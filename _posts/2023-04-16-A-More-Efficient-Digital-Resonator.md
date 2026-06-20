@@ -7,11 +7,11 @@ comments: false
 categories: music physics oscillators
 ---
 
-In previous posts, I described my digital resonator model: the main principles in [Digital Resonator](/music/physics/oscillators/2022/08/08/Digital-Resonator.html); a few more geeky details in [Digital Resonator (II)](/music/physics/oscillators/2022/08/28/Digital-Resonator-II.html).
+In previous posts, I described my digital resonator model: the main principles in [Digital Resonator]({% post_url 2022-08-08-Digital-Resonator %}); a few more geeky details in [Digital Resonator (II)]({% post_url 2022-08-28-Digital-Resonator-II %}).
 
 I have now understood how the way phase is handled in the FFT algorithm applies to the time domain. I knew it relies only in sine and cosine (via complex numbers), but I never came across an explanation that would help me understand it well enough. In this post I attempt to give an intuitively comprehensible explanation and outline the implications for my resonator model.
 
-In [Digital Resonator (II)](/music/physics/oscillators/2022/08/28/Digital-Resonator-II.html), I described the amplitude update computations for my resonator model as follows:
+In [Digital Resonator (II)]({% post_url 2022-08-28-Digital-Resonator-II %}), I described the amplitude update computations for my resonator model as follows:
 
 > The resonator's amplitude is updated at each tick of the clock, i.e. for each input sample, from the resonator's current amplitude value _a_ (in [0,1]), its current position in the oscillation period (waveform value _w_, in [-1,1]), and the input sample value _s_ (in [-1,1]):  
 > _a <- (1-k) * a + k * s * w_  

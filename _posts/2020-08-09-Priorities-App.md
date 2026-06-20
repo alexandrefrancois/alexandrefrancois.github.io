@@ -57,4 +57,4 @@ If I tap the button to create a new item, I get to the item view where I can edi
 
 These are the basic operations - all that's needed to capture the requirements stated at the beginning.
 
-[Priorities](/priorities) is [available for download on the app store](https://apps.apple.com/us/app/priorities-sorted/id1469567351).
+[Priorities](/Priorities) is [available for download on the app store](https://apps.apple.com/us/app/priorities-sorted/id1469567351).

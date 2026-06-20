@@ -9,7 +9,7 @@ categories: music physics oscillators
 
 It's been a productive week off! I published the first version of the [Oscillators app](/Oscillators/), [available for download](https://apps.apple.com/us/app/oscillators/id1641353759) on the Apple App Store, and I released a first version of the code for my resonator implementation (and more) as a [Swift package](https://github.com/alexandrefrancois/Oscillators).
 
-I outlined the main ideas underlying my digital resonator model in my last post: [Digital Resonator](/music/physics/oscillators/2022/08/08/Digital-Resonator.html). In this post I give a few more geeky details.
+I outlined the main ideas underlying my digital resonator model in my last post: [Digital Resonator]({% post_url 2022-08-08-Digital-Resonator %}). In this post I give a few more geeky details.
 
 Just to be clear about the objectives, the really exciting fun starts from something like this: a bank of oscillators tuned at a range of frequencies, that resonate in real-time with the input signal from the microphone, and possibly interact with each other. Getting to this requires a model that captures the resonance behavior, and that can be implemented efficiently (a reference point for comparison would be the ubiquitous FFT).
 

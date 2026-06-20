@@ -2,4 +2,65 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$brand-color: #4b1d95;
+$brand-color-light: lighten($brand-color, 35%);
+$brand-color-dark: darken($brand-color, 25%);
+$site-title-color: $brand-color;
+$link-base-color: #4b1d95;
+$link-hover-color: #1f2937;
+$border-color-01: #e5e7eb;
+
 @import "minima";
+
+body {
+  color: #222;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.site-header {
+  border-top: 4px solid $brand-color;
+}
+
+.site-title,
+.site-title:visited {
+  font-weight: 650;
+}
+
+.page-content {
+  padding: 36px 0;
+}
+
+.post-content {
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+.post-content h2 {
+  margin-top: 42px;
+}
+
+.post-content h3 {
+  margin-top: 32px;
+}
+
+.post-content img,
+.post-content video,
+.post-content iframe {
+  max-width: 100%;
+}
+
+.post-content img {
+  height: auto;
+}
+
+.post-content table {
+  max-width: 100%;
+}
+
+.post-content audio {
+  max-width: 100%;
+}
+
+.site-footer {
+  background: #fafafa;
+}
