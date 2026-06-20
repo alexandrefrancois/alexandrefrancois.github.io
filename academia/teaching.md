@@ -45,7 +45,7 @@ This seminar course covers the state-of-the-art technology for integrated media 
 
 * CS201G: Principles of Software Development - Games  
 [[website](http://www-scf.usc.edu/~csci201g/)]
-[[project]](http://www-scf.usc.edu/~csci201g/Sp2007/project.html)
+[[project](http://www-scf.usc.edu/~csci201g/Sp2007/project.html)]
 [[press](https://viterbi.usc.edu/news/news/2007/games-students-play.htm)]
 
 #### Fall 2002 ([University of Southern California](https://www.usc.edu))
