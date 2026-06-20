@@ -330,7 +330,7 @@ London, Sept. 8-10, 2025.
 - The open source [Oscillators Swift package](https://github.com/alexandrefrancois/Oscillators) contains reference implementations in Swift and C++.
   The [Oscillators app](/Oscillators) demonstrates real-time spectrograms and derived audio features.
 
-- The [Resonate Youtube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) features video captures of real-time demonstrations.
+- The [Resonate YouTube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) features video captures of real-time demonstrations.
 
 - [Resonate Store](https://resonate.myspreadshop.co.uk)
 

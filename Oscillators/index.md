@@ -337,7 +337,7 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 ### Setting Screens
 
-The live tools feature dedicated Setting sheets, accessed via the gear icon in the top right of the screen.
+The live tools feature dedicated Settings sheets, accessed via the gear icon in the top right of the screen.
 
 Resonator settings:
 
@@ -369,11 +369,11 @@ The vectorized implementations perform updates in parallel, leveraging the SIMD 
 
 **Input device**: Select the audio device to use for live input.
 
-**Sample rate**: The input (and processing) sample rate (defaults depends on platform, cannot be changed for now).
+**Sample rate**: The input (and processing) sample rate (default depends on platform, cannot be changed for now).
 
 ## Privacy Policy
 
-Fun with Oscillator does not collect or share your personal information. In particular, any audio captured from the microphone is only processed in real-time for visualization purposes. The app does not record or transmit any of it.
+Oscillators does not collect or share your personal information. In particular, any audio captured from the microphone is only processed in real-time for visualization purposes. The app does not record or transmit any of it.
 
 ## Credits
 
