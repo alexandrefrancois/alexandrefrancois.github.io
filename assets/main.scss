@@ -207,6 +207,30 @@ a:hover {
   line-height: 1.48;
 }
 
+.feature-list {
+  list-style: none;
+  margin: 14px 0 0;
+}
+
+.feature-list li {
+  color: $muted-color;
+  line-height: 1.5;
+  margin: 9px 0;
+  padding-left: 18px;
+  position: relative;
+}
+
+.feature-list li::before {
+  background: $accent-color;
+  border-radius: 999px;
+  content: "";
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0.66em;
+  width: 6px;
+}
+
 .app-badge {
   display: inline-block;
   margin-top: 12px;
