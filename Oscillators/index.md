@@ -3,25 +3,32 @@ title: Oscillators
 description: by Alexandre R.J. François
 ---
 
-<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
-<img src="assets/images/oscillators.png" alt="Oscillators" width="320"/>
+<section class="media-block media-block--plain">
+  <div class="media-block__media">
+    <img src="assets/images/oscillators.png" alt="Oscillators" width="220" />
+    <a class="app-badge" href="https://apps.apple.com/us/app/oscillators/id1641353759">
+      <img alt="Download on the App Store" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+    </a>
+  </div>
+  <div>
+    <p class="media-block__title">Oscillators</p>
+    <p class="media-block__text">Educational tools for experimenting with digital resonators, especially in the context of audio analysis and live microphone input.</p>
+  </div>
+</section>
 
-<a href="https://apps.apple.com/us/app/oscillators/id1641353759" style="margin-left: auto; margin-right: auto;">
-<img border="0" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="320" />
-</a>
-
-</td>
-<td>
-Oscillators offers educational tools for experimenting with digital resonators, especially in the context of audio analysis.
-In particular, it demonstrates the use of the <a href="../Resonate">Resonate</a> algorithm for efficient, high temporal resolution spectral analysis of audio signal.
-This app particularly encourages live experimentation with microphone input.
-</td></tr></table>
-
-## Demonstrations
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcB_ABiKC_djwV2PXnSCWkvXOXt8PRMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
+<section class="media-block">
+  <div class="media-block__media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVcB_ABiKC_djwV2PXnSCWkvXOXt8PRMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div>
+    <p class="media-block__title">Live resonator experiments.</p>
+    <ul class="feature-list">
+      <li>Demonstrates the use of the <a href="../Resonate">Resonate</a> algorithm for efficient, high temporal resolution spectral analysis of audio signal.</li>
+      <li>Offers live tools for exploring resonators, resonator banks, spectrograms, chromagrams, MFCCs, and controlled simulations.</li>
+      <li>Encourages hands-on experimentation with microphone input.</li>
+    </ul>
+  </div>
+</section>
 
 ## User Guide
 
@@ -64,7 +71,9 @@ Live audio processing tools, use the microphone as input. This requires running 
 
 The audio signal from the microphone is fed to a resonator. This tool offers a visualization of the resonator's amplitude, the phase between the resonator's sine wave and the input signal when resonance occurs, an estimate of the observed frequency from the observed phase drift, and the Doppler velocity corresponding to the difference between resonant and tracked frequencies, assuming a source that emits a signal at the resonator's resonant frequency.
 
-<img src="assets/images/resonator.png" alt="Tracking Resonator" width="300"/>
+<div class="guide-image">
+  <img src="assets/images/resonator.png" alt="Tracking Resonator" width="300"/>
+</div>
 
 **Resonant frequency**: the resonant frequency of the resonator.
 
@@ -80,7 +89,9 @@ The audio signal from the microphone is fed to a resonator. This tool offers a v
 
 This tool offers a visualization of the tracking resonator's amplitude plotted on a frequency axis (logarithmic scale), at the tracked resonant frequency, or the resonator's natural frequency (root anchor). When the resonator's amplitude is above a minimum threshold, the resonator's resonant frequency tracks the instantaneous frequency computed from the estimated phase derivative.
 
-<img src="assets/images/tracking-resonator.png" alt="Resonator tool" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/tracking-resonator.png" alt="Resonator tool" width="640"/>
+</div>
 
 **Resonant frequency**: the current resonant frequency of the resonator.
 
@@ -92,7 +103,9 @@ This tool offers a visualization of the tracking resonator's amplitude plotted o
 
 For frequency analysis, the resonators in the bank are tuned to a log frequency scale (100 frequencies from 32.7Hz to 9955.1Hz, 12 per octave), organized from lowest to highest frequency.
 
-<img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/frequency-analysis.png" alt="Frequency analysis" width="640"/>
+</div>
 
 The amplitude graph plots the current amplitude of each resonator in the bank. The resonators are ordered by increasing frequency from left to right on the horizontal axis.
 
@@ -117,7 +130,9 @@ Below this main graph is a plot of the computed phase derivatives for each reson
 
 Resonators that have significant magnitude, i.e. those whose resonant frequency is in the vicinity of the input signal’s frequency, agree on the correctly estimated instantaneous frequency.
 
-<img src="assets/images/instantaneous-frequencies.png" alt="Frequency analysis" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/instantaneous-frequencies.png" alt="Frequency analysis" width="640"/>
+</div>
 
 - Peak: the current maximum amplitude value across the resonators in the bank.
 - Count: the number of resonators in the bank.
@@ -138,7 +153,9 @@ A self-tuning bank is composed of tracking resonators.
 In this analysis tool, the tracking resonators natural frequencies are set on a log frequency scale (100 frequencies from 32.7Hz to 9955.1Hz, 12 per octave), organized from lowest to highest frequency.
 The main graph plots the tracking resonators' magnitudes at the resonators' resonant frequency position on the x-axis, anchored at the resonators’ natural frequency position.
 
-<img src="assets/images/self-tuning-bank.png" alt="Frequency analysis" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/self-tuning-bank.png" alt="Frequency analysis" width="640"/>
+</div>
 
 - Peak: the current maximum amplitude value across the resonators in the bank.
 - Count: the number of resonators in the bank.
@@ -162,11 +179,15 @@ Resonators are independently tuned according to the selected frequency scale, an
 
 Spectrogram - Decibels:
 
-<img src="assets/images/spectrogram-decibels.png" alt="Spectrogram" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/spectrogram-decibels.png" alt="Spectrogram" width="640"/>
+</div>
 
 Spectrogram - Log Compression:
 
-<img src="assets/images/spectrogram-log-compression.png" alt="Spectrogram" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/spectrogram-log-compression.png" alt="Spectrogram" width="640"/>
+</div>
 
 In the plot, frequencies are represented on the vertical axis, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Power levels are color mapped (logarithmic scale) to assign brighter colors to higher power.
 
@@ -204,7 +225,9 @@ Adjust with the wheel control (drag the wheel to adjust the value, double-tap on
 The tracking spectrogram plots the power (squared amplitude) levels of the resonators in a self tuning resonator bank over time.
 Resonators dynamically track the frequencies present in the input signal, and the time constants are set with the heuristic $$\alpha_f = 1-e^{-\Delta t\frac{f}{log(1+f)} }$$.
 
-<img src="assets/images/tracking-spectrogram.png" alt="Tracking Spectrogram" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/tracking-spectrogram.png" alt="Tracking Spectrogram" width="640"/>
+</div>
 
 In the plot, frequencies are represented on the vertical axis on a logarithmic scale, lowest frequency at the bottom, highest at the top. Time flows on the horizontal axis, to the left of the screen. Power levels are color mapped (logarithmic scale) to assign brighter colors to higher power.
 
@@ -238,11 +261,15 @@ The right part (stack) shows the current temporal slice of the spectrogram reorg
 
 Chromagram:
 
-<img src="assets/images/chromagram.png" alt="Chromagram" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/chromagram.png" alt="Chromagram" width="640"/>
+</div>
 
 Tracking chromagram:
 
-<img src="assets/images/tracking-chromagram.png" alt="Tracking Chromagram" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/tracking-chromagram.png" alt="Tracking Chromagram" width="640"/>
+</div>
 
 **Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
@@ -271,7 +298,9 @@ MFCCs are audio signal features that have been successfully used in speech recog
 MFCCs are the amplitudes of the spectrum of the mel frequency spectrogram of the audio signal, obtained by applying a Direct Cosine Transform to each time slice of the log power mel-frequency spectrogram.
 The plot shows coefficients 0-21, from bottom on the vertical axis, as a function of time (horizontal axis). MFCC values are mapped to a dB color scale, from darker blue for negative values, through white for 0, and to darker red for positive values.
 
-<img src="assets/images/mfccs.png" alt="MFCCs" width="640"/>
+<div class="guide-image">
+  <img src="assets/images/mfccs.png" alt="MFCCs" width="640"/>
+</div>
 
 **Hop length**: controls the time interval between vertical slices of the spectrogram, expressed in number of samples.
 The lower the value, the higher the time resolution of the spectrogram display. Forced to a multiple of the input frame size.
@@ -289,7 +318,9 @@ Feed the output of a generator to a resonator. This is an offline simulation tha
 
 **Simulation controls**: a capsule pinned at the bottom of the screen contains the current timestamp (in s), a play/pause toggle and a step button which advances the simulation by one sample duration.
 
-<img src="assets/images/generator-resonator.png" alt="Generator to resonator tool" width="300"/>
+<div class="guide-image">
+  <img src="assets/images/generator-resonator.png" alt="Generator to resonator tool" width="300"/>
+</div>
 
 **Generator frequency**: the generator frequency, adjust with the wheel control (drag the wheel to adjust the value, double-tap on the wheel to cycle through the gears/speeds). The generator produces a sinusoidal signal.
 
@@ -309,11 +340,15 @@ The live tools feature dedicated Setting sheets, accessed via the gear icon in t
 
 Resonator settings:
 
-<img src="assets/images/resonator-settings.png" alt="Resonator settings" width="300"/>
+<div class="guide-image">
+  <img src="assets/images/resonator-settings.png" alt="Resonator settings" width="300"/>
+</div>
 
 Resonator bank settings:
 
-<img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
+<div class="guide-image">
+  <img src="assets/images/resonator-bank-settings.png" alt="Resonator Bank settings" width="300"/>
+</div>
 
 **Frame size**: The frame size (number of samples) for audio input processing. This also sets the minimum and possible values of hop length for spectrogram-based features.
 

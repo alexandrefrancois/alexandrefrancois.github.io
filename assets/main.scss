@@ -111,7 +111,7 @@ a:hover {
 }
 
 .guide-image img {
-  width: min(100%, 640px);
+  max-width: min(100%, 640px);
 }
 
 .intro {
