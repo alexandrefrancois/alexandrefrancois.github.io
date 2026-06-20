@@ -114,6 +114,76 @@ a:hover {
   max-width: min(100%, 640px);
 }
 
+.resonate-page mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 8px 0;
+}
+
+.section-jump-links {
+  border-top: 1px solid $border-color-01;
+  border-bottom: 1px solid $border-color-01;
+  color: $muted-color;
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 8px 0 30px;
+  padding: 10px 0;
+}
+
+.section-jump-links a {
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+.figure-block {
+  margin: 26px 0 34px;
+}
+
+.figure-block img {
+  background: #fff;
+  border: 1px solid $border-color-01;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.figure-block figcaption {
+  color: $muted-color;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.audio-table {
+  margin: 16px 0 30px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.audio-table table {
+  border-collapse: collapse;
+  margin: 0;
+  min-width: 680px;
+}
+
+.audio-table td {
+  border-bottom: 1px solid $border-color-01;
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+.audio-table tr:first-child td {
+  color: $text-color;
+  font-weight: 650;
+}
+
+.audio-table audio {
+  width: 180px;
+}
+
 .intro {
   margin: 0 0 22px;
   padding: 12px 0 4px;
@@ -375,6 +445,19 @@ a:hover {
 
   .guide-image-grid img {
     width: min(200px, 44vw);
+  }
+
+  .section-jump-links a {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+
+  .figure-block {
+    margin: 20px 0 28px;
+  }
+
+  .audio-table {
+    margin-bottom: 24px;
   }
 
   .item-card {
