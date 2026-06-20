@@ -7,7 +7,7 @@ description: by Alexandre R.J. François
 
 <img src="assets/images/breathwheel-icon.png" alt="BreathWheel" width="160" style="margin-bottom: 10px;"/>
 
-<a href="https://apps.apple.com/app/" style="margin-left: auto; margin-right: auto;">
+<a href="https://apps.apple.com/app/breathwheel/id6746683143" style="margin-left: auto; margin-right: auto;">
 <img border="0" width="160" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
 </a>
 
