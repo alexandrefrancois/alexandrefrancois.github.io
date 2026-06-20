@@ -127,4 +127,4 @@ The pretty(?) but redundant and space-filling custom control featured in the fir
 
 This version introduces a new feature, some simplification. Since the app design relies so much on finding and using the search, the main question remains whether those features are easily discoverable by a first time user. As for the next steps, SwiftUI enters the scene and everything is up for rethinking.
 
-[Priorities](/priorities) is [available for download on the app store](https://apps.apple.com/us/app/priorities-sorted/id1469567351).
+[Priorities](/Priorities) is [available for download on the app store](https://apps.apple.com/us/app/priorities-sorted/id1469567351).

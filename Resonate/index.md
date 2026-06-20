@@ -1,17 +1,31 @@
 ---
 title: Resonate
 description: by Alexandre R.J. François
+hide_title: true
 ---
 
-<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
-<img src="assets/images/resonate.png" alt="Resonate" width="320"/>
+<div class="resonate-page" markdown="1">
 
-</td>
-<td>
+<section class="media-block media-block--plain">
+  <div class="media-block__media">
+    <img src="assets/images/resonate.png" alt="Resonate" width="240" />
+  </div>
+  <div>
+    <p class="media-block__title">Resonate</p>
+    <p class="media-block__text">A low latency, low memory footprint, and low computational cost algorithm to evaluate perceptually relevant spectral information from audio (and other) signals.</p>
+  </div>
+</section>
 
-Resonate is a low latency, low memory footprint, and low computational cost algorithm to evaluate perceptually relevant spectral information from audio (and other) signals.
+<nav class="section-jump-links" aria-label="Resonate sections">
+  <a href="#overview">Overview</a>
+  <a href="#spectrograms">Spectrograms</a>
+  <a href="#synthesis">Synthesis</a>
+  <a href="#publications">Publications</a>
+  <a href="#presentations">Presentations</a>
+  <a href="#resources">Resources</a>
+</nav>
 
-</td></tr></table>
+<p id="overview"></p>
 
 ## Overview
 
@@ -29,7 +43,7 @@ $$R_k(t) = (1-\alpha_k) R_k(t-\Delta t) + \alpha_k x(t) P_k(t)$$
 The parameter $$\alpha_k \in [0,1]$$ dictates how much each new measurement affects the accumulated value; it can be expressed as a function of the system's time constant, set heuristically as a function of the resonant frequency $$f$$ (intuitively inversely proportional to the frequency).
 For the frequency range of interest in audio applications (20-20000 Hz), $$\alpha_k = 1-e^{-\Delta t\frac{f_k}{log(1+f_k)} }$$ is a reasonable heuristic.
 
-The smoothed state $$\tilde{R}_k$$ is produced by applying the EMWA to $$R_k$$ with parameter $$\beta_k$$ to dampen power and phase oscillations.
+The smoothed state $$\tilde{R}_k$$ is produced by applying the EWMA to $$R_k$$ with parameter $$\beta_k$$ to dampen power and phase oscillations.
 
 $$\tilde{R}_k(t) = (1-\beta_k) \tilde{R}_k(t-\Delta t) + \beta_k R_k(t)$$
 
@@ -85,6 +99,8 @@ The open source [Oscillators Swift package](https://github.com/alexandrefrancois
 
 Self-tuning banks form the basis for an analysis technique that produces, in real-time, for each input sample, a list of uniquely identified and precisely tracked frequency components present in the input signal, together with their correct amplitude.
 
+<p id="spectrograms"></p>
+
 ## Spectrograms
 
 Spectral information as a function of time is typically presented graphically for human consumption in the form of a spectrogram, in which the horizontal axis represents time and the vertical axis represents frequency. The value at each point represents the power of the frequency in the input signal at the given time slice. These values are usually normalized by the maximum value over the signal, and mapped to a logarithmic color scale to produce plots like those shown below.
@@ -94,15 +110,15 @@ These were computed off-line in a Python environment and rendered with [Librosa]
 
 A Resonate oscillator bank with adequately tuned resonators computes an arbitrary frequency scale spectrogram directly and efficiently, with more relevant frequency resolution and much higher temporal resolution than FFT-based methods. The log-frequency power spectrograms shown here offer direct comparison with classical spectrograms computed from the Constant Q-Transform (CQT). Resonator resonant frequencies are fixed and geometrically distributed over the range of interest.
 
-<p>
-    <img src="assets/images/log-spectrograms.png" alt="Log-frequency scale spectrograms"/>
-    <em>Log-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s vibeace music example, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 512 samples, 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave).</em>
-</p>
+<figure class="figure-block">
+  <img src="assets/images/log-spectrograms.png" alt="Log-frequency scale spectrograms"/>
+  <figcaption>Log-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s vibeace music example, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 512 samples, 100 frequency bins from 32.7Hz to 9955.1Hz, 12 bins per octave).</figcaption>
+</figure>
 
-<p>
-    <img src="assets/images/mel-spectrograms.png" alt="Mel-frequency scale spectrograms"/>
-    <em>Mel-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s Libri3 speech sample, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 32 samples, 128 frequency bins from 0 to 8000Hz).</em>
-</p>
+<figure class="figure-block">
+  <img src="assets/images/mel-spectrograms.png" alt="Mel-frequency scale spectrograms"/>
+  <figcaption>Mel-frequency power spectrograms of <a href="https://librosa.org">Librosa</a>'s Libri3 speech sample, computed from the constant-Q transform (CQT) and from a Resonate implementation (spectrogram display and CQT from Librosa, sampling rate: 22050Hz, hop length: 32 samples, 128 frequency bins from 0 to 8000Hz).</figcaption>
+</figure>
 
 ### Tracking Spectrograms
 
@@ -112,9 +128,13 @@ The vertical axis represents frequency (log scale), computed from 112 resonators
 One vertical slice is rendered in real time every 64 samples, or 1.46 ms.
 The actual time resolution limit for spectral data is the same as that of the input signal.
 
-<a href="https://youtu.be/bnvK5Nll4Sg">
-<img src="https://img.youtube.com/vi/bnvK5Nll4Sg/maxresdefault.jpg" alt="Mel-frequency scale spectrograms"/>
-</a>
+<figure class="figure-block">
+  <a href="https://youtu.be/bnvK5Nll4Sg">
+    <img src="https://img.youtube.com/vi/bnvK5Nll4Sg/maxresdefault.jpg" alt="Mel-frequency scale spectrograms"/>
+  </a>
+</figure>
+
+<p id="synthesis"></p>
 
 ## Synthesis
 
@@ -143,6 +163,7 @@ Original:
 Your browser does not support the audio element.
 </audio>
 
+<div class="audio-table">
 <table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
 Speed
 </td><td>
@@ -199,6 +220,7 @@ Up 2 semitones</td><td>
     Your browser does not support the audio element.
 </audio>
 </td></tr></table>
+</div>
 
 #### "Une Simple Melodie" (Michel Polnareff)
 
@@ -209,6 +231,7 @@ Original:
 Your browser does not support the audio element.
 </audio>
 
+<div class="audio-table">
 <table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
 Speed
 </td><td>
@@ -265,6 +288,9 @@ Up 2 semitones</td><td>
 </td><td>
 </td><td>
 </td></tr></table>
+</div>
+
+<p id="publications"></p>
 
 ## Publications
 
@@ -280,6 +306,8 @@ in Proceedings of the [50th Anniversary of the International Computer Music Conf
 pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 [[pdf](/assets/publications/FrancoisARJ-ICMC2025.pdf)]
 
+<p id="presentations"></p>
+
 ## Presentations
 
 Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
@@ -293,13 +321,17 @@ Alexandre R.J. François, "Real-time low latency audio features with Resonate" (
 London, Sept. 8-10, 2025.
 [[pdf](https://drive.google.com/file/d/1qTtUrwRJytMeSnqb56ETZqIj2erSgWTO/view)]
 
+<p id="resources"></p>
+
 ## Resources
 
 - The open source python module [noFFT](https://github.com/alexandrefrancois/noFFT) provides python and C++ implementations of Resonate functions and Jupyter notebooks illustrating their use in offline settings.
 
 - The open source [Oscillators Swift package](https://github.com/alexandrefrancois/Oscillators) contains reference implementations in Swift and C++.
-  The [Oscillators app](https://alexandrefrancois.org/Oscillators/) demonstrates real-time spectrograms and derived audio features.
+  The [Oscillators app](/Oscillators) demonstrates real-time spectrograms and derived audio features.
 
-- The [Resonate Youtube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) features video captures of real-time demonstrations.
+- The [Resonate YouTube playlist](https://www.youtube.com/playlist?list=PLVcB_ABiKC_cbemxXUUJXHAQsHEHxPOP1) features video captures of real-time demonstrations.
 
 - [Resonate Store](https://resonate.myspreadshop.co.uk)
+
+</div>

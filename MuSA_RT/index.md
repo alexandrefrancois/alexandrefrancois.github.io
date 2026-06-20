@@ -1,30 +1,36 @@
 ---
 title: MuSA_RT
 description: by Alexandre R.J. François
+hide_title: true
 ---
 
-<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
+<section class="media-block media-block--plain">
+  <div class="media-block__media">
+    <img src="assets/images/square.png" alt="MuSA_RT" width="160" />
+    <a class="app-badge" href="https://apps.apple.com/app/musa-rt/id506866959">
+      <img alt="Download on the App Store" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+    </a>
+  </div>
+  <div>
+    <p class="media-block__title">MuSA_RT</p>
+    <p class="media-block__text">An animated visual representation of tonal patterns - pitches, chords, and key - in music as it is being performed.</p>
+  </div>
+</section>
 
-<img src="assets/images/square.png" alt="MuSA_RT" width="160" style="margin-bottom: 10px;"/>
-
-<a href="https://apps.apple.com/app/musa-rt/id506866959" style="margin-left: auto; margin-right: auto;">
-<img border="0" width="160" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
-</a>
-
-</td>
-<td>
-MuSA_RT animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.  
-</td></tr></table>
-
-MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wikipedia.org/wiki/Elaine_Chew)'s [Spiral Array model of tonality](https://en.wikipedia.org/wiki/Spiral_array_model), which also provides the 3D geometry for the visualization space.
-The app analyzes the audio signal received from a microphone to determine pitch names, maintain short term and longterm tonal context trackers, each a Center of Effect (CE), and compute the closest triads (3-note chords) and keys as the music unfolds in performance.  
-The 3D view presents a graphical representations of these tonal entities in context, smoothly rotating the virtual camera to provide an unobstructed view of the current information. These graphics can also be visualized in an experimental Augmented Reality mode on compatible devices.
-
-<div style="text-align: left;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I3Ytz6oTPgs?si=nand1MMXGpkJZnsb" title="MuSA_RT video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-&nbsp;
+<section class="media-block">
+  <div class="media-block__media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I3Ytz6oTPgs?si=nand1MMXGpkJZnsb" title="MuSA_RT video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div>
+    <p class="media-block__title">Tonal analysis in real time.</p>
+    <ul class="feature-list">
+      <li>Applies music analysis algorithms rooted in <a href="https://en.wikipedia.org/wiki/Elaine_Chew">Elaine Chew</a>'s <a href="https://en.wikipedia.org/wiki/Spiral_array_model">Spiral Array model of tonality</a>.</li>
+      <li>Analyzes microphone input to estimate pitch names, tonal context, triads, and keys as music unfolds.</li>
+      <li>Animates tonal entities in a 3D visualization space with smooth camera movement.</li>
+      <li>Includes an experimental Augmented Reality mode on compatible devices.</li>
+    </ul>
+  </div>
+</section>
 
 ## User Guide
 
@@ -32,7 +38,9 @@ Version 3.1
 
 ### Quick Start
 
-<img src="assets/images/hero.png" alt="MuSA_RT 3D" width="560"/>
+<div class="guide-image">
+  <img src="assets/images/hero.png" alt="MuSA_RT 3D" width="560"/>
+</div>
 
 1. Start the app and give the app access permission to the microphone when prompted
 2. Tap on "3D" to navigate to the live 3D visualization screen.
@@ -48,7 +56,9 @@ The Spiral Array Model is a geometric model of tonality invented by Elaine Chew.
 
 Pitch, triads and keys correspond to locations in the 3D space contained inside the outer spiral (pitches). Pitches along the pitch spiral are separated by a perfect 5th; a given pitch is separated from the pitch directly above by a major 3rd. Major triads are therefore compact upright triangles. Similarly, minor triads are compact triangles. Centers of Effect track the long term (key and spelling) and short term (triad) tonal context.
 
-<img src="assets/images/3D-spiral-array.png" alt="Spiral Array model of tonality" width="100%"/>
+<div class="guide-image">
+  <img src="assets/images/3D-spiral-array.png" alt="Spiral Array model of tonality" width="100%"/>
+</div>
 
 ### Input
 
@@ -56,16 +66,20 @@ Select and configure **FFT** (live audio), **FFT from file**, **MIDI** or **Remo
 
 #### FFT
 
-[<img src="assets/images/input-fft.png" alt="FFT (audio) input" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-fft.png" alt="FFT (audio) input" width="200"/>](assets/images/input-fft.png)
+</div>
 
 Select an audio input device from the dropdown list.  
 Visualize activation levels for pitch classes.
 
 #### FFT from file
 
-[<img src="assets/images/input-fft-from-file-pick.png" alt="FFT (audio) input from file: pick file" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-pick.png)
-[<img src="assets/images/input-fft-from-file-play.png" alt="FFT (audio) input from file: play" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-play.png)
-[<img src="assets/images/input-fft-from-file-playing.png" alt="FFT (audio) input from file: playing" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-playing.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-fft-from-file-pick.png" alt="FFT (audio) input from file: pick file" width="200"/>](assets/images/input-fft-from-file-pick.png)
+[<img src="assets/images/input-fft-from-file-play.png" alt="FFT (audio) input from file: play" width="200"/>](assets/images/input-fft-from-file-play.png)
+[<img src="assets/images/input-fft-from-file-playing.png" alt="FFT (audio) input from file: playing" width="200"/>](assets/images/input-fft-from-file-playing.png)
+</div>
 
 Tap on the note icon to open a file picker and select an audio file for input.  
 When the file is ready use the play, pause and stop buttons to control playback.  
@@ -73,11 +87,15 @@ Tap the note icon to select another file.
 
 #### MIDI
 
-[<img src="assets/images/input-midi.png" alt="MIDI input" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-midi.png" alt="MIDI input" width="200"/>](assets/images/input-midi.png)
+</div>
 
-[<img src="assets/images/input-midi-scan.png" alt="MIDI input: scan" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi-scan.png)
-[<img src="assets/images/midi-bt-not-connected.png" alt="MIDI input: BT device not connected" width="200" style="border: 2px solid grey;"/>](assets/images/midi-bt-not-connected.png)
-[<img src="assets/images/input-midi-connected.png" alt="MIDI input: BT device connected" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi-connected.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-midi-scan.png" alt="MIDI input: scan" width="200"/>](assets/images/input-midi-scan.png)
+[<img src="assets/images/midi-bt-not-connected.png" alt="MIDI input: BT device not connected" width="200"/>](assets/images/midi-bt-not-connected.png)
+[<img src="assets/images/input-midi-connected.png" alt="MIDI input: BT device connected" width="200"/>](assets/images/input-midi-connected.png)
+</div>
 
 View connected MIDI devices. To connect to a Bluetooth MIDI device, tap the antenna button. Set the Bluetooth device in pairing mode. When the device appears in the list, tap the "Not Connected" label to connect.
 
@@ -92,9 +110,11 @@ The time constant determines how fast the activation decays (the larger the time
 
 Connect to a [MuSA_RT streaming server](#streaming) to render the results of the analysis performed remotely. Server and receiving devices must be connected to the same local network.
 
-[<img src="assets/images/input-remote-not-connected.png" alt="Remote input: scan QR code" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-not-connected.png)
-[<img src="assets/images/input-remote-connected.png" alt="Remote input: connected" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-connected.png)
-[<img src="assets/images/input-remote-disconnected.png" alt="Remote input: disconnected" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-disconnected.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-remote-not-connected.png" alt="Remote input: scan QR code" width="200"/>](assets/images/input-remote-not-connected.png)
+[<img src="assets/images/input-remote-connected.png" alt="Remote input: connected" width="200"/>](assets/images/input-remote-connected.png)
+[<img src="assets/images/input-remote-disconnected.png" alt="Remote input: disconnected" width="200"/>](assets/images/input-remote-disconnected.png)
+</div>
 
 Tap the QR code icon to scan the QR code on the [Streaming](#streaming) screen on the serving device to connect directly.  
 Alternately, enter the server URL manually and tap the antenna to connect.  
@@ -102,7 +122,9 @@ When connected, tap the antenna again to disconnect.
 
 ### Visuals Settings
 
-[<img src="assets/images/settings-visuals.png" alt="Visuals settings" width="200" style="border: 2px solid grey;"/>](assets/images/settings-visuals.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/settings-visuals.png" alt="Visuals settings" width="200"/>](assets/images/settings-visuals.png)
+</div>
 
 #### Pitch / Triad / Key
 
@@ -124,7 +146,9 @@ Select **dark/light/auto** background mode.
 
 ### Spiral Array Settings
 
-[<img src="assets/images/settings-spiral-array.png" alt="Spiral Array settings" width="200" style="border: 2px solid grey;"/>](assets/images/settings-spiral-array.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/settings-spiral-array.png" alt="Spiral Array settings" width="200"/>](assets/images/settings-spiral-array.png)
+</div>
 
 Adjust the parameters of the tonal analysis model.
 
@@ -138,8 +162,10 @@ For example, to make active triad tracking more responsive, decrease the time co
 Stream local analysis results to connected MuSA_RT instances in remote input mode.
 Server and clients must be connected to the same local network.
 
-[<img src="assets/images/streaming-not-started.png" alt="Streaming: start server" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-not-started.png)
-[<img src="assets/images/streaming-started.png" alt="Streaming" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-started.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/streaming-not-started.png" alt="Streaming: start server" width="200"/>](assets/images/streaming-not-started.png)
+[<img src="assets/images/streaming-started.png" alt="Streaming" width="200"/>](assets/images/streaming-started.png)
+</div>
 
 Start server. The screen shows the URL for the server, the number of connected clients.
 
