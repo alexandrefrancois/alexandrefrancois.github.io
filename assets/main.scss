@@ -82,6 +82,38 @@ a:hover {
   max-width: 100%;
 }
 
+.guide-image,
+.guide-image-grid {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin: 20px 0 26px;
+}
+
+.guide-image-grid > a {
+  display: block;
+  text-decoration: none;
+}
+
+.guide-image img,
+.guide-image-grid img {
+  background: #fff;
+  border: 1px solid $border-color-01 !important;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+  height: auto;
+}
+
+.guide-image-grid img {
+  width: min(200px, 42vw);
+}
+
+.guide-image img {
+  width: min(100%, 640px);
+}
+
 .intro {
   margin: 0 0 22px;
   padding: 12px 0 4px;
@@ -333,6 +365,16 @@ a:hover {
   .media-block__text {
     font-size: 16px;
     line-height: 1.48;
+  }
+
+  .guide-image,
+  .guide-image-grid {
+    gap: 10px;
+    margin: 16px 0 22px;
+  }
+
+  .guide-image-grid img {
+    width: min(200px, 44vw);
   }
 
   .item-card {

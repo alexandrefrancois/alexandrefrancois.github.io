@@ -37,7 +37,9 @@ Version 3.1
 
 ### Quick Start
 
-<img src="assets/images/hero.png" alt="MuSA_RT 3D" width="560"/>
+<div class="guide-image">
+  <img src="assets/images/hero.png" alt="MuSA_RT 3D" width="560"/>
+</div>
 
 1. Start the app and give the app access permission to the microphone when prompted
 2. Tap on "3D" to navigate to the live 3D visualization screen.
@@ -53,7 +55,9 @@ The Spiral Array Model is a geometric model of tonality invented by Elaine Chew.
 
 Pitch, triads and keys correspond to locations in the 3D space contained inside the outer spiral (pitches). Pitches along the pitch spiral are separated by a perfect 5th; a given pitch is separated from the pitch directly above by a major 3rd. Major triads are therefore compact upright triangles. Similarly, minor triads are compact triangles. Centers of Effect track the long term (key and spelling) and short term (triad) tonal context.
 
-<img src="assets/images/3D-spiral-array.png" alt="Spiral Array model of tonality" width="100%"/>
+<div class="guide-image">
+  <img src="assets/images/3D-spiral-array.png" alt="Spiral Array model of tonality" width="100%"/>
+</div>
 
 ### Input
 
@@ -61,16 +65,20 @@ Select and configure **FFT** (live audio), **FFT from file**, **MIDI** or **Remo
 
 #### FFT
 
-[<img src="assets/images/input-fft.png" alt="FFT (audio) input" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-fft.png" alt="FFT (audio) input" width="200"/>](assets/images/input-fft.png)
+</div>
 
 Select an audio input device from the dropdown list.  
 Visualize activation levels for pitch classes.
 
 #### FFT from file
 
-[<img src="assets/images/input-fft-from-file-pick.png" alt="FFT (audio) input from file: pick file" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-pick.png)
-[<img src="assets/images/input-fft-from-file-play.png" alt="FFT (audio) input from file: play" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-play.png)
-[<img src="assets/images/input-fft-from-file-playing.png" alt="FFT (audio) input from file: playing" width="200" style="border: 2px solid grey;"/>](assets/images/input-fft-from-file-playing.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-fft-from-file-pick.png" alt="FFT (audio) input from file: pick file" width="200"/>](assets/images/input-fft-from-file-pick.png)
+[<img src="assets/images/input-fft-from-file-play.png" alt="FFT (audio) input from file: play" width="200"/>](assets/images/input-fft-from-file-play.png)
+[<img src="assets/images/input-fft-from-file-playing.png" alt="FFT (audio) input from file: playing" width="200"/>](assets/images/input-fft-from-file-playing.png)
+</div>
 
 Tap on the note icon to open a file picker and select an audio file for input.  
 When the file is ready use the play, pause and stop buttons to control playback.  
@@ -78,11 +86,15 @@ Tap the note icon to select another file.
 
 #### MIDI
 
-[<img src="assets/images/input-midi.png" alt="MIDI input" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-midi.png" alt="MIDI input" width="200"/>](assets/images/input-midi.png)
+</div>
 
-[<img src="assets/images/input-midi-scan.png" alt="MIDI input: scan" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi-scan.png)
-[<img src="assets/images/midi-bt-not-connected.png" alt="MIDI input: BT device not connected" width="200" style="border: 2px solid grey;"/>](assets/images/midi-bt-not-connected.png)
-[<img src="assets/images/input-midi-connected.png" alt="MIDI input: BT device connected" width="200" style="border: 2px solid grey;"/>](assets/images/input-midi-connected.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-midi-scan.png" alt="MIDI input: scan" width="200"/>](assets/images/input-midi-scan.png)
+[<img src="assets/images/midi-bt-not-connected.png" alt="MIDI input: BT device not connected" width="200"/>](assets/images/midi-bt-not-connected.png)
+[<img src="assets/images/input-midi-connected.png" alt="MIDI input: BT device connected" width="200"/>](assets/images/input-midi-connected.png)
+</div>
 
 View connected MIDI devices. To connect to a Bluetooth MIDI device, tap the antenna button. Set the Bluetooth device in pairing mode. When the device appears in the list, tap the "Not Connected" label to connect.
 
@@ -97,9 +109,11 @@ The time constant determines how fast the activation decays (the larger the time
 
 Connect to a [MuSA_RT streaming server](#streaming) to render the results of the analysis performed remotely. Server and receiving devices must be connected to the same local network.
 
-[<img src="assets/images/input-remote-not-connected.png" alt="Remote input: scan QR code" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-not-connected.png)
-[<img src="assets/images/input-remote-connected.png" alt="Remote input: connected" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-connected.png)
-[<img src="assets/images/input-remote-disconnected.png" alt="Remote input: disconnected" width="200" style="border: 2px solid grey;"/>](assets/images/input-remote-disconnected.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/input-remote-not-connected.png" alt="Remote input: scan QR code" width="200"/>](assets/images/input-remote-not-connected.png)
+[<img src="assets/images/input-remote-connected.png" alt="Remote input: connected" width="200"/>](assets/images/input-remote-connected.png)
+[<img src="assets/images/input-remote-disconnected.png" alt="Remote input: disconnected" width="200"/>](assets/images/input-remote-disconnected.png)
+</div>
 
 Tap the QR code icon to scan the QR code on the [Streaming](#streaming) screen on the serving device to connect directly.  
 Alternately, enter the server URL manually and tap the antenna to connect.  
@@ -107,7 +121,9 @@ When connected, tap the antenna again to disconnect.
 
 ### Visuals Settings
 
-[<img src="assets/images/settings-visuals.png" alt="Visuals settings" width="200" style="border: 2px solid grey;"/>](assets/images/settings-visuals.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/settings-visuals.png" alt="Visuals settings" width="200"/>](assets/images/settings-visuals.png)
+</div>
 
 #### Pitch / Triad / Key
 
@@ -129,7 +145,9 @@ Select **dark/light/auto** background mode.
 
 ### Spiral Array Settings
 
-[<img src="assets/images/settings-spiral-array.png" alt="Spiral Array settings" width="200" style="border: 2px solid grey;"/>](assets/images/settings-spiral-array.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/settings-spiral-array.png" alt="Spiral Array settings" width="200"/>](assets/images/settings-spiral-array.png)
+</div>
 
 Adjust the parameters of the tonal analysis model.
 
@@ -143,8 +161,10 @@ For example, to make active triad tracking more responsive, decrease the time co
 Stream local analysis results to connected MuSA_RT instances in remote input mode.
 Server and clients must be connected to the same local network.
 
-[<img src="assets/images/streaming-not-started.png" alt="Streaming: start server" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-not-started.png)
-[<img src="assets/images/streaming-started.png" alt="Streaming" width="200" style="border: 2px solid grey;"/>](assets/images/streaming-started.png)
+<div class="guide-image-grid" markdown="1">
+[<img src="assets/images/streaming-not-started.png" alt="Streaming: start server" width="200"/>](assets/images/streaming-not-started.png)
+[<img src="assets/images/streaming-started.png" alt="Streaming" width="200"/>](assets/images/streaming-started.png)
+</div>
 
 Start server. The screen shows the URL for the server, the number of connected clients.
 
