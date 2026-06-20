@@ -3,28 +3,33 @@ title: MuSA_RT
 description: by Alexandre R.J. François
 ---
 
-<table align="left" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: left;"><tr><td>
+<section class="media-block media-block--plain">
+  <div class="media-block__media">
+    <img src="assets/images/square.png" alt="MuSA_RT" width="160" />
+    <a class="app-badge" href="https://apps.apple.com/app/musa-rt/id506866959">
+      <img alt="Download on the App Store" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
+    </a>
+  </div>
+  <div>
+    <p class="media-block__title">MuSA_RT</p>
+    <p class="media-block__text">An animated visual representation of tonal patterns - pitches, chords, and key - in music as it is being performed.</p>
+  </div>
+</section>
 
-<img src="assets/images/square.png" alt="MuSA_RT" width="160" style="margin-bottom: 10px;"/>
-
-<a href="https://apps.apple.com/app/musa-rt/id506866959" style="margin-left: auto; margin-right: auto;">
-<img border="0" width="160" src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="160" />
-</a>
-
-</td>
-<td>
-MuSA_RT animates a visual representation of tonal patterns - pitches, chords, key - in music as it is being performed.  
-</td></tr></table>
-
-MuSA_RT applies music analysis algorithms rooted in [Elaine Chew](https://en.wikipedia.org/wiki/Elaine_Chew)'s [Spiral Array model of tonality](https://en.wikipedia.org/wiki/Spiral_array_model), which also provides the 3D geometry for the visualization space.
-The app analyzes the audio signal received from a microphone to determine pitch names, maintain short term and longterm tonal context trackers, each a Center of Effect (CE), and compute the closest triads (3-note chords) and keys as the music unfolds in performance.  
-The 3D view presents a graphical representations of these tonal entities in context, smoothly rotating the virtual camera to provide an unobstructed view of the current information. These graphics can also be visualized in an experimental Augmented Reality mode on compatible devices.
-
-<div style="text-align: left;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I3Ytz6oTPgs?si=nand1MMXGpkJZnsb" title="MuSA_RT video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-&nbsp;
+<section class="media-block">
+  <div class="media-block__media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I3Ytz6oTPgs?si=nand1MMXGpkJZnsb" title="MuSA_RT video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div>
+    <p class="media-block__title">Tonal analysis in real time.</p>
+    <ul class="feature-list">
+      <li>Applies music analysis algorithms rooted in Elaine Chew's Spiral Array model of tonality.</li>
+      <li>Analyzes microphone input to estimate pitch names, tonal context, triads, and keys as music unfolds.</li>
+      <li>Animates tonal entities in a 3D visualization space with smooth camera movement.</li>
+      <li>Includes an experimental Augmented Reality mode on compatible devices.</li>
+    </ul>
+  </div>
+</section>
 
 ## User Guide
 

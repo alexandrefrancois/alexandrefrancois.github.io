@@ -174,13 +174,23 @@ a:hover {
 }
 
 .media-block__media img,
-.media-block__media video {
+.media-block__media video,
+.media-block__media iframe {
   border-radius: 8px;
   display: inline-block;
+  max-width: 100%;
 }
 
 .media-block__media video {
   background: #111827;
+  height: auto;
+  max-height: 72vh;
+}
+
+.media-block__media iframe {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 100%;
 }
 
 .media-block__title {
@@ -306,7 +316,23 @@ a:hover {
   }
 
   .media-block {
+    gap: 16px;
+    margin: 22px 0;
     padding: 18px;
+  }
+
+  .media-block--plain {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .media-block__title {
+    font-size: 21px;
+  }
+
+  .media-block__text {
+    font-size: 16px;
+    line-height: 1.48;
   }
 
   .item-card {
