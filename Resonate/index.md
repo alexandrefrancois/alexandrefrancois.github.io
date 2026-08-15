@@ -297,7 +297,9 @@ Up 2 semitones</td><td>
 <p id="icmc26"></p>
 Alexandre R.J. François,
 "Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters,"
-to appear in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
+in Proceedings of the [International Computer Music Conference 2026](https://icmc2026.ligeti-zentrum.de),
+pp. 150-157, Hamburg, Germany, 10-16 May 2026.
+[[pdf]](/assets/publications/FrancoisARJ-ICMC2026.pdf)
 
 <p id="icmc25"></p>
 **Best Paper Award** | Alexandre R.J. François,
@@ -311,7 +313,7 @@ pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 ## Presentations
 
 Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
-[Audio Developer Conference (ADC25)](https://audio.dev/conference/),
+[Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/),
 Bristol, November 10-12.
 [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)]
 [[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]

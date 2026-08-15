@@ -6,7 +6,8 @@ title: Academic Publications
 
 Alexandre R.J. François,
 "Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters,"
-to appear in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
+in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
+[[pdf]](/assets/publications/FrancoisARJ-ICMC2026.pdf)
 
 **Best Paper Award** | Alexandre R.J. François,
 "Resonate: Efficient Low Latency Spectral Analysis of Audio Signals,"
@@ -88,7 +89,9 @@ Alexandre R.J. François and Gérard G. Medioni, "Interactive 3-D Model Extracti
 
 Alexandre R.J. François,
 "Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters,"
-to appear in Proceedings of the International Computer Music Conference 2026, Hamburg, Germany, 10-16 May 2026.
+in Proceedings of the International Computer Music Conference 2026, pp. 150-157,
+Hamburg, Germany, 10-16 May 2026.
+[[pdf]](/assets/publications/FrancoisARJ-ICMC2026.pdf)
 
 <p id="ICMC2025"></p>
 
