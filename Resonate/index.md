@@ -313,7 +313,7 @@ pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 ## Presentations
 
 Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
-[Audio Developer Conference (ADC25)](https://audio.dev/conference/),
+[Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/),
 Bristol, November 10-12.
 [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)]
 [[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]

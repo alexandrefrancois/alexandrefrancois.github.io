@@ -38,28 +38,13 @@ description: Software Engineer and Researcher
 
 <div class="highlight-list" markdown="1">
 
-I presented my paper "[Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters](/assets/publications/FrancoisARJ-ICMC2026.pdf)" at the [2026 International Computer Music Conference](https://icmc2026.ligeti-zentrum.de) (ICMC) on May 14 2026. This is building on the work that received the [Best Paper Award at last year's ICMC](/assets/publications/FrancoisARJ-ICMC2025.pdf), where I introduced the Resonate model. [Watch a demo video on YouTube](https://www.youtube.com/watch?v=bnvK5Nll4Sg)
+I will give a talk titled "Low latency, high temporal and frequency resolution spectral analysis of audio signals: all about that phase" at the [Audio Developer Conference (ADC26)](https://audio.dev/adc-bristol-26/), Bristol, November 9-11, 2026.
 
-I gave a talk titled "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference (ADC25)](https://audio.dev/conference/), Bristol, November 10-12. [Watch on YouTube](https://youtu.be/QbNPA5QJ6OU)
+I presented my paper "[Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters](/assets/publications/FrancoisARJ-ICMC2026.pdf)" at the [2026 International Computer Music Conference](https://icmc2026.ligeti-zentrum.de) (ICMC) on May 14 2026.
+[[Demo video on YouTube]](https://www.youtube.com/watch?v=bnvK5Nll4Sg)  
+This is building on the work that received the [Best Paper Award at last year's ICMC](/assets/publications/FrancoisARJ-ICMC2025.pdf), where I introduced the Resonate model.
 
-<!--
-I gave a late breaking demonstration of Resonate-based real-time, low latency audio features computation at the [First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/event-extra/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/), London, Sept. 8-10, 2025.
-
-"[Resonate: Efficient Low Latency Spectral Analysis of Audio Signals](/assets/publications/FrancoisARJ-ICMC2025.pdf)" received the **Best Paper Award**
-at the [50th Anniversary of the International Computer Music Conference 2025](https://icmc2025.sites.northeastern.edu), which took place June 8-14 in Boston, MA, USA. -->
-
-</div>
-
-<!-- <p>
-    The <a href="https://resonate.myspreadshop.co.uk">Resonate Store</a> is live!
-    <br>
-    <a href="https://resonate.myspreadshop.co.uk/resonate+white-A683760483659f379830d06b4?productType=949&sellable=bNrqpn03vETB4vVEnzqg-949-32&appearance=2&size=29">
-    <img src="/assets/images/resonate-mug.jpg" alt="Resonate logo mug" width=200/></a>
-
-    <a href="https://resonate.myspreadshop.co.uk/pump+up+the+jam-A686f7c98cf30093926266f8d?productType=635&sellable=40ZAbraYkbH0ljxw7x7v-635-7&appearance=2">
-    <img src="/assets/images/spectrogram-tshirt.jpg" alt="Resonate spectrogram t-shirt" width=200/></a>
-
-</p> -->
+I gave a talk titled "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/), Bristol, November 10-12, 2025. [[YouTube]](https://youtu.be/QbNPA5QJ6OU)
 
 ## Published Apps
 

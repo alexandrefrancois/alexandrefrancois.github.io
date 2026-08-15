@@ -5,7 +5,7 @@ description: Alexandre R.J. François
 
 ### 2025
 
-Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms," [Audio Developer Conference (ADC25)](https://audio.dev/conference/), Bristol, November 10-12. [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)][[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]
+Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms," [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/), Bristol, November 10-12. [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)][[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]
 
 ### 2010
 
