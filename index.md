@@ -38,13 +38,12 @@ description: Software Engineer and Researcher
 
 <div class="highlight-list" markdown="1">
 
-I will give a talk titled "Low latency, high temporal and frequency resolution spectral analysis of audio signals: all about that phase" at the [Audio Developer Conference (ADC26)](https://audio.dev/adc-bristol-26/), Bristol, November 9-11, 2026.
+I gave a talk titled "[Low latency, high temporal and frequency resolution spectral analysis of audio signals: all about that phase](/assets/publications/FrancoisARJ-ADC26.pdf)" at the [Audio Developer Conference (ADC26)](https://audio.dev/adc-bristol-26/), Bristol, November 9-11, 2026.
+The video of last year's [ADC](https://audio.dev/archive/adc25-bristol/) talk, "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)," is available on [YouTube](https://youtu.be/QbNPA5QJ6OU).
 
 I presented my paper "[Real-Time, Low-Latency, High Resolution Audio Spectral Analysis: Phase Matters](/assets/publications/FrancoisARJ-ICMC2026.pdf)" at the [2026 International Computer Music Conference](https://icmc2026.ligeti-zentrum.de) (ICMC) on May 14 2026.
 [[Demo video on YouTube]](https://www.youtube.com/watch?v=bnvK5Nll4Sg)  
 This is building on the work that received the [Best Paper Award at last year's ICMC](/assets/publications/FrancoisARJ-ICMC2025.pdf), where I introduced the Resonate model.
-
-I gave a talk titled "[Real-time, low latency and high temporal resolution spectrograms](/assets/publications/FrancoisARJ-ADC25.pdf)" on the implementation of Resonate and Resonate-based spectrograms at the [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/), Bristol, November 10-12, 2025. [[YouTube]](https://youtu.be/QbNPA5QJ6OU)
 
 ## Published Apps
 

@@ -312,12 +312,20 @@ pp. 251-258, Boston, MA, USA, 8-14 June 2025.
 
 ## Presentations
 
+<p id="adc26"></p>
+Alexandre R.J. François, "Low latency, high temporal and frequency resolution spectral analysis of audio signals: all about that phase,"
+[Audio Developer Conference (ADC26)](https://audio.dev/archive/adc-bristol-26/),
+Bristol, November 9-11 2026.
+[[pdf](/assets/publications/FrancoisARJ-ADC26.pdf)]
+
+<p id="adc25"></p>
 Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms,"
 [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/),
-Bristol, November 10-12.
+Bristol, November 10-12 2025.
 [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)]
 [[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]
 
+<p id="aimla25"></p>
 Alexandre R.J. François, "Real-time low latency audio features with Resonate" (Late-Breaking Demo Paper),
 [First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/event-extra/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/),
 London, Sept. 8-10, 2025.

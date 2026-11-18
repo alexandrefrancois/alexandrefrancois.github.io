@@ -3,9 +3,21 @@ title: Presentations
 description: Alexandre R.J. François
 ---
 
+### 2026
+
+Alexandre R.J. François, "Low latency, high temporal and frequency resolution spectral analysis of audio signals: all about that phase,"
+[Audio Developer Conference (ADC26)](https://audio.dev/archive/adc-bristol-26/), Bristol, November 9-11 2026.
+[[pdf](/assets/publications/FrancoisARJ-ADC26.pdf)]
+
 ### 2025
 
-Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms," [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/), Bristol, November 10-12. [[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)][[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]
+Alexandre R.J. François, "Real-time, low latency and high temporal resolution spectrograms," [Audio Developer Conference (ADC25)](https://audio.dev/archive/adc25-bristol/), Bristol, November 10-12 2025.
+[[pdf](/assets/publications/FrancoisARJ-ADC25.pdf)][[Video on YouTube](https://youtu.be/QbNPA5QJ6OU)]
+
+Alexandre R.J. François, "Real-time low latency audio features with Resonate" (Late-Breaking Demo Paper),
+[First AES International Conference on Artificial Intelligence and Machine Learning for Audio (AIMLA 2025)](https://aes2.org/event-extra/2025-aes-international-conference-on-artificial-intelligence-and-machine-learning-for-audio/),
+London, Sept. 8-10, 2025.
+[[pdf](https://drive.google.com/file/d/1qTtUrwRJytMeSnqb56ETZqIj2erSgWTO/view)]
 
 ### 2010
 
@@ -35,7 +47,7 @@ Alexandre R.J. François, "A Design Language for Interactive Systems," Visual Co
 
 Alexandre R.J. François, "A Design Language for Interactive Systems," symposium preceding conference on music and the moving image, New York University, New York, NY, USA, 29 May 2008.
 
-Alexandre R.J. François, "A Design Language for Interactive Systems," Brown University, Providence, RI, USA, 2 May 2008. [[announcement](http://cs.brown.edu/events/talks/francois/)]
+Alexandre R.J. François, "A Design Language for Interactive Systems," Brown University, Providence, RI, USA, 2 May 2008.
 
 Alexandre R.J. François, "A Design Language for Interactive Systems," Computer Science Colloquium Series, Tufts University, Medford, MA, USA, 24 April 2008.
 
